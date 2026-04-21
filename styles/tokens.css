@@ -1,0 +1,217 @@
+/* journify.ai — design tokens, locked per spec */
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500&display=swap');
+
+:root {
+  /* Core palette */
+  --bg:            #FAF8F5;
+  --text:          #1A1714;
+  --text-2:        #5A544C;
+  --placeholder:   #B0AAA0;
+  --border:        #E8E3DB;
+  --ox:            #7A1A2A;
+  --ox-hover:      #5A1220;
+  --ox-text:       #FAF8F5;
+  --ox-text-2:     #E8D4D8;
+
+  /* S6-scoped only */
+  --s6-red:        #A84438;
+  --s6-red-muted:  #C9C3B8;
+  --s6-green:      #1F5D3A;
+
+  /* Motion */
+  --ease:          cubic-bezier(0.2, 0.8, 0.3, 1);
+  --t-micro:       120ms;
+  --t-std:         240ms;
+
+  /* Type families */
+  --serif:         'Fraunces', Georgia, serif;
+  --sans:          'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+/* Base resets used inside every artboard surface */
+.j-surface {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+.j-surface * { box-sizing: border-box; }
+
+/* ───────── Type ───────── */
+.j-h1   { font-family: var(--serif); font-weight: 600; font-size: 58px; line-height: 1.04; letter-spacing: -0.025em; font-variation-settings: 'opsz' 144; color: var(--text); margin: 0; }
+.j-h2   { font-family: var(--serif); font-weight: 600; font-size: 34px; line-height: 1.14; letter-spacing: -0.022em; font-variation-settings: 'opsz' 72; color: var(--text); margin: 0; }
+.j-h3   { font-family: var(--serif); font-weight: 600; font-size: 22px; line-height: 1.15; letter-spacing: -0.015em; font-variation-settings: 'opsz' 72; color: var(--text); margin: 0; }
+.j-h4   { font-family: var(--serif); font-weight: 600; font-size: 20px; line-height: 1.2;  letter-spacing: -0.015em; font-variation-settings: 'opsz' 72; color: var(--text); margin: 0; }
+.j-quote{ font-family: var(--serif); font-weight: 400; font-size: 20px; line-height: 1.4;  letter-spacing: -0.01em;  font-variation-settings: 'opsz' 48; color: var(--text); margin: 0; }
+.j-payoff { font-family: var(--serif); font-weight: 400; font-style: italic; font-size: 18px; line-height: 1.5; letter-spacing: -0.005em; font-variation-settings: 'opsz' 48; color: var(--text); margin: 0; }
+.j-body { font-family: var(--sans); font-weight: 400; font-size: 16px; line-height: 1.7; color: var(--text); margin: 0; }
+.j-small{ font-family: var(--sans); font-weight: 400; font-size: 14px; line-height: 1.55; color: var(--text); margin: 0; }
+.j-meta { font-family: var(--sans); font-weight: 400; font-size: 11px; line-height: 1.4; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-2); margin: 0; }
+.j-cap  { font-family: var(--sans); font-weight: 400; font-size: 12px; line-height: 1.5; color: var(--text-2); margin: 0; }
+
+/* ───────── CTAs ───────── */
+.j-cta {
+  display: inline-flex; align-items: center; justify-content: center;
+  border-radius: 2px; border: none; cursor: pointer;
+  font-family: var(--sans); transition: background-color var(--t-micro) var(--ease), color var(--t-micro) var(--ease);
+  text-decoration: none;
+}
+.j-cta:focus-visible { outline: 2px solid var(--ox); outline-offset: 2px; }
+.j-cta--warm  { background: var(--ox);  color: var(--ox-text); font-weight: 500; font-size: 15px; padding: 14px 22px; }
+.j-cta--warm:hover { background: var(--ox-hover); }
+.j-cta--hot   { background: var(--text); color: var(--ox-text); font-weight: 500; font-size: 13px; padding: 11px 18px; }
+.j-cta--hot:hover  { background: #000000; }
+.j-cta--cold  { background: transparent; color: var(--text-2); font-weight: 400; font-size: 14px; padding: 0;
+  text-decoration: underline; text-decoration-thickness: 0.5px; text-underline-offset: 4px;
+}
+.j-cta--cold:hover { color: var(--text); }
+
+/* ───────── Inline link ───────── */
+.j-link {
+  color: var(--ox); text-decoration: underline;
+  text-decoration-thickness: 0.5px; text-underline-offset: 4px;
+  transition: color var(--t-micro) var(--ease);
+}
+.j-link:hover { color: var(--ox-hover); }
+
+/* ───────── Form ───────── */
+.j-field { display: flex; flex-direction: column; }
+.j-field-label {
+  font-family: var(--sans); font-size: 12px; color: var(--text-2);
+  text-transform: uppercase; letter-spacing: 0.08em;
+  margin-bottom: 6px; font-weight: 400;
+}
+.j-input, .j-textarea {
+  background: transparent; border: none;
+  border-bottom: 1px solid var(--border); border-radius: 0;
+  font-family: var(--sans); font-size: 16px; color: var(--text);
+  padding: 12px 0; width: 100%;
+  transition: border-color var(--t-micro) var(--ease);
+  outline: none; resize: none;
+}
+.j-input::placeholder, .j-textarea::placeholder { color: var(--placeholder); }
+.j-input:focus, .j-textarea:focus { border-bottom-color: var(--ox); }
+.j-textarea { min-height: 96px; line-height: 1.55; }
+
+/* ───────── Accordion ───────── */
+.j-acc { border-top: 0.5px solid var(--border); }
+.j-acc-row { border-bottom: 0.5px solid var(--border); }
+.j-acc-head {
+  width: 100%; display: flex; justify-content: space-between; align-items: center;
+  padding: 24px 0; background: none; border: none; cursor: pointer; text-align: left;
+  transition: color var(--t-micro) var(--ease);
+}
+.j-acc-title {
+  font-family: var(--serif); font-weight: 500; font-size: 22px;
+  font-variation-settings: 'opsz' 72; color: var(--text);
+  letter-spacing: -0.015em; line-height: 1.2;
+  transition: color var(--t-micro) var(--ease);
+}
+.j-acc-ind {
+  font-family: var(--sans); font-weight: 400; font-size: 22px;
+  color: var(--ox); margin-left: 24px; line-height: 1;
+}
+.j-acc-row.is-hover .j-acc-title,
+.j-acc-head:hover .j-acc-title { color: var(--ox); }
+.j-acc-body {
+  overflow: hidden; max-height: 0; opacity: 0;
+  transition: max-height var(--t-std) var(--ease), opacity var(--t-std) var(--ease);
+}
+.j-acc-row.is-open .j-acc-body { max-height: 600px; opacity: 1; }
+.j-acc-body-inner { padding: 16px 0 24px; max-width: 580px; }
+
+/* ───────── Library card ───────── */
+.j-card {
+  background: var(--bg); border: 0.5px solid var(--border); border-radius: 0;
+  padding: 28px 24px; display: flex; flex-direction: column; gap: 12px;
+  transition: border-color var(--t-micro) var(--ease);
+}
+.j-card.is-hover, .j-card:hover { border-color: var(--text); }
+.j-card-title { font-family: var(--serif); font-weight: 600; font-size: 20px; font-variation-settings: 'opsz' 72; line-height: 1.2; letter-spacing: -0.015em; color: var(--text); margin: 0; }
+.j-card-desc { font-family: var(--sans); font-size: 14px; line-height: 1.55; color: var(--text-2); margin: 0;
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+}
+.j-card-foot { font-family: var(--sans); font-weight: 500; font-size: 13px; color: var(--ox); text-decoration: none; margin-top: 4px; }
+
+/* ───────── S2 Quote ───────── */
+.j-q { padding-left: 20px; border-left: 2px solid var(--ox); }
+.j-q-line { font-family: var(--serif); font-weight: 400; font-size: 20px; line-height: 1.4; letter-spacing: -0.01em; font-variation-settings: 'opsz' 48; color: var(--text); margin: 0 0 6px; }
+.j-q-attr { font-family: var(--sans); font-size: 14px; line-height: 1.5; color: var(--text-2); margin: 0; font-style: normal; }
+
+/* ───────── Nav ───────── */
+.j-nav {
+  position: relative; height: 68px;
+  padding: 0 48px; display: flex; align-items: center; justify-content: space-between;
+  background: var(--bg);
+}
+.j-nav.is-scrolled { border-bottom: 0.5px solid var(--border); }
+.j-nav-brand { font-family: var(--serif); font-weight: 600; font-size: 18px; font-variation-settings: 'opsz' 72; letter-spacing: -0.02em; color: var(--text); }
+.j-nav-links { display: flex; align-items: center; gap: 28px; }
+.j-nav-link {
+  font-family: var(--sans); font-size: 14px; font-weight: 400; color: var(--text-2);
+  text-decoration: none; transition: color var(--t-micro) var(--ease);
+}
+.j-nav-link:hover { color: var(--text); }
+.j-nav.j-nav--mobile { height: 56px; padding: 0 24px; }
+.j-hamb {
+  width: 44px; height: 44px; display: inline-flex; align-items: center; justify-content: center;
+  background: none; border: none; cursor: pointer; padding: 0;
+}
+.j-hamb-glyph { width: 18px; height: 12px; position: relative; }
+.j-hamb-glyph::before, .j-hamb-glyph::after, .j-hamb-glyph > span {
+  content: ''; position: absolute; left: 0; right: 0; height: 1px; background: var(--text);
+}
+.j-hamb-glyph::before { top: 0; }
+.j-hamb-glyph > span  { top: 50%; transform: translateY(-50%); display: block; }
+.j-hamb-glyph::after  { bottom: 0; }
+
+/* Mobile drawer */
+.j-drawer-wrap { position: relative; width: 100%; height: 100%; overflow: hidden; }
+.j-overlay { position: absolute; inset: 0; background: rgba(26,23,20,0.40); }
+.j-drawer {
+  position: absolute; top: 0; right: 0; bottom: 0; width: 80%; max-width: 320px;
+  background: var(--bg); padding: 32px 24px; display: flex; flex-direction: column;
+}
+.j-drawer-close { position: absolute; top: 18px; right: 18px; width: 44px; height: 44px;
+  display: inline-flex; align-items: center; justify-content: center; background: none; border: none; cursor: pointer;
+  font-family: var(--sans); font-size: 18px; color: var(--text); padding: 0;
+}
+.j-drawer-links { display: flex; flex-direction: column; gap: 20px; margin-top: 56px; }
+.j-drawer-link {
+  font-family: var(--serif); font-weight: 500; font-size: 22px; line-height: 1.4;
+  font-variation-settings: 'opsz' 72; color: var(--text); text-decoration: none;
+  letter-spacing: -0.015em;
+}
+.j-drawer-link:active { color: var(--ox); }
+.j-drawer-cta { margin-top: auto; }
+.j-drawer-cta .j-cta--hot { width: 100%; padding: 14px 22px; font-size: 15px; }
+
+/* ───────── S2 thinker (geometric pictogram, CSS-only) ───────── */
+.j-think { position: relative; width: 200px; height: 220px; }
+.j-think-fig { position: absolute; left: 0; bottom: 0; width: 200px; height: 200px; }
+/* head, neck, torso, arm, hand — all simple shapes, line-art only */
+.j-think-fig svg { display: block; }
+@keyframes j-think-bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-2px); } }
+@keyframes j-think-bubble {
+  0%   { opacity: 0; transform: translateY(2px) scale(0.98); }
+  18%  { opacity: 1; transform: translateY(0)   scale(1); }
+  82%  { opacity: 1; transform: translateY(0)   scale(1); }
+  100% { opacity: 0; transform: translateY(-2px) scale(0.99); }
+}
+.j-think .j-think-bob   { animation: j-think-bob 3000ms var(--ease) infinite; transform-origin: 50% 100%; }
+.j-think .j-think-bub   { animation: j-think-bubble 3000ms var(--ease) infinite; }
+.j-think:hover .j-think-bob,
+.j-think:hover .j-think-bub { animation-play-state: paused; }
+@media (prefers-reduced-motion: reduce) {
+  .j-think .j-think-bob, .j-think .j-think-bub { animation: none; opacity: 1; }
+}
+
+/* ───────── S6 ───────── */
+.j-s6 { width: 100%; }
+.j-s6 svg { display: block; margin: 0 auto; }
+.j-s6-payoff { margin-top: 20px; }
+.j-s6-link { margin-top: 8px; display: inline-block; }

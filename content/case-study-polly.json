@@ -1,0 +1,124 @@
+{
+  "meta": "Case study · 01 · Coaching",
+  "headline": "6 booked calls in 21 days. From zero LinkedIn pipeline.",
+  "intro": {
+    "body1": "**Polly van der M. S.** runs a coaching practice in the Netherlands. Solo operator. Sells 1:1 engagements. Closes through discovery calls.",
+    "body2": "Before this sprint: no posting history, no outreach motion, no funnel. Pipeline ran on referrals. Good months followed by empty ones. Every call she did get took thirty minutes to explain what she actually did.",
+    "body3": "Twenty-one days later she had six booked discovery calls from LinkedIn, a 28% reply rate on warm outreach, and connection-request acceptance running above 30%. Zero of the six calls came from the network she already had."
+  },
+  "honestNote": {
+    "heading": "Before we go further — one honest note",
+    "paragraphs": [
+      "Polly is a coach. Journify's target market is founder-led agencies.",
+      "They are not the same business. The language is different, the sales cycle is different, the price tag on what they sell is different.",
+      "What *is* the same: solo or near-solo operator, service sold through discovery calls, pipeline running on referrals, founder doing the selling personally, no posting motion, no outbound engine. That structural shape is what the system was built to fix. The mechanism described below ran end-to-end with Polly. The agency version is the same mechanism adapted for a longer sprint, heavier outreach volume, and retainer-shaped offers.",
+      "If that's enough to keep you reading, the rest of this page is how it actually ran."
+    ]
+  },
+  "whatWasBroken": {
+    "heading": "What was broken",
+    "intro": "Five things, all of them normal, all of them compounding.",
+    "body1": "A LinkedIn profile positioned around her day role as an HR Business Partner — not around the service she was trying to book calls for. Nothing on the profile pointed a prospect toward the coaching work. No posting history. No cold outreach system. A low-ticket diagnostic offer that nobody knew about because there was no surface to introduce it on. Referrals that had plateaued because the network had been tapped.",
+    "body2": "Every call that did come in was a cold start. Thirty minutes explaining who she helped, what she did, why it cost what it cost. She'd close some of them. Most ended in \"let me think about it\" and went cold.",
+    "body3": "The diagnosis: the calls weren't failing because she was bad at sales calls. The calls were failing because nothing was pre-warming them. The entire trust-building burden fell on a 30-minute conversation. No machine was feeding it.",
+    "image": {
+      "src": "/images/s6-before.png",
+      "alt": "Before the sprint: three disconnected offers, dead LinkedIn, cold sales calls.",
+      "caption": "The stack before the sprint. Three offers competing, no outbound engine, sales calls cold-starting every time."
+    }
+  },
+  "whatWeActuallyDid": {
+    "heading": "What we actually did",
+    "offerRebuild": {
+      "heading": "1. The offer rebuild",
+      "paragraphs": [
+        "We didn't start with content. We started with her client roster.",
+        "Past clients, sales call recordings, proposals that had closed, proposals that had gone quiet. Read the patterns. Find the three buyer types she'd been accidentally serving best — not hypothetical personas, the real ones. Name them.",
+        "Then the language came from there: LinkedIn profile rewritten around one of those buyer types. About section rewritten in her voice, not the \"we\" voice most profiles default to. Headline that named who she helped instead of what she did.",
+        "This took a week. It was also the hardest part, because it meant sitting with the fact that the profile had been pointing at the wrong audience for longer than she wanted to admit."
+      ]
+    },
+    "contentEngine": {
+      "heading": "2. The content engine",
+      "paragraphs": [
+        "Fourteen posts drafted in her voice. Not tips. Not theory. Moments — specific scenes from conversations with candidates, hiring managers, clients who'd called her in crisis. The first-line hook on each post named the moment. No framework labels. No coaching vocabulary.",
+        "The strongest three posts did between 1,700 and 3,300 impressions each from a profile with no posting history. One of them — about a line on a CV that could be worth €20k — produced four comments, three saves, and two profile-to-DM conversions in the first week.",
+        "The posts weren't written for reach or virality tricks. Each one was built to start a conversation, and the outreach motion pointed at them. A prospect received a DM, checked the profile, saw one post that read like their exact situation, and replied."
+      ]
+    },
+    "outreachMotion": {
+      "heading": "3. The outreach motion",
+      "paragraphs": [
+        "My VA was trained on the SOPs, the profile voice, and the ICP. She owned the operational layer: list building, connection requests, first messages, follow-ups, CRM updates. Polly stepped in only once a lead qualified.",
+        "Over 21 days: 220 cold connection requests, 127 warm outreach touches across dormant network and former clients, 45 cold DMs once connections were accepted.",
+        "Warm outreach replied at 28%. Cold connection acceptance climbed from 5% to above 30% inside two weeks once the profile and request messaging were locked. Fourteen cold DMs produced replies. Six of those — plus replies from warm outreach and inbound from content — turned into booked discovery calls on her calendar.",
+        "At the end of the sprint, Polly received the full VA hiring and training package — job description, screening rubric, onboarding sequence, SOPs — so she could install her own VA without starting from scratch. The system goes with her."
+      ]
+    },
+    "feedbackLoop": {
+      "heading": "4. The sales-call feedback loop",
+      "paragraphs": [
+        "This is the part the site calls Loop 2. The honest version: at this stage it was manual. Polly recorded her sales calls. I listened to them and pulled patterns — which objections kept showing up, which language the prospects used for their own problem, which parts of the pitch were landing and which parts were resetting the conversation from zero.",
+        "That intel fed back into the next week of posts, the next batch of DM openers, and one structural fix to the low-ticket offer positioning. Not automated. Legibly manual. The loop was running — it just ran through a human reviewer instead of a model, because the model doesn't exist yet.",
+        "The automated version is on the roadmap. The manual version is what's shipping today."
+      ]
+    },
+    "image": {
+      "src": "/images/s6-during.png",
+      "alt": "Mid-sprint: one offer in testing, LinkedIn activating, first booked calls arriving.",
+      "caption": "Mid-sprint. One offer in testing, LinkedIn activating, first booked calls arriving."
+    }
+  },
+  "numbers": {
+    "heading": "The numbers",
+    "rows": [
+      { "before": "0 booked calls from LinkedIn", "after": "6 booked calls" },
+      { "before": "No posting history", "after": "~16,000 impressions, ~6,900 reach" },
+      { "before": "No content-driven leads", "after": "6 inbound leads from posts" },
+      { "before": "5% connection acceptance", "after": "30%+ connection acceptance" },
+      { "before": "No warm outreach system", "after": "127 touches, 35 replies (28%)" },
+      { "before": "No funnel tracking", "after": "Full funnel tracked end-to-end" }
+    ],
+    "body": "Six booked calls is the headline. The other numbers are there because they show the machine was actually running — not that the outcome happened by luck.",
+    "trackerImage": {
+      "src": "/images/sprint-tracker.png",
+      "alt": "Sprint tracker daily log showing connection requests, acceptance, conversations, replies, and follow-ups across 21 days.",
+      "caption": "Daily log. Connection requests, acceptance, conversations, replies, follow-ups, first replies."
+    }
+  },
+  "whatTransferred": {
+    "heading": "What transferred, what didn't",
+    "transferHeading": "The mechanism that transfers regardless of market",
+    "transferItems": [
+      "Positioning extracted from real client patterns, not personas",
+      "Content built from lived moments, not tips or theory",
+      "Outreach SOPs executed by a trained VA, not by the founder personally",
+      "Sales-call review feeding positioning and openers week-over-week",
+      "Meetings as the deliverable, not conversations or touches"
+    ],
+    "adaptedHeading": "What's being adapted for agency founders",
+    "adaptedItems": [
+      "Longer sprint — 45 days instead of 14, because agency sales cycles and retainer decisions move slower",
+      "Heavier outreach volume — 1,000 touches instead of ~400, because agency founders are harder to get on a call than individual coaching clients",
+      "B2B-service-provider voice on DMs and content, not coaching vocabulary",
+      "Retainer-shaped offer instead of package-shaped offer",
+      "Agency-specific positioning patterns (named ICP, outcome-anchored case language, scoped service menu) instead of coaching-specific ones"
+    ],
+    "body": "The thing the site sells — the five places the sale breaks before the call, the feedback loop, the motion that learns from itself — is the same mechanism that ran with Polly. The agency version is bigger and takes longer. It's not different."
+  },
+  "whatThisMeansForYou": {
+    "heading": "What this means for you",
+    "body1": "If you're a founder-led agency reading this, the useful takeaway is not the numbers. Your numbers will be different. The useful takeaway is that the mechanism has been run end-to-end, the loop has closed, the parts that are legibly manual are named as manual, and the first three agency pilots are open at pilot pricing in exchange for case study rights.",
+    "body2": "When those three close, this page gets a second case study written in agency language with agency numbers. Until then, this is what's on the table: a proven mechanism in an adjacent market, being adapted for yours, with the work happening in public.",
+    "image": {
+      "src": "/images/s6-after.png",
+      "alt": "Validated end state: one offer, tracked outreach, inbound content, warm leads booked.",
+      "caption": "The validated end state. One offer, tracked outreach, inbound content, warm leads booked."
+    },
+    "cta": {
+      "label": "Book a fit call →",
+      "href": "https://cal.com/jeancarlohim/conversion-diagnostic"
+    }
+  },
+  "footerMeta": "Polly's sprint ran in March 2026. All numbers above are from her own LinkedIn analytics and sprint tracker. Screenshots and raw data available on request during the fit call."
+}

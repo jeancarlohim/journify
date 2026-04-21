@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>journify.ai — homepage</title>
+  <link rel="stylesheet" href="/styles/tokens.css" />
+  <style>
+    html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font-family: var(--sans); }
+    body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+    * { box-sizing: border-box; }
+
+    /* sticky nav */
+    .j-nav-sticky {
+      position: sticky; top: 0; z-index: 50;
+      background: var(--bg);
+      transition: border-color 180ms var(--ease);
+      border-bottom: 0.5px solid transparent;
+    }
+    .j-nav-sticky.is-scrolled { border-bottom-color: var(--border); }
+
+    /* Dev scrubber (hidden unless ?dev=1) */
+    .j-devbar {
+      position: fixed; bottom: 16px; right: 16px; z-index: 100;
+      background: var(--bg); border: 0.5px dashed #1A1714;
+      padding: 10px 14px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+      font-family: var(--sans); max-width: 460px;
+    }
+    .j-devbar button { font-family: var(--sans); font-size: 12px; padding: 4px 8px;
+      background: transparent; color: var(--text); border: 0.5px solid var(--text); cursor: pointer; border-radius: 0;
+    }
+    .j-devbar button.is-active { background: var(--text); color: var(--bg); }
+    .j-devbar-label { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-2); margin-right: 6px; }
+
+    /* Mobile */
+    @media (max-width: 768px) {
+      .j-nav-links { display: none; }
+      .j-nav { padding: 0 24px; height: 56px; }
+      .j-h1 { font-size: 34px !important; letter-spacing: -0.025em; }
+      .j-h2 { font-size: 26px !important; }
+      .j-h3 { font-size: 19px !important; }
+      .j-h4 { font-size: 18px !important; }
+      .j-body { font-size: 15px !important; }
+      section { padding: 64px 24px !important; }
+      .j-s2-rail { display: none !important; }
+      .j-s4-grid { grid-template-columns: 1fr !important; gap: 40px !important; }
+    }
+
+    /* keep the hamburger hidden on desktop */
+    .j-hamb { display: none; }
+    @media (max-width: 768px) { .j-hamb { display: inline-flex; } }
+
+    /* drawer overlay */
+    .j-page-drawer {
+      position: fixed; inset: 0; z-index: 60;
+      pointer-events: none;
+    }
+    .j-page-drawer.is-open { pointer-events: auto; }
+    .j-page-drawer .j-overlay {
+      background: rgba(26,23,20,0.40);
+      opacity: 0; transition: opacity 180ms var(--ease);
+    }
+    .j-page-drawer.is-open .j-overlay { opacity: 1; }
+    .j-page-drawer .j-drawer {
+      transform: translateX(100%); transition: transform 240ms var(--ease);
+    }
+    .j-page-drawer.is-open .j-drawer { transform: translateX(0); }
+  </style>
+
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+</head>
+<body class="j-surface">
+  <div id="root"></div>
+  <script type="text/babel" src="/components/Section.jsx"></script>
+  <script type="text/babel" src="/components/Accordion.jsx"></script>
+  <script type="text/babel" src="/components/Thinker.jsx"></script>
+  <script type="text/babel" src="/components/S6Diagram.jsx"></script>
+  <script type="text/babel" src="/components/S6CaseStudyAnchor.jsx"></script>
+  <script type="text/babel" src="/components/StickyNav.jsx"></script>
+  <script type="text/babel" src="/components/MobileDrawer.jsx"></script>
+  <script type="text/babel" src="/components/Footer.jsx"></script>
+  <script type="text/babel" src="/sections/S1.jsx"></script>
+  <script type="text/babel" src="/sections/S2.jsx"></script>
+  <script type="text/babel" src="/sections/S3.jsx"></script>
+  <script type="text/babel" src="/sections/S4.jsx"></script>
+  <script type="text/babel" src="/sections/S6.jsx"></script>
+  <script type="text/babel" src="/sections/S7.jsx"></script>
+  <script type="text/babel" src="/sections/S8.jsx"></script>
+  <script type="text/babel" src="/pages/HomePage.jsx"></script>
+  <script type="text/babel">
+    function DevBar({ phase, setPhase }) {
+      const phases = ['0', '1', '2', '3', 'F'];
+      return (
+        <div className="j-devbar">
+          <span className="j-devbar-label">S6 phase</span>
+          {phases.map(p => (
+            <button key={p}
+                    className={phase === p ? 'is-active' : ''}
+                    onClick={() => setPhase(p)}>
+              {p}
+            </button>
+          ))}
+          <button onClick={() => setPhase(null)}>auto</button>
+        </div>
+      );
+    }
+
+    function App() {
+      const [drawerOpen, setDrawerOpen] = React.useState(false);
+      const dev = new URLSearchParams(window.location.search).get('dev') === '1';
+      const [devPhase, setDevPhase] = React.useState(null);
+
+      return (
+        <>
+          <StickyNav onOpenDrawer={() => setDrawerOpen(true)} ctaHref="#s7" brandHref={null} />
+          <main>
+            <div style={{ maxWidth: 1200, margin: '0 auto' }}>
+              <HomePage devPhase={devPhase} />
+            </div>
+          </main>
+          <Footer />
+          <MobileDrawer open={drawerOpen} onClose={() => setDrawerOpen(false)} ctaHref="#s7" />
+          {dev && <DevBar phase={devPhase} setPhase={setDevPhase} />}
+        </>
+      );
+    }
+
+    ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+  </script>
+</body>
+</html>

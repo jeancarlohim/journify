@@ -1,0 +1,120 @@
+{
+  "s1": {
+    "headline": "\"I need to think about it\" is not an objection.",
+    "body": "It's something that broke before the call. A 45-day sprint for B2B service founders who keep losing qualified prospects to the stall.",
+    "ctaWarm": {
+      "label": "Read how it actually ran →",
+      "href": "/case-studies/polly"
+    }
+  },
+  "s2": {
+    "headline": "The prospect leaves informed, not convinced.",
+    "quotes": [
+      { "q": "\"Let me discuss this with my partner.\"", "a": "— but you don't hear from them." },
+      { "q": "\"Can you send me a proposal so I'll get back to you.\"", "a": "— and they never do." },
+      { "q": "\"Sounds good but the timing isn't right.\"", "a": "— and the timing never comes." },
+      { "q": "\"Let me circle back after Q3.\"", "a": "— and it's Q1 next year, and still circling." }
+    ]
+  },
+  "s3": {
+    "headline": "Five places the sale broke before the call.",
+    "rows": [
+      {
+        "q": "\"You have one ICP on paper. Three others in your pipeline.\"",
+        "a": "A referred founder. Then a consultant. Then an agency that asked for a retainer. Each deal looked like a defensible exception at the time. Six months of exceptions means the offer now bends in three directions, the content speaks to all of them without landing anywhere, and the right-fit prospect reads the positioning and doesn't see themselves."
+      },
+      {
+        "q": "\"The site lists every service you've ever sold. Your ideal buyer needs only 1.\"",
+        "a": "Nothing gets removed, because removing something feels like closing a revenue door. The cost only becomes visible when a qualified prospect arrives with a specific problem, scans the menu, can't find the exact phrase for what they came to solve, and leaves. The offer reads complete from your side. From theirs, it reads unclear."
+      },
+      {
+        "q": "\"Outreach that opens with what you do.\"",
+        "a": "The service goes first. Or the opener is a question the reader can dismiss by closing the tab. Outreach earns a reply when the first line names something the reader recognizes from their own work — not when it restates the offer in their inbox."
+      },
+      {
+        "q": "\"Engagement that doesn't turn into meetings.\"",
+        "a": "The reactions climb. The DMs stay empty. Content optimized for the algorithm teaches the algorithm, not the buyer. A post earns pipeline when it names a specific operational moment the reader already lives inside — not when it condenses five principles into a carousel."
+      },
+      {
+        "q": "\"Sales calls that end in 'I need to think about it.'\"",
+        "a": "The script is proven. Diagnose, demonstrate, quote. The prospect seems to follow. Says the conversation was useful. Asks for pricing. Then stalls. The call isn't where the deal broke — it's where you find out it broke earlier, in the offer, the outreach, or the positioning that brought the wrong version of the right prospect in the door."
+      }
+    ]
+  },
+  "s4": {
+    "headline": "The work sits in three places.",
+    "cols": [
+      {
+        "h": "Who you're for",
+        "body": "Who you're for isn't an aspiration. It's a pattern in the roster — the deals that closed fast, paid on time, and referred others. The work is pulling that pattern out and making it the filter for everything that follows.",
+        "fixes": ["\"You have one ICP on paper. Three others in your pipeline.\""]
+      },
+      {
+        "h": "What you say",
+        "body": "Everything a prospect reads before the call. Site, LinkedIn, outreach, content. When the offer is one specific thing, the reader can repeat it back to a colleague. When it's twenty-seven things, they forget what you said by the time the call ends.",
+        "fixes": [
+          "\"The site lists every service you've ever sold. Your ideal buyer needs only 1.\"",
+          "\"Outreach that opens with what you do.\"",
+          "\"Engagement that doesn't turn into meetings.\""
+        ]
+      },
+      {
+        "h": "How you sell",
+        "body": "The call isn't a script problem; it's a structure problem. Rebuilt, it surfaces fit early and isolates the real objection. The right-fit prospect signs instead of stalling. The wrong-fit one disqualifies before the quote, not after.",
+        "fixes": ["\"Sales calls that end in 'I need to think about it.'\""]
+      }
+    ]
+  },
+  "s6": {
+    "headline": "Nothing in the pipeline moves on its own.",
+    "payoff": "Every sales call rewrites what came before it.",
+    "link": { "label": "Read how it works →", "href": "/case-studies/polly" }
+  },
+  "s6Anchor": {
+    "text": "See 21 days of this run end-to-end →",
+    "href": "/case-studies/polly"
+  },
+  "s7": {
+    "headline": "Twenty-one days. Three weeks, three places.",
+    "body1": "Week one: who you're for. Week two: what you say. Week three: how you sell. You bring the current state — site, offer, outreach, call recordings. We rebuild the parts making the sale harder than it needs to be.",
+    "body2": "First three pilots at €4K in exchange for case-study rights. After that, €7.5K–10K depending on scope.",
+    "cta": {
+      "label": "Apply for the sprint →",
+      "href": "https://cal.com/jeancarlohim/conversion-diagnostic"
+    },
+    "link": { "label": "Full sprint detail →", "href": "/the-sprint" }
+  },
+  "s8": {
+    "founderHeadline": "I spent ten years doing this at scale.",
+    "founderBody1": "CRM and customer journeys at adidas. Commercial strategy at Heineken. Enterprise sales at DELL. The difference now is I do it for founders who sell expertise, not servers, sneakers, or beer.",
+    "founderBody2": "Rotterdam.",
+    "faqHeadline": "Before you apply.",
+    "faq": [
+      {
+        "q": "How is this different from a productized service.",
+        "a": "A productized service sells a repeatable deliverable. The sprint rebuilds three connected things — the ICP, every surface the offer shows up on, and the sales call structure. The deliverable is a working conversion path, not a document."
+      },
+      {
+        "q": "What you need from me during the twenty-one days.",
+        "a": "Two hours of founder time per week, across three working sessions. Read-access to the last ten sales call recordings. Edit-access to the site and LinkedIn. Everything outside those inputs happens on our side."
+      },
+      {
+        "q": "What happens if my ICP is wrong.",
+        "a": "Week one is built to catch that. If the ICP we surface in the roster pattern doesn't match who you thought you were selling to, week two rebuilds the surfaces around the real one. You don't leave with a rewritten site pointing at the wrong buyer."
+      },
+      {
+        "q": "Whether this works if my pipeline is agency, consulting, or training.",
+        "a": "The sprint works on any B2B service business where the sale runs through a call and the prospect can stall at \"I need to think about it.\" Agency, consulting, advisory, training. What doesn't fit: e-commerce, SaaS self-serve, or anything that closes without a conversation."
+      },
+      {
+        "q": "What happens after the sprint.",
+        "a": "You own what we built. Site, offer, outreach copy, call structure — all yours, all documented, all repeatable by you or whoever picks this up next. No retainer, no upsell, no dependency. If the sale starts stalling again six months later, you'll know where to look."
+      }
+    ],
+    "payoff": "If you've read this far, the next move is a fifteen-minute call.",
+    "cta": {
+      "label": "Apply for the sprint →",
+      "href": "https://cal.com/jeancarlohim/conversion-diagnostic"
+    }
+  }
+}

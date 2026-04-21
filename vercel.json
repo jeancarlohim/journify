@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/case-studies/polly", "destination": "/case-studies/polly/index.html" },
+    { "source": "/the-sprint", "destination": "/the-sprint/index.html" }
+  ]
+}

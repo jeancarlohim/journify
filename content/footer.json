@@ -1,0 +1,17 @@
+{
+  "brand": "journify",
+  "navLinks": [
+    { "label": "The sprint", "href": "/the-sprint" },
+    { "label": "Case study", "href": "/case-studies/polly" },
+    { "label": "About", "href": "/#s8" }
+  ],
+  "legalLinks": [
+    { "label": "Privacy", "href": "#" },
+    { "label": "Terms", "href": "#" }
+  ],
+  "contactLinks": [
+    { "label": "LinkedIn", "href": "#" },
+    { "label": "hello@journify.ai", "href": "mailto:hello@journify.ai" }
+  ],
+  "copyright": "© 2026 Journify"
+}

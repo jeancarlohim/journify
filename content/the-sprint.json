@@ -1,0 +1,173 @@
+{
+  "s1": {
+    "meta": "The 45-day sprint · Founder-led agencies",
+    "headline": "\"I need to think about it\" is not a closing problem.",
+    "body1": "It's a stall that starts earlier — in the offer, the outreach, the positioning that brought the wrong version of the right prospect in the door. A 45-day sprint that rebuilds the parts of your acquisition motion making the sale harder than it needs to be.",
+    "body2": "5–10 booked qualified meetings in 45 days with a warm network to work from. 3–5 meetings plus 10–15 live conversations if you are fully cold.",
+    "cta": {
+      "label": "Apply for the sprint →",
+      "href": "https://cal.com/jeancarlohim/conversion-diagnostic"
+    }
+  },
+  "s2": {
+    "headline": "The leak isn't on the sales call.",
+    "body1": "Prospects get on calls. The call feels great. Then they say \"I need to think about it\" or \"send me a proposal,\" and disappear.",
+    "body2": "After the call, the founder is already worrying about where the next one will come from.",
+    "body3": "Most founders assume this is a closing problem. Or a lead problem. Or an objection-handling problem. So they send more cold emails. More DMs. They study objection scripts.",
+    "payoff": "That is fixing one hole in a bucket with five others in it."
+  },
+  "s3": {
+    "headline": "The work sits in three places.",
+    "body": "Most agencies treat positioning, content, outreach, and sales calls as four separate problems. The sprint runs them as one motion. Every sales call rewrites what came before it.",
+    "components": [
+      {
+        "heading": "1. The offer rebuild",
+        "body": "Identify the clients you should have been targeting all along — not personas, not hypothetical dream clients. Real clients who paid fast, stayed longest, referred others, and got the best outcomes. Use those patterns to rebuild the language across every buyer-facing surface.",
+        "leaveWith": "You leave with:",
+        "items": [
+          "A positioning document built around 3 ICP patterns from real clients",
+          "A rewritten LinkedIn profile",
+          "A rewritten offer page",
+          "Sales call language for you and your team"
+        ]
+      },
+      {
+        "heading": "2. The content strategy",
+        "body": "Content designed to make the right buyers feel understood before they ever speak to you. A 45-day strategy built around the moments, objections, frustrations, and buying triggers your ideal clients already experience. The first 10 posts written in your voice.",
+        "leaveWith": "You leave with:",
+        "items": [
+          "A 45-day content strategy document",
+          "10 LinkedIn posts written in your voice",
+          "A content calendar",
+          "A proof rotation and objection map"
+        ]
+      },
+      {
+        "heading": "3. The pre-sold motion",
+        "body": "250 LinkedIn connection requests. 250 LinkedIn InMails. 500 warm, referral, and cold messages. Executed by a trained VA using our SOPs. Meetings are the deliverable.",
+        "leaveWith": "You leave with:",
+        "items": [
+          "1,000 total outreach touches executed",
+          "5–10 booked qualified meetings (warm network)",
+          "A trained VA you can keep using",
+          "Outreach SOPs your VA can keep running"
+        ]
+      }
+    ]
+  },
+  "s4": {
+    "headline": "Three stages in 45 days.",
+    "body": "Stage 1 is diagnosis. Stage 2 is execution. Stage 3 is conversion.",
+    "stages": [
+      {
+        "meta": "Days 1–10",
+        "heading": "The leak gets named",
+        "body": "Walk through the client roster, the sales calls, the won and lost deals. Most founders come in thinking they have a lead problem or a closing problem. Usually, the real problem is simpler: their positioning isn't saying what their best clients actually bought."
+      },
+      {
+        "meta": "Days 11–35",
+        "heading": "The motion goes live",
+        "body": "Content publishes. Outreach goes out. The market answers back. Week 2 brings replies and objections. Week 3 brings real conversations. Week 4 brings the first booked meetings — and the sharpest learning about what lands in a live sales call and what still doesn't convert."
+      },
+      {
+        "meta": "Days 36–45",
+        "heading": "The calls convert differently",
+        "body": "Take the calls. See what changes. The stalls that remain are real — budget, timing, fit. Not vague disappearances. Not \"send me a proposal.\" Not \"I need to think about it\" because the prospect couldn't explain your offer to someone else internally."
+      }
+    ]
+  },
+  "s5": {
+    "headline": "What's included.",
+    "strategicHeading": "Strategic deliverables",
+    "strategicItems": [
+      "One 8–12 page positioning document",
+      "One rewritten LinkedIn profile",
+      "One rewritten offer page",
+      "One 45-day content strategy document",
+      "One sales call language document",
+      "Outreach SOPs your VA can keep running"
+    ],
+    "executionHeading": "Execution deliverables",
+    "executionItems": [
+      "10 LinkedIn posts written in your voice",
+      "1,000 outreach touches across LinkedIn and email",
+      "Lead list building and research",
+      "VA training and management",
+      "Weekly Loom reviews",
+      "Up to 2 sales call reviews",
+      "A custom Claude skill built around your ICP and positioning"
+    ],
+    "sessionsHeading": "Working sessions and access",
+    "sessionsBody": "One 90-minute kickoff. One 60-minute ICP deep-dive. Five 30-minute weekly syncs. One 60-minute mid-sprint review. One 60-minute final debrief. Slack or WhatsApp access Monday to Friday, 9:00–18:00 CET. Same-business-day response times."
+  },
+  "s6": {
+    "headline": "Investment.",
+    "body1": "Right now, the sprint runs as a pilot. The pilot rate is €4,000 + VAT, limited to the first three clients, in exchange for case study rights. The mechanism was proven in an adjacent market and is being adapted for agencies right now. The first three clients get pilot pricing because their case studies are what the next thirty clients will read before buying.",
+    "body2": "Standard pricing after the three pilot slots close is €7,500 + VAT. For founders fully cold — no warm network, no old leads, no referral base — the rate is €10,000 + VAT.",
+    "tiers": [
+      {
+        "meta": "Pilot",
+        "price": "€4,000",
+        "body": "First three clients only. In exchange for case study rights."
+      },
+      {
+        "meta": "Standard",
+        "price": "€7,500",
+        "body": "Standard sprint. Warm network in place."
+      },
+      {
+        "meta": "Fully cold",
+        "price": "€10,000",
+        "body": "No warm base. Heavier work, lower yield."
+      }
+    ],
+    "retainerHeading": "Retainer continuation",
+    "retainerBody1": "The sprint is built to stand alone. For founders who want to keep the motion running past day 45, there's a retainer path. Pilot retainer: €2,000/month + VAT, 3-month minimum. Standard retainer: €3,000/month + VAT, 3-month minimum. Annual path: €30,000/year + VAT paid quarterly. The retainer covers ongoing outreach, four posts per week, sales call review, positioning refinement, and VA management.",
+    "retainerBody2": "Payment: 50% deposit on signing, 50% at day 21 after the mid-sprint review. No monthly payment plans."
+  },
+  "s7": {
+    "headline": "The motion learns from itself.",
+    "body1": "The sprint runs positioning, content, outreach, and sales calls as one system. Every sales call teaches the offer. Every reply teaches the opener. Every post teaches the content calendar. By day 21, the positioning is sharper than it was on day 1 — because three weeks of replies, objections, and sales calls have told us what was still missing.",
+    "body2": "The mechanism has been run end-to-end with a coach in the Netherlands. 6 booked calls in 21 days from zero LinkedIn pipeline. The agency version is the same mechanism adapted for longer sales cycles and retainer-shaped offers.",
+    "link": {
+      "label": "Read the case study →",
+      "href": "/case-studies/polly"
+    }
+  },
+  "s8": {
+    "headline": "Before you apply.",
+    "faq": [
+      {
+        "q": "Who this is for.",
+        "a": "Founder-led agencies with 2–10 employees selling retainers through sales calls. Demand generation, social and content, email and CRM. Founder takes sales calls personally. No dedicated sales hire. Running on referrals or warm intros with inconsistent cold outbound. Clients paying at least €1,500/month."
+      },
+      {
+        "q": "Who this is not for.",
+        "a": "B2C businesses or product companies. Solo operators with a single client and no retainer shape. Project-only shops without recurring structure. Founders whose clients pay less than €1,500/month. Agencies that close through DMs, Instagram, voice notes, or buy-now flows — the 'I need to think about it' stall requires a scheduled-call close. Agencies with a dedicated sales hire or BDR team. Founders who want someone else to take their sales calls."
+      },
+      {
+        "q": "Time commitment during the sprint.",
+        "a": "Roughly 18–25 hours of founder time over 45 days. Week 1 is front-loaded because we need the client roster, sales call recordings, and positioning inputs. After that, it's deliverable reviews, weekly calls, and taking the sales meetings that come in."
+      },
+      {
+        "q": "Guarantees.",
+        "a": "There are no revenue promises or closed-deal guarantees. We promise the deliverables listed above, 1,000 outreach touches executed in 45 days, and 5–10 booked qualified meetings with a warm network (or 3–5 booked meetings plus 10–15 live conversations if fully cold). Anyone promising closed deals inside 45 days is selling a lottery ticket."
+      },
+      {
+        "q": "What happens after the sprint.",
+        "a": "You own what's built. Deliverables, SOPs, the trained VA, the positioning system — all yours. No retainer required, no dependency. The retainer path is visible because most agencies who close 1–2 clients off the sprint want the outreach engine to keep running. It's optional."
+      },
+      {
+        "q": "How to join.",
+        "a": "Book a 30-minute fit call. The call is diagnostic — we review your positioning, sales stalls, list depth, and whether the sprint fits. If we decide to move forward, you receive a one-page agreement, an invoice, and a start date once the deposit clears."
+      }
+    ]
+  },
+  "s9": {
+    "payoff": "Two active sprints at a time. Three pilot slots total.",
+    "cta": {
+      "label": "Apply for the sprint →",
+      "href": "https://cal.com/jeancarlohim/conversion-diagnostic"
+    }
+  }
+}
