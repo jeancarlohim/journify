@@ -11,7 +11,7 @@ function AccordionRow({ q, a, open, onToggle }) {
       <div className="j-acc-body" ref={bodyRef}
            style={{ maxHeight: open ? (bodyRef.current ? bodyRef.current.scrollHeight : 600) : 0 }}>
         <div className="j-acc-body-inner">
-          <p className="j-body">{a}</p>
+          <p className="j-body">{parseInline(a)}</p>
         </div>
       </div>
     </div>

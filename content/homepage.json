@@ -1,7 +1,7 @@
 {
   "s1": {
     "headline": "\"I need to think about it\" is not an objection.",
-    "body": "It's something that broke before the call. A 45-day sprint for B2B service founders who keep losing qualified prospects to the stall.",
+    "body": "It's something that broke before the call. A 45-day sprint for founders patching the pitch instead of fixing the offer, the channel, and the ICP",
     "ctaWarm": {
       "label": "Read how it actually ran →",
       "href": "/case-studies/polly"
@@ -20,24 +20,24 @@
     "headline": "Five places the sale broke before the call.",
     "rows": [
       {
-        "q": "\"You have one ICP on paper. Three others in your pipeline.\"",
-        "a": "A referred founder. Then a consultant. Then an agency that asked for a retainer. Each deal looked like a defensible exception at the time. Six months of exceptions means the offer now bends in three directions, the content speaks to all of them without landing anywhere, and the right-fit prospect reads the positioning and doesn't see themselves."
+        "q": "You have one ICP on paper. But you smuggled 3 new ones in the last 6 months.",
+        "a": "You had the workshop. You nailed the ICP. Then a referral came in with a different problem and you signed it. Then one asked for events. Another for Meta ads. Each looked like a defensible exception at the time. Six months of that and the offer bends in three directions, the site speaks to everyone, and the right-fit prospect reads it and can't see themselves."
       },
       {
-        "q": "\"The site lists every service you've ever sold. Your ideal buyer needs only 1.\"",
-        "a": "Nothing gets removed, because removing something feels like closing a revenue door. The cost only becomes visible when a qualified prospect arrives with a specific problem, scans the menu, can't find the exact phrase for what they came to solve, and leaves. The offer reads complete from your side. From theirs, it reads unclear."
+        "q": "The site lists every service you've ever sold. Your ideal buyer needs only 1.",
+        "a": "You keep every service on the menu because removing one feels like closing a revenue door. But your client needs to feel you are the expert on their specific problem. When they scan your offer, they can't find what they came to solve. It reads like a restaurant menu. Complete from your side. Unclear from theirs."
       },
       {
-        "q": "\"Outreach that opens with what you do.\"",
-        "a": "The service goes first. Or the opener is a question the reader can dismiss by closing the tab. Outreach earns a reply when the first line names something the reader recognizes from their own work — not when it restates the offer in their inbox."
+        "q": "Outreach feels icky. Or you're messaging everyone.",
+        "a": "You avoid cold outreach because you don't want to be salesy, or you blast it to everyone including the gardener. The right conversation with the right prospect opens an opportunity that solves their problem and creates pipeline for yours."
       },
       {
-        "q": "\"Engagement that doesn't turn into meetings.\"",
-        "a": "The reactions climb. The DMs stay empty. Content optimized for the algorithm teaches the algorithm, not the buyer. A post earns pipeline when it names a specific operational moment the reader already lives inside — not when it condenses five principles into a carousel."
+        "q": "Inconsistent posts that don't turn into meetings.",
+        "a": "You post on LinkedIn. Sometimes you get likes. The DMs from prospects never come. You optimize content for the algorithm and teach the algorithm, not the buyer. A post earns the lead when it names a specific moment the reader already lives inside, not when it condenses five principles into a carousel."
       },
       {
-        "q": "\"Sales calls that end in 'I need to think about it.'\"",
-        "a": "The script is proven. Diagnose, demonstrate, quote. The prospect seems to follow. Says the conversation was useful. Asks for pricing. Then stalls. The call isn't where the deal broke — it's where you find out it broke earlier, in the offer, the outreach, or the positioning that brought the wrong version of the right prospect in the door."
+        "q": "Sales calls that end in 'I need to think about it.'",
+        "a": "The call felt good. They followed along, said it was useful, asked for pricing. Then nothing. You replay the conversation looking for what went wrong. Nothing went wrong on the call. The deal broke earlier, in the ICP, the offer, the cold outreach, or the positioning that brought the wrong version of the right prospect through the door."
       }
     ]
   },
