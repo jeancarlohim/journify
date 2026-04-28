@@ -10,8 +10,8 @@
     { "label": "Terms", "href": "/terms" }
   ],
   "contactLinks": [
-    { "label": "LinkedIn", "href": "#" },
-    { "label": "hello@journify.ai", "href": "mailto:hello@journify.ai" }
+    { "label": "LinkedIn", "href": "https://www.linkedin.com/in/jeancarlohim/" },
+    { "label": "jc@journify.ai", "href": "mailto:jc@journify.ai" }
   ],
   "copyright": "© 2026 Journify"
 }

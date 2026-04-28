@@ -4,7 +4,7 @@
   "lastUpdated": "Last updated: 28 April 2026",
   "intro": {
     "bodyLine1": "This is how Journify handles your data when you visit this site, book a call, or work with us as a client.",
-    "bodyLine2": "Plain language, not legalese. If anything here is unclear, email hello@journify.ai and we'll explain it."
+    "bodyLine2": "Plain language, not legalese. If anything here is unclear, email jc@journify.ai and we'll explain it."
   },
   "sections": [
     {
@@ -14,7 +14,7 @@
       "bodyLine3": "KvK: 90923588",
       "bodyLine4": "BTW: 61128435",
       "bodyLine5": "Registered address: De Quackstraat 54B, 3082VV, Rotterdam, Netherlands",
-      "bodyLine6": "Data controller contact: hello@journify.ai"
+      "bodyLine6": "Data controller contact: jc@journify.ai"
     },
     {
       "heading": "What we collect",
@@ -62,7 +62,7 @@
       "bodyLine7": "Right to object. You can object to specific processing activities.",
       "bodyLine8": "Right to withdraw consent. Where processing is based on consent, you can withdraw it at any time.",
       "bodyLine9": "Right to lodge a complaint. You can complain to the Dutch data protection authority, Autoriteit Persoonsgegevens (autoriteitpersoonsgegevens.nl).",
-      "bodyLine10": "To exercise any of these rights, email hello@journify.ai. We respond within 30 days."
+      "bodyLine10": "To exercise any of these rights, email jc@journify.ai. We respond within 30 days."
     },
     {
       "heading": "Cookies",
