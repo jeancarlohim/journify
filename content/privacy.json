@@ -1,0 +1,78 @@
+{
+  "meta": "Privacy Policy",
+  "title": "Privacy Policy",
+  "lastUpdated": "Last updated: 28 April 2026",
+  "intro": {
+    "bodyLine1": "This is how Journify handles your data when you visit this site, book a call, or work with us as a client.",
+    "bodyLine2": "Plain language, not legalese. If anything here is unclear, email hello@journify.ai and we'll explain it."
+  },
+  "sections": [
+    {
+      "heading": "Who we are",
+      "bodyLine1": "Journify is an eenmanszaak (sole proprietorship) registered in the Netherlands.",
+      "bodyLine2": "Trade name: Journify",
+      "bodyLine3": "KvK: 90923588",
+      "bodyLine4": "BTW: 61128435",
+      "bodyLine5": "Registered address: De Quackstraat 54B, 3082VV, Rotterdam, Netherlands",
+      "bodyLine6": "Data controller contact: hello@journify.ai"
+    },
+    {
+      "heading": "What we collect",
+      "bodyLine1": "Three categories of data, depending on how you interact with us.",
+      "bodyLine2": "Site visits. We currently do not run analytics on this site. No cookies are set, no visitor tracking is performed. If this changes, this policy will be updated and a cookie banner added.",
+      "bodyLine3": "Booking data. When you book a fit call through Cal.com, we receive your name, email address, scheduled time, and anything you type into the booking form. This data lives in Cal.com's systems and is governed by their privacy policy in addition to this one.",
+      "bodyLine4": "Sales call recordings and transcripts. Fit calls and sales calls are recorded and transcribed. Audio recordings are made via Zoom. Transcripts are generated via Fireflies. Both you and we have access to the recording during the call. The recording, transcript, and any notes taken during the call are stored as part of our sales review process."
+    },
+    {
+      "heading": "Why we collect it",
+      "bodyLine1": "Booking data is used to schedule and run the call.",
+      "bodyLine2": "Sales call recordings and transcripts are reviewed by Journify after the call to improve the offer, the positioning, and the sales process. This review is part of the Journify mechanism. It is not shared externally and is not used to train any third-party AI model.",
+      "bodyLine3": "If you become a client, recordings are also referenced during the engagement to inform the work we do for you."
+    },
+    {
+      "heading": "Where it's stored",
+      "bodyLine1": "Booking data: Cal.com (United States, operating under EU Standard Contractual Clauses for GDPR compliance).",
+      "bodyLine2": "Call recordings: Zoom (United States, operating under EU Standard Contractual Clauses for GDPR compliance).",
+      "bodyLine3": "Transcripts: Fireflies (United States, operating under EU Standard Contractual Clauses for GDPR compliance).",
+      "bodyLine4": "Notes and analysis: stored in private workspaces accessible only to Journify."
+    },
+    {
+      "heading": "How long we keep it",
+      "bodyLine1": "If you book a call but do not become a client, we keep the recording, transcript, and related notes for 12 months from the call date, then delete them.",
+      "bodyLine2": "If you become a client, we keep the recording and transcript for the duration of the engagement plus 24 months for follow-up reference, then delete them.",
+      "bodyLine3": "Booking data (name, email, scheduled time) is retained until you ask us to delete it or for the same retention windows above, whichever comes first.",
+      "bodyLine4": "You can request earlier deletion at any time. See your rights below."
+    },
+    {
+      "heading": "Who we share it with",
+      "bodyLine1": "We use the following sub-processors to operate the service. Each is named above with a description of what they handle.",
+      "bodyLine2": "Cal.com — booking management.",
+      "bodyLine3": "Zoom — video conferencing and call recording.",
+      "bodyLine4": "Fireflies — call transcription.",
+      "bodyLine5": "We do not sell your data. We do not share it with marketing partners, advertisers, or any third party outside of these named sub-processors. We do not use your data to train AI models."
+    },
+    {
+      "heading": "Your rights under GDPR",
+      "bodyLine1": "As a data subject under EU/EEA law, you have the following rights regarding your data.",
+      "bodyLine2": "Right of access. You can request a copy of any personal data we hold about you.",
+      "bodyLine3": "Right to rectification. You can ask us to correct inaccurate data.",
+      "bodyLine4": "Right to erasure. You can ask us to delete your data, subject to any legal obligations we have to retain it.",
+      "bodyLine5": "Right to restrict processing. You can ask us to pause processing your data while a request is being handled.",
+      "bodyLine6": "Right to data portability. You can request your data in a machine-readable format.",
+      "bodyLine7": "Right to object. You can object to specific processing activities.",
+      "bodyLine8": "Right to withdraw consent. Where processing is based on consent, you can withdraw it at any time.",
+      "bodyLine9": "Right to lodge a complaint. You can complain to the Dutch data protection authority, Autoriteit Persoonsgegevens (autoriteitpersoonsgegevens.nl).",
+      "bodyLine10": "To exercise any of these rights, email hello@journify.ai. We respond within 30 days."
+    },
+    {
+      "heading": "Cookies",
+      "bodyLine1": "This site does not currently set any cookies.",
+      "bodyLine2": "If we add analytics in the future, we will update this policy, add a cookie banner, and require consent before any non-essential cookies are set."
+    },
+    {
+      "heading": "Changes to this policy",
+      "bodyLine1": "If this policy changes, the \"last updated\" date at the top of the page will reflect the change.",
+      "bodyLine2": "Material changes will be communicated to active clients directly."
+    }
+  ]
+}

@@ -1,120 +1,172 @@
 {
   "s1": {
-    "headline": "\"I need to think about it\" is not an objection.",
-    "body": "It's something that broke before the call. A 45-day sprint for founders patching the pitch instead of fixing the offer, the channel, and the ICP",
-    "ctaWarm": {
+    "headlinePart1": "\"I need to ",
+    "headlineEmphasis": "think",
+    "headlinePart2": " about it\"",
+    "headlineLine2": "is not an objection.",
+    "bodyLine1": "Three things show up on the sales call: what you offer, what you say, how you sell.",
+    "bodyLine2": "We fix all three in a 45-day sprint that learns from your sales calls.",
+    "bodyLine3": "For solo or small-team service businesses that close through calls.",
+    "ctaPrimary": {
+      "label": "Apply for the sprint →",
+      "href": "https://cal.com/jeancarlohim/apply-for-thesprint"
+    },
+    "ctaSecondary": {
       "label": "Read how it actually ran →",
-      "href": "/case-studies/polly"
+      "href": "/case-studies/coaching"
     }
   },
   "s2": {
-    "headline": "The prospect leaves informed, not convinced.",
+    "headline": "And your prospects are already telling you…",
     "quotes": [
-      { "q": "\"Let me discuss this with my partner.\"", "a": "— but you don't hear from them." },
-      { "q": "\"Can you send me a proposal so I'll get back to you.\"", "a": "— and they never do." },
-      { "q": "\"Sounds good but the timing isn't right.\"", "a": "— and the timing never comes." },
-      { "q": "\"Let me circle back after Q3.\"", "a": "— and it's Q1 next year, and still circling." }
+      { "q": "\"Can you send me a proposal so I'll get *right* back to you.\"", "a": "And they never do." },
+      { "q": "\"Let me discuss this with my partner.\"", "a": "But you don't hear from them." },
+      { "q": "\"Sounds good but the timing isn't right.\"", "a": "And the timing never comes." },
+      { "q": "\"Let me circle back after Q3.\"", "a": "And it's Q1 next year, and still circling." }
     ]
   },
   "s3": {
-    "headline": "Five places the sale broke before the call.",
+    "headline": "The sale broke in 3 places, and you kinda know.",
     "rows": [
       {
-        "q": "You have one ICP on paper. But you smuggled 3 new ones in the last 6 months.",
-        "a": "You had the workshop. You nailed the ICP. Then a referral came in with a different problem and you signed it. Then one asked for events. Another for Meta ads. Each looked like a defensible exception at the time. Six months of that and the offer bends in three directions, the site speaks to everyone, and the right-fit prospect reads it and can't see themselves."
+        "q": "\"You're for everyone. So the right person can't find you.\"",
+        "a": [
+          "You take every kind of client because saying no feels like leaving money on the table.",
+          "Then, your offers got broader because of the clients you worked with, not the ones you could best serve.",
+          "Finally... The right person arrives, scans what you do, sees everything and nothing, and leaves."
+        ]
       },
       {
-        "q": "The site lists every service you've ever sold. Your ideal buyer needs only 1.",
-        "a": "You keep every service on the menu because removing one feels like closing a revenue door. But your client needs to feel you are the expert on their specific problem. When they scan your offer, they can't find what they came to solve. It reads like a restaurant menu. Complete from your side. Unclear from theirs."
+        "q": "\"The site lists every service you've ever sold. Your ideal buyer needs only 1.\"",
+        "a": [
+          "You keep every service on the menu because removing one feels like closing a revenue door.",
+          "But your client needs to feel you are the expert on their specific problem.",
+          "When they scan your offer, they can't find what they came to solve.",
+          "It reads like a restaurant menu. Complete from your side.",
+          "Unclear from theirs."
+        ]
       },
       {
-        "q": "Outreach feels icky. Or you're messaging everyone.",
-        "a": "You avoid cold outreach because you don't want to be salesy, or you blast it to everyone including the gardener. The right conversation with the right prospect opens an opportunity that solves their problem and creates pipeline for yours."
-      },
-      {
-        "q": "Inconsistent posts that don't turn into meetings.",
-        "a": "You post on LinkedIn. Sometimes you get likes. The DMs from prospects never come. You optimize content for the algorithm and teach the algorithm, not the buyer. A post earns the lead when it names a specific moment the reader already lives inside, not when it condenses five principles into a carousel."
-      },
-      {
-        "q": "Sales calls that end in 'I need to think about it.'",
-        "a": "The call felt good. They followed along, said it was useful, asked for pricing. Then nothing. You replay the conversation looking for what went wrong. Nothing went wrong on the call. The deal broke earlier, in the ICP, the offer, the cold outreach, or the positioning that brought the wrong version of the right prospect through the door."
+        "q": "\"They seemed convinced on the call. Then... silence.\"",
+        "a": [
+          "You felt good after the call. They asked smart questions and said they liked what you do.",
+          "But after you closed Google Meet the conversation kept going. With their partner. With their pillow. With their team. With whoever they trust to tell them whether this is worth it.",
+          "You don't get to be in that conversation. You don't get to hear what they said about your price, your competition, or how they remembered you 30 minutes after the call. You just get the email three weeks later. \"It's good, but it's not the right time.\"",
+          "Next call, the same thing. Nothing changed."
+        ]
       }
     ]
   },
   "s4": {
-    "headline": "The work sits in three places.",
+    "headline": "This is how we fix those 3.",
     "cols": [
       {
-        "h": "Who you're for",
-        "body": "Who you're for isn't an aspiration. It's a pattern in the roster — the deals that closed fast, paid on time, and referred others. The work is pulling that pattern out and making it the filter for everything that follows.",
-        "fixes": ["\"You have one ICP on paper. Three others in your pipeline.\""]
+        "h": "What you offer",
+        "bodies": [
+          "Instead of selling many things to many people, we narrow the offer.",
+          "We rebuild it around the clients who paid on time and referred others. The ones whose results you're proud to show.",
+          "Then your offer learns from every call. The ones that close show what's working. The ones that don't show where the offer still bends."
+        ]
       },
       {
         "h": "What you say",
-        "body": "Everything a prospect reads before the call. Site, LinkedIn, outreach, content. When the offer is one specific thing, the reader can repeat it back to a colleague. When it's twenty-seven things, they forget what you said by the time the call ends.",
-        "fixes": [
-          "\"The site lists every service you've ever sold. Your ideal buyer needs only 1.\"",
-          "\"Outreach that opens with what you do.\"",
-          "\"Engagement that doesn't turn into meetings.\""
+        "bodies": [
+          "We reflect the offer across everything a prospect reads before the call.",
+          "Site, LinkedIn, content. Each surface says the same thing about the same problem for the same person.",
+          "Then your language learns from every call. The lines that made prospects sit up. The lines they ignored. By week three, the surfaces are written from real conversations, not from a strategy doc on day one."
         ]
       },
       {
         "h": "How you sell",
-        "body": "The call isn't a script problem; it's a structure problem. Rebuilt, it surfaces fit early and isolates the real objection. The right-fit prospect signs instead of stalling. The wrong-fit one disqualifies before the quote, not after.",
-        "fixes": ["\"Sales calls that end in 'I need to think about it.'\""]
+        "bodies": [
+          "The prospect arrives on the call already knowing who you help and what you do.",
+          "The call doesn't restart the pitch from zero. It moves to fit, scope, and the specific shape of their problem.",
+          "Then your call learns from the last one. The objection that showed up twice becomes content that handles it before the next call. The pricing question that derailed the conversation becomes part of the offer page."
+        ]
       }
+    ],
+    "closer": [
+      "By day 45, the calls aren't the same calls. Not the offer. Not the website.",
+      "Every reply taught the next post. Every call taught the next offer. By the end, nothing is what it was at the start."
     ]
   },
   "s6": {
     "headline": "Nothing in the pipeline moves on its own.",
     "payoff": "Every sales call rewrites what came before it.",
-    "link": { "label": "Read how it works →", "href": "/case-studies/polly" }
-  },
-  "s6Anchor": {
-    "text": "See 21 days of this run end-to-end →",
-    "href": "/case-studies/polly"
+    "link": { "label": "Read how it actually ran →", "href": "/case-studies/coaching" }
   },
   "s7": {
-    "headline": "Twenty-one days. Three weeks, three places.",
-    "body1": "Week one: who you're for. Week two: what you say. Week three: how you sell. You bring the current state — site, offer, outreach, call recordings. We rebuild the parts making the sale harder than it needs to be.",
-    "body2": "First three pilots at €4K in exchange for case-study rights. After that, €7.5K–10K depending on scope.",
+    "headline": "Forty-five days. Two phases.",
+    "phase1Heading": "The first three weeks build the engine.",
+    "phase1Body": "Week 1, what you offer. Week 2, what you say. Week 3, what goes live, and how you sell it.",
+    "phase2Heading": "The next three weeks run the engine.",
+    "phase2Body": "Replies come in. Calls happen. Every one of them updates the offer, the content, and the next batch of outreach.",
+    "closingLine1": "You bring the current state. Site, offer, outreach, call recordings.",
+    "closingLine2": "We rebuild the parts making the deal harder than it needs to be.",
     "cta": {
       "label": "Apply for the sprint →",
-      "href": "https://cal.com/jeancarlohim/conversion-diagnostic"
+      "href": "https://cal.com/jeancarlohim/apply-for-thesprint"
     },
     "link": { "label": "Full sprint detail →", "href": "/the-sprint" }
   },
   "s8": {
-    "founderHeadline": "I spent ten years doing this at scale.",
-    "founderBody1": "CRM and customer journeys at adidas. Commercial strategy at Heineken. Enterprise sales at DELL. The difference now is I do it for founders who sell expertise, not servers, sneakers, or beer.",
+    "founder": {
+      "image": {
+        "src": "/images/logos/founder.png",
+        "alt": "Jean Carlo, founder of Journify"
+      },
+      "logos": [
+        { "src": "/images/logos/adidas.png", "alt": "adidas" },
+        { "src": "/images/logos/heineken.jpeg", "alt": "Heineken" },
+        { "src": "/images/logos/dell.png", "alt": "DELL" }
+      ]
+    },
+    "founderHeadline": "I spent ten years doing this at Fortune 500 companies.",
+    "founderBody1": "Global CRM and customer journeys at adidas. User journey expert at Heineken. $80M enterprise sales at DELL.",
     "founderBody2": "Rotterdam.",
     "faqHeadline": "Before you apply.",
     "faq": [
       {
-        "q": "How is this different from a productized service.",
-        "a": "A productized service sells a repeatable deliverable. The sprint rebuilds three connected things — the ICP, every surface the offer shows up on, and the sales call structure. The deliverable is a working conversion path, not a document."
+        "q": "Your case study is a coach. Why should I believe this works for my business?",
+        "a": [
+          "A career coach is the proof the mechanism runs end-to-end. Six booked calls in 21 days from zero LinkedIn pipeline. 28% reply rate on warm outreach. Connection acceptance from 5% to 30%. The loop closed.",
+          "What every version of the sprint inherits from that: positioning built from real client data, not personas. Content from lived moments, not tips. Outreach run by a trained operator, not the founder. Sales calls feeding back into the work while the sprint is still live.",
+          "What changes by business type: the sprint length, the outreach volume, the shape of the offer. A coach selling 1:1 packages and a consultancy selling a six-month engagement need different versions of the same machine.",
+          "Before building Journify I spent ten years on the other side of the table. Buying from agencies at adidas, Heineken, and DELL. Working with iProspect, Wunderman, and others. I know what gets a deal approved internally and what gets it dismissed after a good call."
+        ]
       },
       {
-        "q": "What you need from me during the twenty-one days.",
-        "a": "Two hours of founder time per week, across three working sessions. Read-access to the last ten sales call recordings. Edit-access to the site and LinkedIn. Everything outside those inputs happens on our side."
+        "q": "I've tried LinkedIn outreach before. Got nothing. Why would this be different?",
+        "a": [
+          "Because the outreach isn't the problem.",
+          "When LinkedIn doesn't work, it's usually one of three things. The profile doesn't hold up when a prospect checks it. The DM reads like a template. Or the list is wrong.",
+          "Most founders fix the DM. That doesn't fix anything if the profile and the list are still off.",
+          "The sprint starts with the offer. One expensive problem, one person it's for. Everything else gets built from there. The Sales Navigator filters, the messaging, the profile, all of it runs from that foundation. The right person receives a message, checks the profile, sees something that reads like their exact situation, and replies.",
+          "LinkedIn works when the foundation underneath it is right. Most of the time, it isn't."
+        ]
       },
       {
-        "q": "What happens if my ICP is wrong.",
-        "a": "Week one is built to catch that. If the ICP we surface in the roster pattern doesn't match who you thought you were selling to, week two rebuilds the surfaces around the real one. You don't leave with a rewritten site pointing at the wrong buyer."
+        "q": "Who actually runs the outreach? How do I know my LinkedIn reputation is safe?",
+        "a": [
+          "I run it on your account, with your credentials. Not from a Journify account. Not from a VA's profile. Yours.",
+          "Before anything goes out, the profile is rebuilt and the messaging is tested. The sequences, the Sales Navigator filters, the reply handling, all of that is managed by a trained operator working under my review. You see what goes out. Replies come to you.",
+          "Your reputation stays visible the whole time. Nothing happens in a black box."
+        ]
       },
       {
-        "q": "Whether this works if my pipeline is agency, consulting, or training.",
-        "a": "The sprint works on any B2B service business where the sale runs through a call and the prospect can stall at \"I need to think about it.\" Agency, consulting, advisory, training. What doesn't fit: e-commerce, SaaS self-serve, or anything that closes without a conversation."
-      },
-      {
-        "q": "What happens after the sprint.",
-        "a": "You own what we built. Site, offer, outreach copy, call structure — all yours, all documented, all repeatable by you or whoever picks this up next. No retainer, no upsell, no dependency. If the sale starts stalling again six months later, you'll know where to look."
+        "q": "What do I actually keep after 45 days if I don't continue?",
+        "a": [
+          "Everything from the sprint is yours.",
+          "The booked calls and new leads, first. Then the rewritten offer page. The rewritten LinkedIn profile. The content strategy. The sales call language. The outreach SOPs. The trained operator and the onboarding package to keep them running independently.",
+          "And the sales call learning mechanism. The part that updates the offer, the openers, and the next batch of outreach from real conversations. That's the piece you can keep applying long after the 45 days end.",
+          "What stops when the sprint ends is the outreach execution. The work doesn't run itself. If you want it to keep moving past day 45, there's a retainer. If you don't, you have a documented system you can hand to whoever picks it up next."
+        ]
       }
     ],
     "payoff": "If you've read this far, the next move is a fifteen-minute call.",
     "cta": {
       "label": "Apply for the sprint →",
-      "href": "https://cal.com/jeancarlohim/conversion-diagnostic"
+      "href": "https://cal.com/jeancarlohim/apply-for-thesprint"
     }
   }
 }

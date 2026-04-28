@@ -1,15 +1,7 @@
-/* journify.ai — S6 System diagram (self-running animation, no scroll trigger) */
+/* journify.ai — S6 wrapper. Renders new S6Homepage component (port of s6-final_2.html). */
 
-function S6({ data }) {
-  if (!data) return null;
-  return (
-    <Section id="s6" label="S6 System" width={1080}>
-      <h2 className="j-h2" style={{ maxWidth: 900, marginBottom: 48 }}>
-        {data.headline}
-      </h2>
-      <S6Diagram data={data} />
-    </Section>
-  );
+function S6() {
+  return <S6Homepage />;
 }
 
 Object.assign(window, { S6 });

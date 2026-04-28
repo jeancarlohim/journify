@@ -1,17 +1,20 @@
 /* journify.ai — Accordion component */
 
 function AccordionRow({ q, a, open, onToggle }) {
-  const bodyRef = React.useRef(null);
+  const items = Array.isArray(a) ? a : [a];
   return (
     <div className={`j-acc-row ${open ? 'is-open' : ''}`}>
       <button className="j-acc-head" type="button" onClick={onToggle} aria-expanded={open}>
         <span className="j-acc-title">{q}</span>
         <span className="j-acc-ind">{open ? '−' : '+'}</span>
       </button>
-      <div className="j-acc-body" ref={bodyRef}
-           style={{ maxHeight: open ? (bodyRef.current ? bodyRef.current.scrollHeight : 600) : 0 }}>
+      <div className="j-acc-body" style={{ maxHeight: open ? 2400 : 0 }}>
         <div className="j-acc-body-inner">
-          <p className="j-body">{parseInline(a)}</p>
+          {items.map((item, i) => (
+            <p key={i} className="j-body" style={{ marginTop: i === 0 ? 0 : 16 }}>
+              {parseInline(item)}
+            </p>
+          ))}
         </div>
       </div>
     </div>

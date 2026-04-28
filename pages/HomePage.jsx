@@ -1,6 +1,6 @@
-/* journify.ai — HomePage (composes S1–S8 + S6CaseStudyAnchor) */
+/* journify.ai — HomePage (S1, S2, S3, S4, S6, S7, S8). S5 retained but not rendered. */
 
-function HomePage({ devPhase }) {
+function HomePage() {
   const [content, setContent] = React.useState(null);
 
   React.useEffect(() => {
@@ -15,8 +15,7 @@ function HomePage({ devPhase }) {
       <S2 data={content.s2} />
       <S3 data={content.s3} />
       <S4 data={content.s4} />
-      <S6 devPhase={devPhase} data={content.s6} />
-      <S6CaseStudyAnchor data={content.s6Anchor} />
+      <S6 />
       <S7 data={content.s7} />
       <S8 data={content.s8} />
     </>

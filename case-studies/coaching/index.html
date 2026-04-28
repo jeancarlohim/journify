@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-  <title>journify.ai — homepage</title>
+  <title>journify.ai — 6 booked calls in 21 days · case study</title>
   <link rel="stylesheet" href="/styles/tokens.css" />
   <style>
     html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font-family: var(--sans); }
@@ -20,19 +20,6 @@
     }
     .j-nav-sticky.is-scrolled { border-bottom-color: var(--border); }
 
-    /* Dev scrubber (hidden unless ?dev=1) */
-    .j-devbar {
-      position: fixed; bottom: 16px; right: 16px; z-index: 100;
-      background: var(--bg); border: 0.5px dashed #1A1714;
-      padding: 10px 14px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
-      font-family: var(--sans); max-width: 460px;
-    }
-    .j-devbar button { font-family: var(--sans); font-size: 12px; padding: 4px 8px;
-      background: transparent; color: var(--text); border: 0.5px solid var(--text); cursor: pointer; border-radius: 0;
-    }
-    .j-devbar button.is-active { background: var(--text); color: var(--bg); }
-    .j-devbar-label { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-2); margin-right: 6px; }
-
     /* Mobile */
     @media (max-width: 768px) {
       .j-nav-links { display: none; }
@@ -43,19 +30,16 @@
       .j-h4 { font-size: 18px !important; }
       .j-body { font-size: 15px !important; }
       section { padding: 64px 24px !important; }
-      .j-s4-grid { grid-template-columns: 1fr !important; gap: 40px !important; }
+    }
 
-      /* Founder block: stack on mobile */
-      #s8 > div > div[style*="grid-template-columns"]:first-of-type {
-        grid-template-columns: 1fr !important;
-        gap: 32px !important;
-      }
-      .j-founder-logos {
-        gap: 24px !important;
-      }
-      .j-founder-logos img {
-        height: 20px !important;
-      }
+    /* Case study page — H1 sizing override for two-line headline */
+    #cs-s1 .j-h1 {
+      font-size: 46px;
+      line-height: 0.95;
+      letter-spacing: -0.025em;
+    }
+    @media (max-width: 768px) {
+      #cs-s1 .j-h1 { font-size: 32px; line-height: 1.0; }
     }
 
     /* keep the hamburger hidden on desktop */
@@ -86,29 +70,21 @@
 <body class="j-surface">
   <div id="root"></div>
   <script type="text/babel" src="/components/Section.jsx"></script>
-  <script type="text/babel" src="/components/Accordion.jsx"></script>
-  <script type="text/babel" src="/components/S6Homepage.jsx"></script>
+  <script type="text/babel" src="/components/Lightbox.jsx"></script>
   <script type="text/babel" src="/components/StickyNav.jsx"></script>
   <script type="text/babel" src="/components/MobileDrawer.jsx"></script>
   <script type="text/babel" src="/components/Footer.jsx"></script>
-  <script type="text/babel" src="/sections/S1.jsx"></script>
-  <script type="text/babel" src="/sections/S2.jsx"></script>
-  <script type="text/babel" src="/sections/S3.jsx"></script>
-  <script type="text/babel" src="/sections/S4.jsx"></script>
-  <script type="text/babel" src="/sections/S6.jsx"></script>
-  <script type="text/babel" src="/sections/S7.jsx"></script>
-  <script type="text/babel" src="/sections/S8.jsx"></script>
-  <script type="text/babel" src="/pages/HomePage.jsx"></script>
+  <script type="text/babel" src="/pages/CaseStudyPolly.jsx"></script>
   <script type="text/babel">
     function App() {
       const [drawerOpen, setDrawerOpen] = React.useState(false);
 
       return (
         <>
-          <StickyNav onOpenDrawer={() => setDrawerOpen(true)} ctaHref="https://cal.com/jeancarlohim/apply-for-thesprint" brandHref={null} />
+          <StickyNav onOpenDrawer={() => setDrawerOpen(true)} ctaHref="https://cal.com/jeancarlohim/apply-for-thesprint" brandHref="/" />
           <main>
             <div style={{ maxWidth: 1080, margin: '0 auto' }}>
-              <HomePage />
+              <CaseStudyPolly />
             </div>
           </main>
           <Footer />

@@ -4,20 +4,19 @@ function S1({ data }) {
   if (!data) return null;
   return (
     <Section id="s1" label="S1 Hero" width={1200} pt={140} pb={140}>
-      <div style={{ maxWidth: 900 }}>
-        <h1 className="j-h1" style={{ fontSize: 72, lineHeight: 1.02, letterSpacing: '-0.03em' }}>
-          "I need to think about it"
-        </h1>
-        <p className="j-h2" style={{ marginTop: 16, color: 'var(--text-2)', fontWeight: 400, letterSpacing: '-0.015em' }}>
-          is not an objection.
-        </p>
-      </div>
-      <p className="j-body" style={{ maxWidth: 520, marginTop: 32, color: 'var(--text)' }}>
-        {data.body}
-      </p>
-      <div style={{ display: 'flex', alignItems: 'center', gap: 28, marginTop: 40 }}>
-        <a className="j-cta j-cta--warm" href={data.ctaWarm.href}>{data.ctaWarm.label}</a>
-        {/* TODO: restore "Download the 1-pager" cold CTA when 1-pager PDF is ready */}
+      <h1 className="j-h1" style={{ maxWidth: 900 }}>
+        {data.headlinePart1}
+        <span style={{ color: 'var(--ox)' }}>{data.headlineEmphasis}</span>
+        {data.headlinePart2}
+        <br />
+        {data.headlineLine2}
+      </h1>
+      <p className="j-body" style={{ maxWidth: 720, marginTop: 32 }}>{data.bodyLine1}</p>
+      <p className="j-body" style={{ maxWidth: 720, marginTop: 8 }}>{data.bodyLine2}</p>
+      <p className="j-body" style={{ maxWidth: 720, marginTop: 8 }}>{data.bodyLine3}</p>
+      <div style={{ display: 'flex', alignItems: 'center', gap: 28, marginTop: 40, flexWrap: 'wrap' }}>
+        <a className="j-cta j-cta--warm" href={data.ctaPrimary.href}>{data.ctaPrimary.label}</a>
+        <a className="j-cta j-cta--cold" href={data.ctaSecondary.href}>{data.ctaSecondary.label}</a>
       </div>
     </Section>
   );

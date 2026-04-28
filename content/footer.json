@@ -2,12 +2,12 @@
   "brand": "journify",
   "navLinks": [
     { "label": "The sprint", "href": "/the-sprint" },
-    { "label": "Case study", "href": "/case-studies/polly" },
+    { "label": "Case study", "href": "/case-studies/coaching" },
     { "label": "About", "href": "/#s8" }
   ],
   "legalLinks": [
-    { "label": "Privacy", "href": "#" },
-    { "label": "Terms", "href": "#" }
+    { "label": "Privacy", "href": "/privacy" },
+    { "label": "Terms", "href": "/terms" }
   ],
   "contactLinks": [
     { "label": "LinkedIn", "href": "#" },

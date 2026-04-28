@@ -20,9 +20,21 @@ function StickyNav({ onOpenDrawer, ctaHref, brandHref }) {
     fetch('/content/nav.json').then(r => r.json()).then(setNavData);
   }, []);
 
+  const brandContent = (
+    <picture>
+      <source media="(max-width: 768px)" srcSet="/images/logos/journify-mark.svg" />
+      <img
+        src="/images/logos/journify-wordmark.svg"
+        alt="Journify"
+        className="j-brand-img"
+        style={{ display: 'block', width: 'auto' }}
+      />
+    </picture>
+  );
+
   const brand = brandHref
-    ? <a href={brandHref} className="j-nav-brand" style={{ textDecoration: 'none' }}>journify</a>
-    : <div className="j-nav-brand">journify</div>;
+    ? <a href={brandHref} className="j-nav-brand" style={{ textDecoration: 'none', display: 'inline-flex', alignItems: 'center' }}>{brandContent}</a>
+    : <div className="j-nav-brand" style={{ display: 'inline-flex', alignItems: 'center' }}>{brandContent}</div>;
 
   return (
     <div className={`j-nav-sticky ${scrolled ? 'is-scrolled' : ''}`}>

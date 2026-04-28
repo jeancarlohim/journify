@@ -1,0 +1,57 @@
+{
+  "meta": "Terms of Use",
+  "title": "Terms of Use",
+  "lastUpdated": "Last updated: 28 April 2026",
+  "intro": {
+    "bodyLine1": "These terms govern your use of journify.ai.",
+    "bodyLine2": "The terms of an actual sprint engagement are set out in a separate signed agreement, not on this page."
+  },
+  "sections": [
+    {
+      "heading": "Who we are",
+      "bodyLine1": "Journify is an eenmanszaak registered in the Netherlands.",
+      "bodyLine2": "KvK: 90923588",
+      "bodyLine3": "BTW: 61128435",
+      "bodyLine4": "Registered address: De Quackstraat 54B, 3082VV, Rotterdam, Netherlands",
+      "bodyLine5": "Contact: hello@journify.ai"
+    },
+    {
+      "heading": "Using this site",
+      "bodyLine1": "You may read, link to, and share content on this site.",
+      "bodyLine2": "You may not scrape, crawl, mirror, or systematically extract content for resale or redistribution.",
+      "bodyLine3": "You may not attempt to reverse engineer, copy, or replicate the systems described on this site for the purpose of selling them as your own."
+    },
+    {
+      "heading": "Intellectual property",
+      "bodyLine1": "All content on this site, including the writing, the system diagrams, the case study, and the underlying methodology, belongs to Journify.",
+      "bodyLine2": "You can quote short excerpts with attribution. Anything more requires written permission."
+    },
+    {
+      "heading": "Service engagements",
+      "bodyLine1": "This site describes a service called the 45-Day Sprint. Reading the site does not create a service agreement.",
+      "bodyLine2": "If you book a fit call and decide to work together, the terms of that engagement are set out in a separate signed agreement covering scope, deliverables, payment, and timelines.",
+      "bodyLine3": "These site terms do not override that agreement."
+    },
+    {
+      "heading": "No guarantees",
+      "bodyLine1": "The site describes outcomes from past work. It does not promise specific outcomes for future engagements.",
+      "bodyLine2": "Reading the site, downloading anything from it, or booking a call does not guarantee any business result for you.",
+      "bodyLine3": "What we promise contractually is set out in a signed engagement agreement, not here."
+    },
+    {
+      "heading": "Liability",
+      "bodyLine1": "We're not liable for indirect, consequential, or incidental losses arising from your use of this site.",
+      "bodyLine2": "If you act on information from the site without a signed agreement, you do so at your own risk."
+    },
+    {
+      "heading": "Governing law",
+      "bodyLine1": "These terms are governed by the laws of the Netherlands.",
+      "bodyLine2": "Any disputes will be resolved in the courts of Rotterdam."
+    },
+    {
+      "heading": "Changes to these terms",
+      "bodyLine1": "If these terms change, the \"last updated\" date at the top of the page will reflect the change.",
+      "bodyLine2": "Continued use of the site after changes are posted constitutes acceptance of the new terms."
+    }
+  ]
+}

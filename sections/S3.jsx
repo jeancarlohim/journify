@@ -1,4 +1,4 @@
-/* journify.ai — S3 Diagnosis (accordion) */
+/* journify.ai — S3 Diagnosis (accordion, 3 rows) */
 
 function S3({ data }) {
   if (!data) return null;

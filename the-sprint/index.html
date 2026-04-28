@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <title>journify.ai — the 45-day sprint</title>
   <link rel="stylesheet" href="/styles/tokens.css" />
   <style>
@@ -29,11 +30,9 @@
       .j-h4 { font-size: 18px !important; }
       .j-body { font-size: 15px !important; }
       section { padding: 64px 24px !important; }
-      /* collapse multi-col grids on mobile */
-      #s3 > div > div[style*="grid-template-columns"],
-      #s4 > div > div[style*="grid-template-columns"],
-      #s5 > div > div[style*="grid-template-columns"],
-      #s6 > div > div[style*="grid-template-columns"] {
+    }
+    @media (max-width: 768px) {
+      .j-s5-grid {
         grid-template-columns: 1fr !important;
         gap: 40px !important;
       }
@@ -78,14 +77,14 @@
 
       return (
         <>
-          <StickyNav onOpenDrawer={() => setDrawerOpen(true)} ctaHref="#s9" brandHref="/" />
+          <StickyNav onOpenDrawer={() => setDrawerOpen(true)} ctaHref="https://cal.com/jeancarlohim/apply-for-thesprint" brandHref="/" />
           <main>
-            <div style={{ maxWidth: 1200, margin: '0 auto' }}>
+            <div style={{ maxWidth: 1080, margin: '0 auto' }}>
               <TheSprintPage />
             </div>
           </main>
           <Footer />
-          <MobileDrawer open={drawerOpen} onClose={() => setDrawerOpen(false)} ctaHref="#s9" />
+          <MobileDrawer open={drawerOpen} onClose={() => setDrawerOpen(false)} ctaHref="https://cal.com/jeancarlohim/apply-for-thesprint" />
         </>
       );
     }

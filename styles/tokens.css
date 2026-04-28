@@ -215,3 +215,12 @@
 .j-s6 svg { display: block; margin: 0 auto; }
 .j-s6-payoff { margin-top: 20px; }
 .j-s6-link { margin-top: 8px; display: inline-block; }
+
+/* Brand image sizing */
+.j-brand-img { height: 24px; }
+.j-brand-img-footer { height: 18px; }
+
+@media (max-width: 768px) {
+  .j-brand-img { height: 28px; }
+  .j-brand-img-footer { height: 22px; }
+}

@@ -1,0 +1,116 @@
+{
+  "meta": "Case study · The mechanism, run end-to-end",
+  "headline": "6 booked calls in 21 days. From an empty LinkedIn profile.",
+  "intro": {
+    "body1": "**P. van der M. S.** runs a coaching practice in the Netherlands. Solo operator. Sells 1:1 engagements. Closes through sales calls.",
+    "body2": "Before this sprint, she had no posting history, no outreach motion, and no funnel. Pipeline ran on referrals, which meant good months followed by empty ones, and a calendar she couldn't predict.",
+    "body3": "The few calls she did get took thirty minutes to explain what she actually did. And by the time she got to pricing, the prospect was already half-checked-out. The calls weren't where it was going wrong. Nothing was feeding them.",
+    "body4": "Twenty-one days later, she had six booked sales calls from LinkedIn, a 28% reply rate on warm outreach, and connection-request acceptance running above 30%. None of the six came from the network she already had."
+  },
+  "honestNote": {
+    "heading": "One thing before you read on",
+    "paragraphs": [
+      "P. is a coach. You might be a consultant, an agency, or a founder selling something else through sales calls. The shape of the work is different. The shape of the problem isn't.",
+      "What's on this page is the mechanism, run end-to-end with one person. Your numbers will be different. Your sales cycle will be different. Your offer will be different. The loop that makes the whole thing work is the same.",
+      "That's why this case study is here. Not because P. is you. Because the engine that booked her six calls is the same engine you'd be turning on in your own business."
+    ]
+  },
+  "whatWasBroken": {
+    "heading": "What was broken",
+    "intro": "Five things, all of them normal, all of them working against her.",
+    "body1": "Her LinkedIn profile was built around her day role as an HR Business Partner. Nothing on it pointed at the coaching work she was trying to book calls for.",
+    "body2": "No posting history. No outreach motion. No cold system to lean on.",
+    "body3": "She had one core coaching offer, but it was pointed at too many kinds of buyers. Around it sat a menu of services. CV rewrites, interview practice, job search support. Useful, but it made \"what does P. actually do\" harder to answer, not easier.",
+    "body4": "And the leads that had carried her this far were running out. Referrals had plateaued, the network had been tapped, and there was no system bringing new prospects in on a cadence she could plan around. Some months a few calls. Other months, nothing.",
+    "body5": "The calls she did get were a mixed bag. Some closed. The ones that didn't ended in \"I need to think about it\" and went quiet. But those were the calls we needed. They told us who P. should have been selling to, what they wanted to hear, and where the offer was bending in the wrong direction.",
+    "body6": "So the real problem wasn't the calls. It was that she had no predictable way to get in front of the right people. What she wanted was a system she could repeat. One that didn't eat her week, brought prospects in on a cadence, and pointed them at one clear thing instead of a menu. That's what we built.",
+    "image": {
+      "src": "/images/s6-before.png",
+      "alt": "Before the sprint: one offer trying to be everything to everyone, no system bringing leads in.",
+      "caption": "The stack before the sprint. One offer trying to be everything to everyone. No system bringing leads in. The calls she got were a coin flip."
+    }
+  },
+  "whatWeActuallyDid": {
+    "heading": "What we actually did",
+    "intro": "The work sat in three places. Then one thing connected them.",
+    "pillars": [
+      {
+        "heading": "What she offers",
+        "paragraphs": [
+          "We didn't start with content. We started with her past clients.",
+          "The proposals that closed. The ones that went quiet. The recordings of the calls where prospects said \"I need to think about it.\" We read across all of it looking for one pattern: who was P. actually best at helping, and what did those people need to hear before they bought.",
+          "What came out wasn't a persona. It was a real buyer type, pulled from real conversations. Senior professionals at a career inflection point. Stuck in a role they'd outgrown, unsure what came next, and tired of generic career advice that didn't fit their level.",
+          "We rebuilt the offer around that one buyer. The menu of services around it stayed available, but stopped being the front door. The front door became one thing, named clearly, for one kind of person."
+        ]
+      },
+      {
+        "heading": "What she says",
+        "paragraphs": [
+          "Every surface a buyer would touch got rewritten around the same person.",
+          "The LinkedIn profile, first. Headline that named who she helped. About section in her voice, not the \"we\" voice most profiles default to. Banner, featured section, every detail pointing at the same buyer.",
+          "Then fourteen posts in her voice. Not tips. Not theory. Moments. Specific scenes from conversations with candidates, hiring managers, clients who'd called her in crisis. The first line of each post named the moment. No coaching vocabulary. No framework labels.",
+          "The strongest three posts did between 1,700 and 3,300 impressions each from a profile that hadn't posted before. One of them produced 10+ comments, three saves, and two profile-to-DM conversions in the first week.",
+          "The posts weren't built for reach. They were built so that when a prospect got a DM and clicked through to her profile, the first thing they read sounded exactly like their situation. That's what made them reply."
+        ]
+      },
+      {
+        "heading": "How she sold",
+        "paragraphs": [
+          "Outreach ran daily, on her LinkedIn, with her name on it.",
+          "A trained operator I'd onboarded handled the operational layer. Lead list building, connection requests, first messages, follow-ups, CRM updates. P. only stepped in once a lead qualified.",
+          "Over 21 days: 220 cold connection requests, 127 warm outreach touches across dormant contacts and former clients, 45 cold DMs once connections came back accepted.",
+          "Warm outreach replied at 28%. Cold connection acceptance climbed from 5% to over 30% within two weeks once the profile and request messaging were locked in. Fourteen cold DMs produced replies. Six of those, plus replies from warm outreach and inbound from content, turned into booked sales calls on her calendar.",
+          "At the end of the 21 days, P. got the full operator hiring and training package. Job description, screening rubric, onboarding sequence, SOPs. So she could keep the system running with her own person, without rebuilding it from scratch. The system goes with her."
+        ]
+      }
+    ],
+    "loop": {
+      "heading": "The loop that made the three connect",
+      "paragraphs": [
+        "The three pieces above weren't built once and left alone. Every call P. took was a new input.",
+        "She recorded her sales calls. I listened to them and pulled patterns. The objections that kept showing up. The language prospects used for their own problem. The parts of her pitch that landed and the parts that reset the conversation from zero.",
+        "Twenty-one days is the start of that loop, not its full expression. The intel was captured. The patterns were named. What 21 days proved was that the loop runs. What 45 days proves, on the longer version of the sprint, is what happens when it runs long enough to do real work. The offer gets clearer. The openers land more often. Posts get written from real call language, not from guesses.",
+        "Honest version: this part is manual. A human reviewer doing the listening, because the model that does it doesn't exist yet. The automated version is what shipped, and what ships today."
+      ]
+    },
+    "image": {
+      "src": "/images/s6-during.png",
+      "alt": "Mid-sprint state: one offer in market, LinkedIn active, first booked calls arriving.",
+      "caption": "Mid-sprint. One offer in market. LinkedIn active. First booked calls landing."
+    }
+  },
+  "numbers": {
+    "heading": "The numbers",
+    "rows": [
+      { "before": "0 booked calls from LinkedIn", "after": "6 booked calls" },
+      { "before": "No posting history", "after": "~16,000 impressions, ~6,900 reach" },
+      { "before": "No content-driven leads", "after": "6 inbound leads from posts" },
+      { "before": "5% connection acceptance", "after": "30%+ connection acceptance" },
+      { "before": "No warm outreach system", "after": "127 touches, 35 replies (28%)" },
+      { "before": "No funnel tracking", "after": "Full funnel tracked end-to-end" }
+    ],
+    "body": "Six booked calls is the headline. The other numbers are there because they show what was happening underneath. The system was running. The signals lined up. The calls didn't show up by accident.",
+    "trackerImage": {
+      "src": "/images/sprint-tracker.png",
+      "alt": "Daily log of the 21-day sprint showing connection requests, acceptance, conversations, replies, and follow-ups.",
+      "caption": "Daily log. Connection requests, acceptance, conversations, replies, follow-ups, first replies."
+    }
+  },
+  "whatThisMeansForYou": {
+    "heading": "What this means for you",
+    "body1": "You're not P. You might run an agency, a consultancy, a training business, or a coaching practice that looks nothing like hers. Your numbers will be different. Your sales cycle will be different. Your offer will be different.",
+    "body2": "What stays the same is the engine. One offer, named clearly. Surfaces that all point at the same buyer. Outreach run as a system, not a guessing game. Sales calls that feed the next week's work instead of being the place trust gets built from scratch.",
+    "body3": "The promise on the sprint is meetings, not closed deals. 5 to 10 booked qualified meetings if you have a warm network to work from. 3 to 5 if you're fully cold. If we don't hit that by day 45, I keep going. The outreach keeps running. I keep writing the posts. We keep reviewing the calls until the meetings show up.",
+    "body4": "That's the work. The case study above is what it looks like when it runs.",
+    "image": {
+      "src": "/images/s6-after.png",
+      "alt": "After 21 days: one offer in market, outreach tracked, content pulling its weight, sales calls landing on the calendar.",
+      "caption": "After 21 days. One offer in market. Outreach tracked. Content pulling its weight. Sales calls landing on a calendar that wasn't there before."
+    },
+    "cta": {
+      "label": "Apply for the sprint →",
+      "href": "https://cal.com/jeancarlohim/apply-for-thesprint"
+    }
+  },
+  "footerMeta": "P.'s sprint ran in March 2026. All numbers on this page are from her own LinkedIn analytics and sprint tracker. Screenshots and raw data available on the fit call."
+}

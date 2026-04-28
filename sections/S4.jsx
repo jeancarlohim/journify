@@ -1,24 +1,23 @@
-/* journify.ai — S4 Three columns */
+/* journify.ai — S4 The Work (3 columns, multi-paragraph + section closer) */
 
 function S4({ data }) {
   if (!data) return null;
   return (
-    <Section id="s4" label="S4 Three columns" width={1080}>
+    <Section id="s4" label="S4 The Work" width={1080}>
       <h2 className="j-h2">{data.headline}</h2>
       <div className="j-s4-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 48, marginTop: 48 }}>
         {data.cols.map((c, i) => (
-          <div key={i} style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+          <div key={i}>
             <h3 className="j-h3">{c.h}</h3>
-            <p className="j-body">{c.body}</p>
-            <div style={{ marginTop: 8 }}>
-              <p className="j-small" style={{ color: 'var(--text-2)', fontStyle: 'italic', marginBottom: 6 }}>Fixes:</p>
-              {c.fixes.map((f, j) => (
-                <p key={j} className="j-small" style={{ color: 'var(--text-2)', fontStyle: 'italic', marginBottom: 4 }}>
-                  {c.fixes.length > 1 ? '— ' : ''}{f}
-                </p>
-              ))}
-            </div>
+            {c.bodies.map((b, j) => (
+              <p key={j} className="j-body" style={{ marginTop: j === 0 ? 24 : 16 }}>{b}</p>
+            ))}
           </div>
+        ))}
+      </div>
+      <div style={{ marginTop: 64, maxWidth: 900 }}>
+        {data.closer.map((p, i) => (
+          <p key={i} className="j-body" style={{ marginTop: i === 0 ? 0 : 24 }}>{p}</p>
         ))}
       </div>
     </Section>

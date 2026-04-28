@@ -1,11 +1,23 @@
 /* journify.ai — S6Diagram (Before/During/After cycling animation) */
 
-function S6Diagram({ data }) {
-  const linkHref = (data && data.link && data.link.href) ? data.link.href : '/case-studies/polly';
-  const linkLabel = (data && data.link && data.link.label) ? data.link.label : 'Read how it works →';
+function S6Diagram({ data, phase }) {
+  const linkHref = (data && data.link && data.link.href) ? data.link.href : '/case-studies/coaching';
+  const linkLabel = (data && data.link && data.link.label) ? data.link.label : 'Read how it actually ran →';
+  const frozen = phase === 'F';
 
   return (
-    <div style={{ background: 'var(--bg)', padding: '4.5rem 2.5rem', border: '0.5px solid var(--border)' }}>
+    <div className={frozen ? 'j-s6-phase-F' : ''} style={{ background: 'var(--bg)', padding: '4.5rem 2.5rem', border: '0.5px solid var(--border)' }}>
+      <style>{`
+        .j-s6-phase-F .j-s6-st1, .j-s6-phase-F .j-s6-st2,
+        .j-s6-phase-F .j-s6-tag1, .j-s6-phase-F .j-s6-tag2,
+        .j-s6-phase-F .j-s6-offer-dim, .j-s6-phase-F .j-s6-offer-box { animation: none !important; opacity: 0 !important; }
+        .j-s6-phase-F .j-s6-st3, .j-s6-phase-F .j-s6-tag3 { animation: none !important; opacity: 1 !important; }
+        .j-s6-phase-F .j-s6-dot1, .j-s6-phase-F .j-s6-dot2 { animation: none !important; background: #C0BBB0 !important; transform: scale(1) !important; }
+        .j-s6-phase-F .j-s6-dot3 { animation: none !important; background: #7A1A2A !important; transform: scale(1.3) !important; }
+        .j-s6-phase-F .j-s6-lbl1, .j-s6-phase-F .j-s6-lbl2 { animation: none !important; color: #8A8478 !important; font-weight: 400 !important; }
+        .j-s6-phase-F .j-s6-lbl3 { animation: none !important; color: #1A1714 !important; font-weight: 500 !important; }
+        .j-s6-phase-F .j-s6-arc { animation: none !important; opacity: 0.85 !important; stroke-dashoffset: 0 !important; }
+      `}</style>
       <style>{`
         @keyframes j-fade1 { 0%, 28% { opacity: 1; } 33%, 94% { opacity: 0; } 100% { opacity: 1; } }
         @keyframes j-fade2 { 0%, 28% { opacity: 0; } 33%, 61% { opacity: 1; } 66%, 100% { opacity: 0; } }
