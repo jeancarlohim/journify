@@ -17,7 +17,7 @@ function CaseStudyPolly() {
       <Section id="cs-s1" label="CS S1 Header" width={1080} pt={80} pb={80}>
         <p className="j-meta">{d.meta}</p>
         <h1 className="j-h1" style={{ marginTop: 24 }}>
-          6 booked calls in 21 days. From an <span style={{ color: 'var(--ox)' }}>empty</span> LinkedIn profile.
+          6 booked calls in 21 days.<br />From an <span style={{ color: 'var(--ox)' }}>empty</span> LinkedIn profile.
         </h1>
         <p className="j-body" style={{ maxWidth: 720, marginTop: 32 }}>{parseInline(d.intro.body1)}</p>
         <p className="j-body" style={{ maxWidth: 720, marginTop: 24 }}>{d.intro.body2}</p>

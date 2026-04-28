@@ -14,10 +14,11 @@ function TheSprintPage() {
       {/* s1: Hero */}
       <Section id="s1" label="SP S1 Hero" width={1080} pt={140} pb={80}>
         <p className="j-meta">{d.s1.meta}</p>
-        <h1 className="j-h1" style={{ maxWidth: 900, marginTop: 16 }}>
-          {d.s1.headlinePart1}
+        <h1 className="j-h1" style={{ marginTop: 16 }}>
+          {d.s1.headlineLine1}<br />
+          {d.s1.headlineLine2Pre}
           <span style={{ color: 'var(--ox)' }}>{d.s1.headlineEmphasis}</span>
-          {d.s1.headlinePart2}
+          {d.s1.headlineLine2Post}
         </h1>
         <p className="j-body" style={{ maxWidth: 600, marginTop: 32 }}>{d.s1.bodyLine1}</p>
         <p className="j-body" style={{ maxWidth: 600, marginTop: 8 }}>{d.s1.bodyLine2}</p>
