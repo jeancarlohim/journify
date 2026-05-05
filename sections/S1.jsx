@@ -11,8 +11,9 @@ function S1({ data }) {
             <br className="j-s1-br" />
             {' prospects don\'t say'}
             <br className="j-s1-br" />
+            <br className="j-s1-br-mobile" />
             {' "I need to '}
-            <em style={{ color: 'var(--ox)', fontStyle: 'italic' }}>think</em>
+            <span style={{ color: 'var(--ox)' }}>think</span>
             {' about it"'}
           </h1>
           <p className="j-body j-s1-sub" style={{ marginTop: 32 }}>{data.subline}</p>
