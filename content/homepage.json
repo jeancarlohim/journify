@@ -1,12 +1,6 @@
 {
   "s1": {
-    "headlinePart1": "\"I need to ",
-    "headlineEmphasis": "think",
-    "headlinePart2": " about it\"",
-    "headlineLine2": "is not an objection.",
-    "bodyLine1": "Three things show up on the sales call: what you offer, what you say, how you sell.",
-    "bodyLine2": "We fix all three in a 45-day sprint that learns from your sales calls.",
-    "bodyLine3": "For solo or small-team service businesses that close through calls.",
+    "subline": "For founder-led service businesses that close through sales calls. In 45 days, on LinkedIn.",
     "ctaPrimary": {
       "label": "Apply for the sprint →",
       "href": "https://cal.com/jeancarlohim/apply-for-thesprint"
@@ -17,7 +11,7 @@
     }
   },
   "s2": {
-    "headline": "And your prospects are already telling you…",
+    "headline": "\"I need to think about it\" shows up in many ways.",
     "quotes": [
       { "q": "\"Can you send me a proposal so I'll get *right* back to you.\"", "a": "And they never do." },
       { "q": "\"Let me discuss this with my partner.\"", "a": "But you don't hear from them." },

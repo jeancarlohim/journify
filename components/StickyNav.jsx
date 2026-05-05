@@ -21,15 +21,12 @@ function StickyNav({ onOpenDrawer, ctaHref, brandHref }) {
   }, []);
 
   const brandContent = (
-    <picture>
-      <source media="(max-width: 768px)" srcSet="/images/logos/journify-mark.svg" />
-      <img
-        src="/images/logos/journify-wordmark.svg"
-        alt="Journify"
-        className="j-brand-img"
-        style={{ display: 'block', width: 'auto' }}
-      />
-    </picture>
+    <img
+      src="/images/logos/journify-wordmark.svg"
+      alt="Journify"
+      className="j-brand-img"
+      style={{ display: 'block', width: 'auto' }}
+    />
   );
 
   const brand = brandHref

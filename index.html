@@ -52,8 +52,15 @@
     .j-devbar button.is-active { background: var(--text); color: var(--bg); }
     .j-devbar-label { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-2); margin-right: 6px; }
 
+    /* S1 hero block centering (desktop) */
+    .j-s1-block { text-align: center; }
+    .j-s1-inner { display: inline-block; text-align: left; max-width: 100%; }
+
     /* Mobile */
     @media (max-width: 768px) {
+      .j-s1-block { text-align: left; }
+      .j-s1-inner { display: block; }
+      .j-s1-br { display: none; }
       .j-nav-links { display: none; }
       .j-nav { padding: 0 24px; height: 56px; }
       .j-h1 { font-size: 34px !important; letter-spacing: -0.025em; }

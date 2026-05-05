@@ -19,15 +19,12 @@ function Footer() {
       <div style={{ maxWidth: 1200, margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 48 }}>
         <div>
           <div className="j-nav-brand" style={{ display: 'inline-flex', alignItems: 'center' }}>
-            <picture>
-              <source media="(max-width: 768px)" srcSet="/images/logos/journify-mark.svg" />
-              <img
-                src="/images/logos/journify-wordmark.svg"
-                alt="Journify"
-                className="j-brand-img-footer"
-                style={{ display: 'block', width: 'auto' }}
-              />
-            </picture>
+            <img
+              src="/images/logos/journify-wordmark.svg"
+              alt="Journify"
+              className="j-brand-img-footer"
+              style={{ display: 'block', width: 'auto' }}
+            />
           </div>
         </div>
         <div style={{ display: 'flex', flexDirection: 'column', gap: 16, alignItems: 'flex-start' }}>
