@@ -7,9 +7,13 @@ function S1({ data }) {
       <div className="j-s1-block">
         <div className="j-s1-inner">
           <h1 className="j-h1 j-s1-h1">
-            Book 3-5 sales calls where<br className="j-s1-br" />
-            {' '}prospects don't say<br className="j-s1-br" />
-            {' '}"I need to <em style={{ color: 'var(--ox)', fontStyle: 'italic' }}>think</em> about it"
+            {'Book 3-5 sales calls where'}
+            <br className="j-s1-br" />
+            {' prospects don\'t say'}
+            <br className="j-s1-br" />
+            {' "I need to '}
+            <em style={{ color: 'var(--ox)', fontStyle: 'italic' }}>think</em>
+            {' about it"'}
           </h1>
           <p className="j-body j-s1-sub" style={{ marginTop: 32 }}>{data.subline}</p>
           <div className="j-s1-ctas" style={{ display: 'flex', alignItems: 'center', gap: 28, marginTop: 40, flexWrap: 'wrap' }}>
