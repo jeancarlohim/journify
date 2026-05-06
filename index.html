@@ -73,13 +73,14 @@
       color: var(--ox);
     }
 
-    /* Numerals inside Fraunces H1 — render in Inter for legibility */
+    /* Numerals inside Fraunces H1 — keep family, push weight to 700 for legibility */
     .j-h1 .j-num {
-      font-family: var(--sans);
-      font-weight: 500;
-      font-size: 0.88em;
-      letter-spacing: -0.04em;
+      font-weight: 700;
+      letter-spacing: -0.02em;
     }
+
+    /* Auto-balance H1 line lengths so the wedge phrase stays intact */
+    .j-h1 { text-wrap: balance; }
 
     /* Proof block */
     .j-proof-grid {
