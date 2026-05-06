@@ -515,8 +515,12 @@ function S6Homepage() {
       `}</style>
 
       <div className="s6h-head">
-        <h2>This is how the Journify Sprint works.</h2>
-        <p>Here's what changes across 45 days.</p>
+        <h2>How it works.</h2>
+        <p>
+          We use <span style={{ color: 'var(--ox)', fontWeight: 500 }}>AI</span>{' '}
+          to learn from your sales call recordings. Then we improve your offer,
+          your content, and the way you sell. In 45 days.
+        </p>
       </div>
 
       <div className="s6h-frame" ref={frameRef}>

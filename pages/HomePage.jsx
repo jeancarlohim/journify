@@ -14,6 +14,7 @@ function HomePage() {
       <S1 data={content.s1} />
       <S2 data={content.s2} />
       <S3 data={content.s3} />
+      <ProofBlock />
       <S4 data={content.s4} />
       <S6 />
       <S7 data={content.s7} />

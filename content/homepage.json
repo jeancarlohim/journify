@@ -1,6 +1,7 @@
 {
   "s1": {
-    "subline": "For founder-led service businesses that close through sales calls. In 45 days, on LinkedIn.",
+    "audience": "For agencies and B2B service providers.",
+    "subline": "A 45-day done-for-you sprint. On LinkedIn.",
     "ctaPrimary": {
       "label": "Apply for the sprint →",
       "href": "https://cal.com/jeancarlohim/apply-for-thesprint"
@@ -20,7 +21,7 @@
     ]
   },
   "s3": {
-    "headline": "The sale broke in 3 places, and you kinda know.",
+    "headline": "The deal broke in 3 places. Your recordings show us which ones.",
     "rows": [
       {
         "q": "\"You're for everyone. So the right person can't find you.\"",

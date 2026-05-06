@@ -52,17 +52,64 @@
     .j-devbar button.is-active { background: var(--text); color: var(--bg); }
     .j-devbar-label { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-2); margin-right: 6px; }
 
-    /* S1 hero block centering (desktop) */
-    .j-s1-block { display: flex; justify-content: center; }
-    .j-s1-inner { max-width: 900px; }
-    .j-s1-br-mobile { display: none; }
+    /* S1 hero block (left-aligned, max 720px to fit H1 line 2) */
+    .j-s1-block { display: block; }
+    .j-s1-inner { max-width: 720px; }
+    .j-s1-audience { margin: 0 0 16px; }
+
+    /* Desktop-only forced line breaks */
+    .dt-only { display: none; }
+    @media (min-width: 768px) { .dt-only { display: inline; } }
+
+    /* Lining + tabular nums on every H1/H2 (Fraunces 3/5 height fix) */
+    .j-h1, .j-h2 { font-variant-numeric: lining-nums tabular-nums; }
+
+    /* Proof block */
+    .j-proof-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 32px;
+      margin-top: 40px;
+    }
+    .j-proof-stat {
+      border-left: 2px solid var(--ox);
+      padding-left: 20px;
+    }
+    .j-proof-num {
+      font-family: var(--serif);
+      font-weight: 600;
+      font-variation-settings: 'opsz' 144;
+      font-variant-numeric: lining-nums tabular-nums;
+      font-size: 56px;
+      line-height: 1;
+      color: var(--text);
+    }
+    .j-proof-label {
+      font-family: var(--sans);
+      font-size: 13px;
+      color: #555;
+      margin-top: 8px;
+    }
+    .j-proof-link {
+      font-family: var(--sans);
+      font-size: 14px;
+      color: var(--text);
+      text-decoration: underline;
+      text-decoration-color: rgba(122, 26, 42, 0.5);
+      text-underline-offset: 4px;
+    }
+    @media (max-width: 768px) {
+      .j-proof-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+      .j-proof-stat { padding-left: 16px; }
+      .j-proof-num { font-size: 44px; }
+    }
 
     /* Mobile */
     @media (max-width: 768px) {
-      .j-s1-block { display: block; }
       .j-s1-inner { max-width: none; }
-      .j-s1-br { display: none; }
-      .j-s1-br-mobile { display: inline; }
       .j-nav-links { display: none; }
       .j-nav { padding: 0 24px; height: 56px; }
       .j-h1 { font-size: 34px !important; letter-spacing: -0.025em; }
@@ -116,6 +163,7 @@
   <script type="text/babel" src="/components/Section.jsx"></script>
   <script type="text/babel" src="/components/Accordion.jsx"></script>
   <script type="text/babel" src="/components/S6Homepage.jsx"></script>
+  <script type="text/babel" src="/components/ProofBlock.jsx"></script>
   <script type="text/babel" src="/components/StickyNav.jsx"></script>
   <script type="text/babel" src="/components/MobileDrawer.jsx"></script>
   <script type="text/babel" src="/components/Footer.jsx"></script>
