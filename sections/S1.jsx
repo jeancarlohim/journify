@@ -10,7 +10,7 @@ function S1({ data }) {
             <p className="j-meta j-s1-audience">{data.audience}</p>
           )}
           <h1 className="j-h1 j-s1-h1">
-            {'Book 3-5 qualified meetings'}
+            {'Book '}<span className="j-num">3-5</span>{' qualified meetings'}
             <br className="dt-only" />
             {' without the "I need to '}
             <em className="think">think</em>
