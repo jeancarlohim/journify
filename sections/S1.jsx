@@ -12,9 +12,9 @@ function S1({ data }) {
           <h1 className="j-h1 j-s1-h1">
             {'Book qualified meetings'}
             <br className="dt-only" />
-            {' without the "I need to '}
+            {' without the "I need to '}
             <em className="think">think</em>
-            {' about it"'}
+            {' about it"'}
             <br className="dt-only" />
             {' using sales call recordings.'}
           </h1>
