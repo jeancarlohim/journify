@@ -13,7 +13,7 @@ function S1({ data }) {
             {'Book 3-5 qualified meetings'}
             <br className="dt-only" />
             {' without the "I need to '}
-            <span style={{ color: 'var(--ox)', fontStyle: 'italic' }}>think</span>
+            <em className="think">think</em>
             {' about it"'}
             <br className="dt-only" />
             {' using your sales call recordings.'}

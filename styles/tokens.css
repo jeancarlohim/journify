@@ -1,7 +1,6 @@
 /* journify.ai — design tokens, locked per spec */
 
-/* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500&display=swap');
+/* Fonts loaded via <link> in index.html (variable-axis Fraunces + Inter) */
 
 :root {
   /* Core palette */

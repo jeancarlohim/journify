@@ -24,6 +24,9 @@
   <meta name="twitter:title" content="&quot;I need to think about it&quot; is not an objection." />
   <meta name="twitter:description" content="A 45-day sprint for solo and small-team service businesses losing qualified deals at the close." />
   <meta name="twitter:image" content="https://journify.ai/images/og-home.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=Inter:wght@400..600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/styles/tokens.css" />
   <style>
     html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font-family: var(--sans); }
@@ -52,17 +55,24 @@
     .j-devbar button.is-active { background: var(--text); color: var(--bg); }
     .j-devbar-label { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-2); margin-right: 6px; }
 
-    /* S1 hero block (left-aligned, max 720px to fit H1 line 2) */
+    /* S1 hero block (left-aligned, max 800px to fit H1 line 2) */
     .j-s1-block { display: block; }
-    .j-s1-inner { max-width: 720px; }
+    .j-s1-inner { max-width: 800px; }
     .j-s1-audience { margin: 0 0 16px; }
 
     /* Desktop-only forced line breaks */
     .dt-only { display: none; }
     @media (min-width: 768px) { .dt-only { display: inline; } }
 
-    /* Lining + tabular nums on every H1/H2 (Fraunces 3/5 height fix) */
-    .j-h1, .j-h2 { font-variant-numeric: lining-nums tabular-nums; }
+    /* Fraunces numeral fix: lining + tabular + ss01 via OpenType features */
+    .j-h1, .j-h2 { font-feature-settings: "lnum" 1, "tnum" 1, "ss01" 1; }
+
+    /* Italic emphasis inside H1 — drop inherited 600 to 400 so italics read as emphasis, not bold */
+    .j-h1 .think {
+      font-style: italic;
+      font-weight: 400;
+      color: var(--ox);
+    }
 
     /* Proof block */
     .j-proof-grid {
@@ -79,7 +89,7 @@
       font-family: var(--serif);
       font-weight: 600;
       font-variation-settings: 'opsz' 144;
-      font-variant-numeric: lining-nums tabular-nums;
+      font-feature-settings: "lnum" 1, "tnum" 1, "ss01" 1;
       font-size: 56px;
       line-height: 1;
       color: var(--text);
