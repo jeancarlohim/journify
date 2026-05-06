@@ -18,8 +18,8 @@ function S1({ data }) {
             <br className="dt-only" />
             {' using your sales call recordings.'}
           </h1>
-          <p className="j-body j-s1-sub" style={{ marginTop: 24 }}>{data.subline}</p>
-          <div className="j-s1-ctas" style={{ display: 'flex', alignItems: 'center', gap: 28, marginTop: 40, flexWrap: 'wrap' }}>
+          <p className="j-body j-s1-sub" style={{ marginTop: 32 }}>{data.subline}</p>
+          <div className="j-s1-ctas" style={{ display: 'flex', alignItems: 'center', gap: 36, marginTop: 40, flexWrap: 'wrap' }}>
             <a className="j-cta j-cta--warm" href={data.ctaPrimary.href}>{data.ctaPrimary.label}</a>
             <a className="j-cta j-cta--cold" href={data.ctaSecondary.href}>{data.ctaSecondary.label}</a>
           </div>
