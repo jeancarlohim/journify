@@ -79,7 +79,8 @@
       letter-spacing: -0.02em;
     }
 
-    /* Auto-balance H1 line lengths on desktop only — mobile fills naturally */
+    /* H1 wrap: pretty on mobile (orphan/widow avoidance), balance on desktop */
+    .j-h1 { text-wrap: pretty; }
     @media (min-width: 768px) {
       .j-h1 { text-wrap: balance; }
     }
