@@ -79,8 +79,10 @@
       letter-spacing: -0.02em;
     }
 
-    /* Auto-balance H1 line lengths so the wedge phrase stays intact */
-    .j-h1 { text-wrap: balance; }
+    /* Auto-balance H1 line lengths on desktop only — mobile fills naturally */
+    @media (min-width: 768px) {
+      .j-h1 { text-wrap: balance; }
+    }
 
     /* Proof block */
     .j-proof-grid {
