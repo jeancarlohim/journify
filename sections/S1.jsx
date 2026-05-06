@@ -16,7 +16,7 @@ function S1({ data }) {
             <em className="think">think</em>
             {' about it"'}
             <br className="dt-only" />
-            {' using your sales call recordings.'}
+            {' using your sales call recordings.'}
           </h1>
           <p className="j-body j-s1-sub" style={{ marginTop: 32 }}>{data.subline}</p>
           <div className="j-s1-ctas" style={{ display: 'flex', alignItems: 'center', gap: 36, marginTop: 40, flexWrap: 'wrap' }}>
