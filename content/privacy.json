@@ -1,7 +1,7 @@
 {
   "meta": "Privacy Policy",
   "title": "Privacy Policy",
-  "lastUpdated": "Last updated: 28 April 2026",
+  "lastUpdated": "Last updated: 11 May 2026",
   "intro": {
     "bodyLine1": "This is how Journify handles your data when you visit this site, book a call, or work with us as a client.",
     "bodyLine2": "Plain language, not legalese. If anything here is unclear, email jc@journify.ai and we'll explain it."
@@ -50,6 +50,15 @@
       "bodyLine3": "Zoom — video conferencing and call recording.",
       "bodyLine4": "Fireflies — call transcription.",
       "bodyLine5": "We do not sell your data. We do not share it with marketing partners, advertisers, or any third party outside of these named sub-processors. We do not use your data to train AI models."
+    },
+    {
+      "heading": "Journify ICP Chrome extension",
+      "bodyLine1": "Journify ICP is a Chrome extension we publish for clients and team members who use it to capture research notes from profile and company pages they visit. If you have not installed the extension, this section does not apply to you.",
+      "bodyLine2": "What the extension captures. When you actively trigger a save on a page you are visiting, the extension reads public profile information (name, headline, current and past roles, education, location, publicly visible posts) or website content (page text and full-page screenshots). It does not capture pages you have not chosen to save, and it does not run in the background.",
+      "bodyLine3": "Where the captured data goes. The extension sends saves to a Google Apps Script web app endpoint that you configure during setup. That endpoint writes to a Google Sheet that you control. Journify does not operate a server that receives or stores your captured data — the extension talks directly to the endpoint you provide.",
+      "bodyLine4": "Local storage on your device. The extension keeps your configuration (sync URL, workspace key, preferences) in chrome.storage.local and a copy of recently captured rows in IndexedDB so the extension can show recent work offline. Both are removed when you uninstall the extension or clear the extension's data from your browser.",
+      "bodyLine5": "Optional ICP scoring via Anthropic. If you enable the ICP scoring feature, the extension sends captured profile information plus your scoring prompt to Anthropic's API using an API key that you provide. Anthropic's privacy policy applies once data reaches their API. Scoring is disabled by default — you choose whether to configure it.",
+      "bodyLine6": "Your rights. Captured rows live in the Google Sheet you control, so you can access, edit, export, or delete them at any time. Uninstalling the extension immediately removes all extension-side data from your device. Email jc@journify.ai with any questions."
     },
     {
       "heading": "Your rights under GDPR",
