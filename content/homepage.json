@@ -1,7 +1,7 @@
 {
   "s1": {
     "audience": "For agencies and B2B service providers.",
-    "subline": "A 45-day done-for-you sprint. On LinkedIn.",
+    "subline": "A 45-day done-for-you sprint.",
     "ctaPrimary": {
       "label": "Apply for the sprint →",
       "href": "https://cal.com/jeancarlohim/apply-for-thesprint"
@@ -13,6 +13,7 @@
   },
   "s2": {
     "headline": "\"I need to think about it\" shows up in many ways.",
+    "lead": "First in your DMs. Then on your sales calls.",
     "quotes": [
       { "q": "\"Can you send me a proposal so I'll get *right* back to you.\"", "a": "And they never do." },
       { "q": "\"Let me discuss this with my partner.\"", "a": "But you don't hear from them." },

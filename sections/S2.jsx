@@ -5,6 +5,7 @@ function S2({ data }) {
   return (
     <Section id="s2" label="S2 Scene" width={720}>
       <h2 className="j-h2">{data.headline}</h2>
+      {data.lead && <p className="j-body" style={{ marginTop: 16, color: 'var(--text-2)', maxWidth: 560 }}>{data.lead}</p>}
       <div style={{ marginTop: 32, display: 'flex', flexDirection: 'column', gap: 28 }}>
         {data.quotes.map((x, i) => (
           <div key={i} className="j-q">

@@ -10,13 +10,11 @@ function S1({ data }) {
             <p className="j-meta j-s1-audience">{data.audience}</p>
           )}
           <h1 className="j-h1 j-s1-h1">
-            {'Book qualified meetings'}
+            {'Book qualified meetings on LinkedIn.'}
             <br className="dt-only" />
-            {' without the "I need to '}
+            {' Without the "I need to '}
             <em className="think">think</em>
-            {' about it"'}
-            <br className="dt-only" />
-            {' using sales call recordings.'}
+            {' about it."'}
           </h1>
           <p className="j-body j-s1-sub" style={{ marginTop: 32 }}>{data.subline}</p>
           <div className="j-s1-ctas" style={{ display: 'flex', alignItems: 'center', gap: 36, marginTop: 40, flexWrap: 'wrap' }}>
