@@ -1,7 +1,7 @@
 {
   "meta": "Privacy Policy",
   "title": "Privacy Policy",
-  "lastUpdated": "Last updated: 11 May 2026",
+  "lastUpdated": "Last updated: 5 June 2026",
   "intro": {
     "bodyLine1": "This is how Journify handles your data when you visit this site, book a call, or work with us as a client.",
     "bodyLine2": "Plain language, not legalese. If anything here is unclear, email jc@journify.ai and we'll explain it."
@@ -53,12 +53,14 @@
     },
     {
       "heading": "Journify ICP Chrome extension",
-      "bodyLine1": "Journify ICP is a Chrome extension we publish for clients and team members who use it to capture research notes from profile and company pages they visit. If you have not installed the extension, this section does not apply to you.",
-      "bodyLine2": "What the extension captures. When you actively trigger a save on a page you are visiting, the extension reads public profile information (name, headline, current and past roles, education, location, publicly visible posts) or website content (page text and full-page screenshots). It does not capture pages you have not chosen to save, and it does not run in the background.",
-      "bodyLine3": "Where the captured data goes. The extension sends saves to a Google Apps Script web app endpoint that you configure during setup. That endpoint writes to a Google Sheet that you control. Journify does not operate a server that receives or stores your captured data — the extension talks directly to the endpoint you provide.",
-      "bodyLine4": "Local storage on your device. The extension keeps your configuration (sync URL, workspace key, preferences) in chrome.storage.local and a copy of recently captured rows in IndexedDB so the extension can show recent work offline. Both are removed when you uninstall the extension or clear the extension's data from your browser.",
-      "bodyLine5": "Optional ICP scoring via Anthropic. If you enable the ICP scoring feature, the extension sends captured profile information plus your scoring prompt to Anthropic's API using an API key that you provide. Anthropic's privacy policy applies once data reaches their API. Scoring is disabled by default — you choose whether to configure it.",
-      "bodyLine6": "Your rights. Captured rows live in the Google Sheet you control, so you can access, edit, export, or delete them at any time. Uninstalling the extension immediately removes all extension-side data from your device. Email jc@journify.ai with any questions."
+      "bodyLine1": "Journify ICP is a Chrome extension we publish for clients and team members who use it to research, score, and track LinkedIn prospects. If you have not installed the extension, this section does not apply to you.",
+      "bodyLine2": "Pages you save. When you actively trigger a save on a profile or company page, the extension reads public profile information (name, headline, current and past roles, education, location, publicly visible posts) or website content (page text and full-page screenshots).",
+      "bodyLine3": "Your LinkedIn conversations, messages, and reactions. So it can track which prospects replied and booked calls, the extension also reads your LinkedIn messaging — your conversations, the text of the messages within them (both the ones you send and the ones you receive), and reactions — and keeps them synced automatically in the background, roughly every ten minutes, while the extension is connected. This message tracking is core to what the extension does: it scores prospects and then measures replies and bookings for them.",
+      "bodyLine4": "Where this data goes. Saved pages, conversations, messages, and reactions are synced to a shared Journify workspace — a Google Sheet (journify-data) that we operate on your behalf, reached through a Google Apps Script endpoint. The people who share your workspace (for example, your account owner and any assistants assigned to your account) can see the synced data. Access is scoped per account.",
+      "bodyLine5": "Local storage on your device. The extension keeps your configuration (sync URL, workspace key, preferences) in chrome.storage.local and a copy of recent rows in IndexedDB so it can show recent work offline. Both are removed when you uninstall the extension or clear the extension's data from your browser.",
+      "bodyLine6": "Your consent and control. Before the extension collects or syncs anything, it shows you this disclosure and requires you to explicitly agree. You can turn the conversation and message sync off at any time from the extension's settings (the Message sync switch), and you can disconnect the extension entirely — turning it off stops any further syncing.",
+      "bodyLine7": "Optional ICP scoring via Anthropic. If you enable the ICP scoring feature, the extension sends captured profile information plus your scoring prompt to Anthropic's API using an API key that you provide. Anthropic's privacy policy applies once data reaches their API. Scoring is disabled by default — you choose whether to configure it.",
+      "bodyLine8": "Retention and your rights. Synced data stays in your Journify workspace until you or your account owner delete it. You can access, export, or delete your data at any time through the app, or by emailing jc@journify.ai. Uninstalling the extension immediately removes all extension-side data from your device."
     },
     {
       "heading": "Your rights under GDPR",
