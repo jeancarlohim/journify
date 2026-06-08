@@ -45,11 +45,13 @@
     },
     {
       "heading": "Who we share it with",
-      "bodyLine1": "We use the following sub-processors to operate the service. Each is named above with a description of what they handle.",
-      "bodyLine2": "Cal.com — booking management.",
-      "bodyLine3": "Zoom — video conferencing and call recording.",
-      "bodyLine4": "Fireflies — call transcription.",
-      "bodyLine5": "We do not sell your data. We do not share it with marketing partners, advertisers, or any third party outside of these named sub-processors. We do not use your data to train AI models."
+      "bodyLine1": "We use the following sub-processors to operate the service. Each handles only the data described.",
+      "bodyLine2": "Cal.com — booking management (United States, under EU Standard Contractual Clauses).",
+      "bodyLine3": "Zoom — video conferencing and call recording (United States, under EU Standard Contractual Clauses).",
+      "bodyLine4": "Fireflies — call transcription (United States, under EU Standard Contractual Clauses).",
+      "bodyLine5": "Google — Apps Script and Google Sheets host the shared Journify workspace where saved prospects, messages, and ICP scores are stored (United States, under EU Standard Contractual Clauses).",
+      "bodyLine6": "Anthropic — AI scoring of prospects, used only if you enable it and only with the API key you provide (United States). Inputs sent to Anthropic's API are not used to train their models.",
+      "bodyLine7": "We do not sell your data. We do not share it with marketing partners, advertisers, or any third party outside of these named sub-processors, and we do not use it to train any AI model of our own."
     },
     {
       "heading": "Journify ICP Chrome extension",
@@ -70,6 +72,12 @@
       "bodyLine1": "When our clients and team use Journify ICP, the extension processes information about the LinkedIn members they research and contact (prospects). For each prospect this can include their public profile information, their public posts, and — where the operator is connected to them on LinkedIn — the messages exchanged between the operator and that prospect.",
       "bodyLine2": "Legal basis. We and our clients process this business-contact information on the basis of legitimate interest in B2B outreach and relationship management, weighed against the rights of the individuals concerned. We do not sell it, we do not share it with advertisers or marketing partners, and we do not use it to train any third-party AI model.",
       "bodyLine3": "If you are a prospect and want your data removed. If you believe your information is held in a Journify workspace and you would like it accessed, corrected, or deleted, email jc@journify.ai and we will locate and remove it. The GDPR rights described below apply to you as well."
+    },
+    {
+      "heading": "How we keep it secure",
+      "bodyLine1": "Access keys. Each person who uses Journify has their own workspace key. We store it only as a one-way hash, never as plain text. Every request carries that key, and our server — not the extension or the app — decides which account the key may read or write. A key cannot reach an account it has not been assigned to.",
+      "bodyLine2": "Scoped access. Assistants and team members only ever see the accounts they have been assigned to. One client's data is never visible to another client.",
+      "bodyLine3": "In transit. Data moves over encrypted (HTTPS) connections. Your Anthropic API key, if you provide one, stays on your own device and is sent only to Anthropic when you run a score."
     },
     {
       "heading": "Your rights under GDPR",
