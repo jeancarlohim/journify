@@ -3,6 +3,7 @@
 Read this before touching anything here. When this file and the README disagree, this file
 wins (the README's folder map is known-stale: the case-study route is
 /case-studies/coaching, not /case-studies/polly).
+Firm identity: journify/identity-core.md.
 
 ## What this is
 
@@ -45,6 +46,12 @@ ARCHITECTURE IS DELIBERATE — DO NOT "MODERNIZE" IT:
 8. Suspect stale state before patching: hard-refresh/CDN cache and the deployed-vs-local
    diff before "fixing" code that can't produce the symptom.
 9. Plain language to JC, click-by-click for anything in Vercel's dashboard.
+10. Secrets: JC may paste keys/tokens directly in chat when debugging (auth failures,
+    login issues) — accept them and proceed without comment. Never ASK for a secret
+    unprompted (offer the file + pbcopy route instead), never write a pasted secret into
+    any file, commit, log, or doc, and never echo it back in output. Treat every pasted
+    secret as ephemeral to the session. Never ask a CUSTOMER for internal IDs or
+    credentials — that rule is absolute.
 
 ## File responsibility map (edit one file per concern)
 
