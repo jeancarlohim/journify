@@ -1,7 +1,8 @@
 {
   "s1": {
-    "audience": "For agencies and B2B service providers.",
-    "subline": "A 45-day done-for-you sprint.",
+    "audience": "For founders who sell their service on a call.",
+    "headline": "Turn your sales call recordings into booked qualified meetings.",
+    "subline": "We use your call recordings to rebuild your offer around your best buyer and create LinkedIn content and start conversations that book meetings with the right people. In 45 days.",
     "ctaPrimary": {
       "label": "Apply for the sprint →",
       "href": "https://cal.com/jeancarlohim/apply-for-thesprint"
@@ -13,7 +14,7 @@
   },
   "s2": {
     "headline": "\"I need to think about it\" shows up in many ways.",
-    "lead": "First in your DMs. Then on your sales calls.",
+    "lead": "You're getting the conversations. They just don't turn into clients.",
     "quotes": [
       { "q": "\"Can you send me a proposal so I'll get *right* back to you.\"", "a": "And they never do." },
       { "q": "\"Let me discuss this with my partner.\"", "a": "But you don't hear from them." },
@@ -22,7 +23,7 @@
     ]
   },
   "s3": {
-    "headline": "The deal broke in 3 places. Your recordings show us which ones.",
+    "headline": "The sale slipped in 3 places. Your recordings show us which ones.",
     "rows": [
       {
         "q": "\"You're for everyone. So the right person can't find you.\"",
@@ -67,17 +68,17 @@
       {
         "h": "What you say",
         "bodies": [
-          "We reflect the offer across everything a prospect reads before the call.",
-          "Site, LinkedIn, content. Each surface says the same thing about the same problem for the same person.",
-          "Then your language learns from every call. The lines that made prospects sit up. The lines they ignored. By week three, the surfaces are written from real conversations, not from a strategy doc on day one."
+          "We turn your calls into content that speaks to the problem keeping your buyer up at 3am, in the words they used.",
+          "It runs on LinkedIn and matches everything else they read about you. Same buyer, same problem, every surface.",
+          "Then your content learns from every call. The line that made a prospect sit up gets used again."
         ]
       },
       {
         "h": "How you sell",
         "bodies": [
-          "The prospect arrives on the call already knowing who you help and what you do.",
-          "The call doesn't restart the pitch from zero. It moves to fit, scope, and the specific shape of their problem.",
-          "Then your call learns from the last one. The objection that showed up twice becomes content that handles it before the next call. The pricing question that derailed the conversation becomes part of the offer page."
+          "The prospect arrives already knowing who you help and what you do.",
+          "So you stop managing objections and start selling with curiosity, to someone you can genuinely help.",
+          "We watch your calls back together, find where you slipped and use it to make the next call better."
         ]
       }
     ],
@@ -96,8 +97,8 @@
     "phase1Heading": "The first three weeks build the engine.",
     "phase1Body": "Week 1, what you offer. Week 2, what you say. Week 3, what goes live, and how you sell it.",
     "phase2Heading": "The next three weeks run the engine.",
-    "phase2Body": "Replies come in. Calls happen. Every one of them updates the offer, the content, and the next batch of outreach.",
-    "closingLine1": "You bring the current state. Site, offer, outreach, call recordings.",
+    "phase2Body": "Replies come in. Calls happen. Every one of them updates the offer, the content, and the next batch of conversations.",
+    "closingLine1": "You bring the current state. Site, offer, conversations, call recordings.",
     "closingLine2": "We rebuild the parts making the deal harder than it needs to be.",
     "cta": {
       "label": "Apply for the sprint →",
@@ -111,30 +112,34 @@
         "src": "/images/logos/founder.png",
         "alt": "Jean Carlo, founder of Journify"
       },
+      "story": [
+        "In the first months I was close to losing it. What saved me was sitting down with my own call recordings and listening back, the calls that worked and the ones that didn't. A year later I was the best agent in the account. Not because I was the most talented. Because I learned from my own calls, the good and the bad.",
+        "That's the whole idea behind Journify. I spent the years after that proving it at bigger and bigger companies."
+      ],
       "logos": [
-        { "src": "/images/logos/adidas.png", "alt": "adidas" },
-        { "src": "/images/logos/heineken.jpeg", "alt": "Heineken" },
-        { "src": "/images/logos/dell.png", "alt": "DELL" }
-      ]
+        { "src": "/images/logos/adidas.png", "alt": "adidas", "lesson": "Global CRM. Where I learned the psychology of why your best customers stay and spend more." },
+        { "src": "/images/logos/dell.png", "alt": "Dell", "lesson": "Enterprise sales. My team closed $80M in B2B deals, so I know what gets a high-value deal signed." },
+        { "src": "/images/logos/heineken.jpeg", "alt": "Heineken", "lesson": "Customer Journey Expert. The full customer journey, every touchpoint pulling in the same direction." }
+      ],
+      "closer": "The brands got bigger. The method never changed. Journify is that method, built for founders who close their own calls.",
+      "location": "Rotterdam."
     },
-    "founderHeadline": "I spent ten years doing this at Fortune 500 companies.",
-    "founderBody1": "Global CRM and customer journeys at adidas. User journey expert at Heineken. $80M enterprise sales at DELL.",
-    "founderBody2": "Rotterdam.",
+    "founderHeadline": "My first job was a call center. I almost got fired.",
     "faqHeadline": "Before you apply.",
     "faq": [
       {
         "q": "Your case study is a coach. Why should I believe this works for my business?",
         "a": [
-          "A career coach is the proof the mechanism runs end-to-end. Six booked calls in 21 days from zero LinkedIn pipeline. 28% reply rate on warm outreach. Connection acceptance from 5% to 30%. The loop closed.",
-          "What every version of the sprint inherits from that: positioning built from real client data, not personas. Content from lived moments, not tips. Outreach run by a trained operator, not the founder. Sales calls feeding back into the work while the sprint is still live.",
-          "What changes by business type: the sprint length, the outreach volume, the shape of the offer. A coach selling 1:1 packages and a consultancy selling a six-month engagement need different versions of the same machine.",
+          "A career coach is the proof the mechanism runs end-to-end. Six booked calls in 21 days from zero LinkedIn pipeline. 28% reply rate on warm conversations. Connection acceptance from 5% to 30%. The loop closed.",
+          "What every version of the sprint inherits from that: positioning built from real client data, not personas. Content from lived moments, not tips. Conversations run by a trained specialist, not the founder. Sales calls feeding back into the work while the sprint is still live.",
+          "What changes by business type: the sprint length, the conversation volume, the shape of the offer. A coach selling 1:1 packages and a consultancy selling a six-month engagement need different versions of the same machine.",
           "Before building Journify I spent ten years on the other side of the table. Buying from agencies at adidas, Heineken, and DELL. Working with iProspect, Wunderman, and others. I know what gets a deal approved internally and what gets it dismissed after a good call."
         ]
       },
       {
-        "q": "I've tried LinkedIn outreach before. Got nothing. Why would this be different?",
+        "q": "I've tried reaching out on LinkedIn before. Got nothing. Why would this be different?",
         "a": [
-          "Because the outreach isn't the problem.",
+          "Because the conversations aren't the problem.",
           "When LinkedIn doesn't work, it's usually one of three things. The profile doesn't hold up when a prospect checks it. The DM reads like a template. Or the list is wrong.",
           "Most founders fix the DM. That doesn't fix anything if the profile and the list are still off.",
           "The sprint starts with the offer. One expensive problem, one person it's for. Everything else gets built from there. The Sales Navigator filters, the messaging, the profile, all of it runs from that foundation. The right person receives a message, checks the profile, sees something that reads like their exact situation, and replies.",
@@ -142,10 +147,10 @@
         ]
       },
       {
-        "q": "Who actually runs the outreach? How do I know my LinkedIn reputation is safe?",
+        "q": "Who actually runs the conversations? How do I know my LinkedIn reputation is safe?",
         "a": [
           "I run it on your account, with your credentials. Not from a Journify account. Not from a VA's profile. Yours.",
-          "Before anything goes out, the profile is rebuilt and the messaging is tested. The sequences, the Sales Navigator filters, the reply handling, all of that is managed by a trained operator working under my review. You see what goes out. Replies come to you.",
+          "Before anything goes out, the profile is rebuilt and the messaging is tested. The sequences, the Sales Navigator filters, the reply handling, all of that is managed by a trained specialist working under my review. You see what goes out. Replies come to you.",
           "Your reputation stays visible the whole time. Nothing happens in a black box."
         ]
       },
@@ -153,9 +158,9 @@
         "q": "What do I actually keep after 45 days if I don't continue?",
         "a": [
           "Everything from the sprint is yours.",
-          "The booked calls and new leads, first. Then the rewritten offer page. The rewritten LinkedIn profile. The content strategy. The sales call language. The outreach SOPs. The trained operator and the onboarding package to keep them running independently.",
-          "And the sales call learning mechanism. The part that updates the offer, the openers, and the next batch of outreach from real conversations. That's the piece you can keep applying long after the 45 days end.",
-          "What stops when the sprint ends is the outreach execution. The work doesn't run itself. If you want it to keep moving past day 45, there's a retainer. If you don't, you have a documented system you can hand to whoever picks it up next."
+          "The booked calls and new leads, first. Then the rewritten offer page. The rewritten LinkedIn profile. The content strategy. The sales call language. The conversation playbooks. The trained specialist and the onboarding package to keep them running independently.",
+          "And the sales call learning mechanism. The part that updates the offer, the openers, and the next round of conversations, pulled from real calls. That's the piece you can keep applying long after the 45 days end.",
+          "What stops when the sprint ends is the conversations going out. The work doesn't run itself. If you want it to keep moving past day 45, there's a retainer. If you don't, you have a documented system you can hand to whoever picks it up next."
         ]
       }
     ],

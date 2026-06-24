@@ -3,7 +3,7 @@
 function ProofBlock() {
   const stats = [
     { num: '21', label: 'days' },
-    { num: '392', label: 'outreach touches' },
+    { num: '392', label: 'conversations' },
     { num: '30%', label: 'acceptance rate' },
     { num: '6', label: 'booked calls' },
   ];

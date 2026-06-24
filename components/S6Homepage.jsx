@@ -588,7 +588,7 @@ function S6Homepage() {
                 </div>
               </div>
               <div className="s6h-row s6h-row--outreach">
-                <div className="s6h-row-label">Outreach</div>
+                <div className="s6h-row-label">Conversations</div>
                 <div className="s6h-row-state">
                   <span className="s6h-row-state-text is-before-text">Dinners, events.</span>
                   <span className="s6h-row-state-text is-during-text">LinkedIn, 20/week.</span>
@@ -656,7 +656,7 @@ function S6Homepage() {
       <div className="s6h-bottom-wrap" ref={bottomWrapRef}>
         <p className="s6h-bottom s6h-bottom-before">The companies who would sign fast never see you.<br />The ones who do see you take three weeks to decide.</p>
         <p className="s6h-bottom s6h-bottom-during">The first replies come in. The first meetings land.<br />The system learns from every call while it's still running.</p>
-        <p className="s6h-bottom s6h-bottom-after">Every sales call updates the offer, filters out the wrong leads, and puts the right ones on next week's calendar.</p>
+        <p className="s6h-bottom s6h-bottom-after">Your sales calls rebuild the offer, the offer rewrites your content, and your content builds trust to book the meetings. Every booked meeting is a new call that feeds it again.</p>
       </div>
 
       <div className="s6h-link-wrap">

@@ -163,7 +163,7 @@ function S6Diagram({ data, phase }) {
                   </div>
                   <div className="j-s6-node">
                     <div className="j-s6-node-row">
-                      <div className="j-s6-node-label">Outreach</div>
+                      <div className="j-s6-node-label">Conversations</div>
                       <div className="j-s6-state-wrap">
                         <div className="j-s6-st1"><div className="j-s6-node-state">Dinners, events.</div></div>
                         <div className="j-s6-st2"><div className="j-s6-node-state">LinkedIn, 20/week.</div></div>

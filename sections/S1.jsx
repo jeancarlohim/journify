@@ -9,13 +9,7 @@ function S1({ data }) {
           {data.audience && (
             <p className="j-meta j-s1-audience">{data.audience}</p>
           )}
-          <h1 className="j-h1 j-s1-h1">
-            {'Book qualified meetings on LinkedIn.'}
-            <br className="dt-only" />
-            {' Without the "I need to '}
-            <em className="think">think</em>
-            {' about it."'}
-          </h1>
+          <h1 className="j-h1 j-s1-h1">{data.headline}</h1>
           <p className="j-body j-s1-sub" style={{ marginTop: 32 }}>{data.subline}</p>
           <div className="j-s1-ctas" style={{ display: 'flex', alignItems: 'center', gap: 36, marginTop: 40, flexWrap: 'wrap' }}>
             <a className="j-cta j-cta--warm" href={data.ctaPrimary.href}>{data.ctaPrimary.label}</a>
