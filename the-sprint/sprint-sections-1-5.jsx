@@ -17,7 +17,7 @@ function S1() {
   return (
     <Section id="s1" label="S1 Hero" width={1040} pt={120} pb={108}>
       <p className="j-meta" style={{ marginBottom: 16, letterSpacing: "0.08em", textTransform: "uppercase", fontSize: 12 }}>
-        For founders who sell their service on a call.
+        For founders who sell services on calls.
       </p>
       <p style={{ fontFamily: "var(--serif)", fontWeight: 600, fontSize: 13, letterSpacing: "0.10em",
                   textTransform: "uppercase", color: "var(--ox)", margin: "0 0 24px",
@@ -46,13 +46,14 @@ function S2() {
     <Section id="s2" label="S2 Opening scene" width={680} pb={72}>
       <div style={{ display: "flex", flexDirection: "column", gap: 26 }}>
         <p className="j-body j-measure">
-          You know the feeling. One week you are all in on a new avatar. The next you are
-          rewriting the offer page. Then a burst of posts and DMs for five days, then
-          nothing for two weeks. A few calls come in, most don't close, and by Friday you
-          are back to wondering what to change next.
+          You probably felt it this week. You heard "I need to think about it" for the third
+          time. Then you start second guessing your avatar. The next day you are rewriting
+          the offer page. Then a burst of posts and DMs for five days, then nothing for two
+          weeks. While your calendar still looks empty.
         </p>
         <p className="j-body j-measure">
-          The answers to every one of those questions are already sitting in your call recordings.
+          The answers to why people hesitate, why your offer feels like it needs to change,
+          and why staying consistent feels impossible. The answers are in your call recordings.
         </p>
         <p className="j-body j-measure">
           The Sales Call Sprint uses those recordings to stop the cycle in 45 days and
