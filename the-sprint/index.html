@@ -15,9 +15,15 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://journify.ai/the-sprint" />
   <meta property="og:site_name" content="Journify" />
+  <meta property="og:locale" content="en_GB" />
   <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="The Sales Call Sprint — journify.ai" />
+  <meta name="twitter:description" content="Turn your sales call recordings into 5 to 10 booked qualified meetings in 45 days. Application only." />
   <meta name="twitter:image" content="https://journify.ai/images/og-sprint.png" />
   <link rel="canonical" href="https://journify.ai/the-sprint" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=Inter:wght@400..600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/styles/tokens.css" />
   <style>
     html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font-family: var(--sans); }
@@ -124,6 +130,11 @@
     .j-page-drawer .j-drawer { transform: translateX(100%); transition: transform 240ms var(--ease); }
     .j-page-drawer.is-open .j-drawer { transform: translateX(0); }
 
+    /* font features — match homepage */
+    .j-h1, .j-h2 { font-feature-settings: "lnum" 1, "tnum" 1, "ss01" 1; }
+    .j-h1 { text-wrap: pretty; }
+    @media (min-width: 768px) { .j-h1 { text-wrap: balance; } }
+
     /* brand img */
     .j-brand-img { height: 20px; }
 
@@ -132,8 +143,22 @@
     @media (max-width: 768px) {
       .j-nav-links { display: none; }
       .j-hamb { display: inline-flex; }
+      .j-nav { padding: 0 24px; height: 56px; }
+      .j-h1 { font-size: 44px !important; letter-spacing: -0.025em; }
+      .j-h2 { font-size: 26px !important; }
+      .j-h3 { font-size: 19px !important; }
+      .j-body { font-size: 15px !important; }
     }
   </style>
+
+  <script>
+  !function(e){"use strict";var t=e&&e.namespace;if(t&&e.profileId&&e.cdn){var i=window[t];if(i&&Array.isArray(i)||(i=window[t]=[]),!i.initialized&&!i._loaded)if(i._loaded)console&&console.warn("[Radar] Duplicate initialization attempted");else{i._loaded=!0;["track","page","identify","group","alias","ready","debug","on","off","once","trackClick","trackSubmit","trackLink","trackForm","pageview","screen","reset","register","setAnonymousId","addSourceMiddleware","addIntegrationMiddleware","addDestinationMiddleware","giveCookieConsent"].forEach((function(e){var a;i[e]=(a=e,function(){var e=window[t];if(e.initialized)return e[a].apply(e,arguments);var i=[].slice.call(arguments);return i.unshift(a),e.push(i),e})})),-1===e.apiEndpoint.indexOf("http")&&(e.apiEndpoint="https://"+e.apiEndpoint),i.bootstrap=function(){var t,i=document.createElement("script");i.async=!0,i.type="text/javascript",i.id="__radar__",i.setAttribute("data-settings",JSON.stringify(e)),i.src=[-1!==(t=e.cdn).indexOf("http")?"":"https://",t,"/releases/latest/radar.min.js"].join("");var a=document.scripts[0];a.parentNode.insertBefore(i,a)},i.bootstrap()}}else"undefined"!=typeof console&&console.error("[Radar] Configuration incomplete")}({
+    "apiEndpoint": "radar.snitcher.com",
+    "cdn": "cdn.snitcher.com",
+    "namespace": "Snitcher",
+    "profileId": "sPaohPUAMs"
+  });
+  </script>
 
   <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
   <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
