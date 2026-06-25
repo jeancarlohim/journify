@@ -5,122 +5,173 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  <title>The 45-Day Sprint — Journify</title>
-  <meta name="description" content="5–10 booked qualified meetings in 45 days. For solo and small-team service businesses selling through calls." />
-
-  <link rel="canonical" href="https://journify.ai/the-sprint" />
-
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://journify.ai/the-sprint" />
-  <meta property="og:title" content="The 45-Day Sprint — Journify" />
-  <meta property="og:description" content="5–10 booked qualified meetings in 45 days. For solo and small-team service businesses selling through calls." />
+  <title>The Sales Call Sprint — journify.ai</title>
+  <meta name="description" content="Turn your sales call recordings into 5 to 10 booked qualified meetings in 45 days. Application only." />
+  <meta property="og:title" content="The Sales Call Sprint — journify.ai" />
+  <meta property="og:description" content="Turn your sales call recordings into 5 to 10 booked qualified meetings in 45 days. Application only." />
   <meta property="og:image" content="https://journify.ai/images/og-sprint.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://journify.ai/the-sprint" />
   <meta property="og:site_name" content="Journify" />
-  <meta property="og:locale" content="en_GB" />
-
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="The 45-Day Sprint — Journify" />
-  <meta name="twitter:description" content="5–10 booked qualified meetings in 45 days. For solo and small-team service businesses selling through calls." />
   <meta name="twitter:image" content="https://journify.ai/images/og-sprint.png" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=Inter:wght@400..600&display=swap" rel="stylesheet">
+  <link rel="canonical" href="https://journify.ai/the-sprint" />
   <link rel="stylesheet" href="/styles/tokens.css" />
   <style>
     html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font-family: var(--sans); }
     body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
     * { box-sizing: border-box; }
 
+    :root { --panel: #F4F0E9; }
+
+    section { scroll-margin-top: 80px; }
+    .j-measure { max-width: 600px; }
+
     /* sticky nav */
-    .j-nav-sticky {
-      position: sticky; top: 0; z-index: 50;
-      background: var(--bg);
-      transition: border-color 180ms var(--ease);
-      border-bottom: 0.5px solid transparent;
-    }
+    .j-nav-sticky { position: sticky; top: 0; z-index: 50; background: var(--bg);
+      border-bottom: 0.5px solid transparent; transition: border-color 180ms var(--ease); }
     .j-nav-sticky.is-scrolled { border-bottom-color: var(--border); }
 
-    /* Mobile */
-    @media (max-width: 768px) {
-      .j-nav-links { display: none; }
-      .j-nav { padding: 0 24px; height: 56px; }
-      .j-h1 { font-size: 34px !important; letter-spacing: -0.025em; }
-      .j-h2 { font-size: 26px !important; }
-      .j-h3 { font-size: 19px !important; }
-      .j-h4 { font-size: 18px !important; }
-      .j-body { font-size: 15px !important; }
-      section { padding: 64px 24px !important; }
-    }
-    @media (max-width: 768px) {
-      .j-s5-grid {
-        grid-template-columns: 1fr !important;
-        gap: 40px !important;
-      }
-    }
+    /* ── S1 proof strip ── */
+    .j-proofstrip { display: flex; align-items: center; gap: 12px; margin-top: 48px;
+      padding-top: 24px; border-top: 0.5px solid var(--border); max-width: 620px; }
+    .j-proofstrip-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--ox); flex: none; }
 
-    /* keep the hamburger hidden on desktop */
-    .j-hamb { display: none; }
-    @media (max-width: 768px) { .j-hamb { display: inline-flex; } }
+    /* ── S2 scene ── */
+    .j-scene-open { font-family: var(--serif); font-weight: 500; font-size: 28px; line-height: 1.25;
+      letter-spacing: -0.02em; font-variation-settings: 'opsz' 72; color: var(--text); margin: 0; }
+
+    /* ── S3 beats ── */
+    .j-beats { display: flex; flex-direction: column; gap: 0; }
+    .j-beat { display: grid; grid-template-columns: 88px 1fr; gap: 32px;
+      padding: 36px 0; border-top: 0.5px solid var(--border); }
+    .j-beat:last-child { border-bottom: 0.5px solid var(--border); }
+    .j-beat-n { font-family: var(--serif); font-weight: 600; font-size: 22px; color: var(--ox);
+      font-variation-settings: 'opsz' 72; line-height: 1; padding-top: 4px; }
+
+    /* ── S4 stages ── */
+    .j-stages { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; }
+    .j-stage-rule { height: 2px; background: var(--ox); width: 100%; margin-bottom: 22px; }
+    .j-stage-range { font-family: var(--serif); font-weight: 600; font-size: 26px; line-height: 1.1;
+      letter-spacing: -0.02em; font-variation-settings: 'opsz' 72; color: var(--text); margin: 10px 0 0; }
+
+    /* ── S5 products + done-for-you ── */
+    .j-products { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+    .j-product { border: 0.5px solid var(--text); padding: 28px 24px 30px; display: flex; flex-direction: column; background: var(--bg); }
+    .j-product-tag { align-self: flex-start; font-family: var(--sans); font-size: 11px; font-weight: 500;
+      letter-spacing: 0.12em; text-transform: uppercase; color: var(--ox-text); background: var(--ox);
+      padding: 4px 10px; }
+    .j-dfy { list-style: none; margin: 0; padding: 0; border-top: 0.5px solid var(--border); max-width: 820px; }
+    .j-dfy-item { display: grid; grid-template-columns: 24px 1fr; gap: 8px; align-items: start;
+      padding: 18px 0; border-bottom: 0.5px solid var(--border); }
+    .j-dfy-mark { width: 7px; height: 7px; background: var(--ox); margin-top: 9px; }
+
+    /* ── S6 commitment band ── */
+    .j-commit { background: var(--ox); color: var(--ox-text); padding: 44px 44px 46px; margin-top: 40px; }
+    .j-commit-lead { font-family: var(--serif); font-weight: 600; font-size: 27px; line-height: 1.25;
+      letter-spacing: -0.02em; font-variation-settings: 'opsz' 72; color: var(--ox-text); margin: 0; max-width: 640px; }
+    .j-commit-body { font-family: var(--sans); font-size: 16px; line-height: 1.7; color: var(--ox-text-2);
+      margin: 18px 0 0; max-width: 600px; }
+
+    /* ── S7 stat bar ── */
+    .j-statbar { display: grid; grid-template-columns: repeat(4, 1fr); margin-top: 48px;
+      border-top: 0.5px solid var(--text); border-bottom: 0.5px solid var(--text); }
+    .j-stat { padding: 32px 24px 32px 0; border-right: 0.5px solid var(--border); }
+    .j-stat:last-child { border-right: 0; }
+    .j-stat-n { font-family: var(--serif); font-weight: 600; font-size: 40px; line-height: 1;
+      letter-spacing: -0.02em; font-variation-settings: 'opsz' 96; color: var(--text); }
+    .j-stat-l { font-family: var(--sans); font-size: 13px; line-height: 1.45; color: var(--text-2); margin-top: 12px; max-width: 180px; }
+
+    /* ── S8 founder ── */
+    .j-founder { display: grid; grid-template-columns: 280px 1fr; gap: 56px; align-items: start; }
+    .j-founder-ph { width: 280px; height: 340px; }
+
+    /* ── S10 join ── */
+    .j-join { margin-top: 64px; }
+    .j-steps { list-style: none; margin: 32px 0 0; padding: 0; display: flex; flex-direction: column; gap: 18px; max-width: 560px; }
+    .j-step { display: grid; grid-template-columns: 36px 1fr; gap: 16px; align-items: center; }
+    .j-step-n { width: 32px; height: 32px; border-radius: 50%; border: 0.5px solid var(--text);
+      display: inline-flex; align-items: center; justify-content: center;
+      font-family: var(--serif); font-weight: 600; font-size: 15px; color: var(--text); }
+
+    /* ── responsive ── */
+    @media (max-width: 860px) {
+      section { padding: 72px 24px !important; }
+      .j-h1 { font-size: 38px !important; }
+      .j-h2 { font-size: 27px !important; }
+      .j-nav { padding: 0 24px; }
+      .j-beat { grid-template-columns: 1fr; gap: 10px; }
+      .j-beat-n { padding-top: 0; }
+      .j-stages { grid-template-columns: 1fr; gap: 44px; }
+      .j-products { grid-template-columns: 1fr; }
+      .j-statbar { grid-template-columns: 1fr 1fr; }
+      .j-stat { border-right: 0; border-bottom: 0.5px solid var(--border); }
+      .j-stat:nth-child(odd) { border-right: 0.5px solid var(--border); }
+      .j-stat-l { max-width: none; }
+      .j-founder { grid-template-columns: 1fr; gap: 32px; }
+      .j-founder-ph { width: 100%; max-width: 320px; height: 300px; }
+      .j-commit { padding: 32px 26px 34px; }
+      .j-commit-lead { font-size: 23px; }
+    }
 
     /* drawer overlay */
-    .j-page-drawer {
-      position: fixed; inset: 0; z-index: 60;
-      pointer-events: none;
-    }
+    .j-page-drawer { position: fixed; inset: 0; z-index: 60; pointer-events: none; }
     .j-page-drawer.is-open { pointer-events: auto; }
-    .j-page-drawer .j-overlay {
-      background: rgba(26,23,20,0.40);
-      opacity: 0; transition: opacity 180ms var(--ease);
-    }
+    .j-page-drawer .j-overlay { background: rgba(26,23,20,0.40); opacity: 0; transition: opacity 180ms var(--ease); }
     .j-page-drawer.is-open .j-overlay { opacity: 1; }
-    .j-page-drawer .j-drawer {
-      transform: translateX(100%); transition: transform 240ms var(--ease);
-    }
+    .j-page-drawer .j-drawer { transform: translateX(100%); transition: transform 240ms var(--ease); }
     .j-page-drawer.is-open .j-drawer { transform: translateX(0); }
+
+    /* brand img */
+    .j-brand-img { height: 20px; }
+
+    /* nav responsive */
+    .j-hamb { display: none; }
+    @media (max-width: 768px) {
+      .j-nav-links { display: none; }
+      .j-hamb { display: inline-flex; }
+    }
   </style>
 
   <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
   <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
   <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
-
-  <script>
-  !function(e){"use strict";var t=e&&e.namespace;if(t&&e.profileId&&e.cdn){var i=window[t];if(i&&Array.isArray(i)||(i=window[t]=[]),!i.initialized&&!i._loaded)if(i._loaded)console&&console.warn("[Radar] Duplicate initialization attempted");else{i._loaded=!0;["track","page","identify","group","alias","ready","debug","on","off","once","trackClick","trackSubmit","trackLink","trackForm","pageview","screen","reset","register","setAnonymousId","addSourceMiddleware","addIntegrationMiddleware","addDestinationMiddleware","giveCookieConsent"].forEach((function(e){var a;i[e]=(a=e,function(){var e=window[t];if(e.initialized)return e[a].apply(e,arguments);var i=[].slice.call(arguments);return i.unshift(a),e.push(i),e})})),-1===e.apiEndpoint.indexOf("http")&&(e.apiEndpoint="https://"+e.apiEndpoint),i.bootstrap=function(){var t,i=document.createElement("script");i.async=!0,i.type="text/javascript",i.id="__radar__",i.setAttribute("data-settings",JSON.stringify(e)),i.src=[-1!==(t=e.cdn).indexOf("http")?"":"https://",t,"/releases/latest/radar.min.js"].join("");var a=document.scripts[0];a.parentNode.insertBefore(i,a)},i.bootstrap()}}else"undefined"!=typeof console&&console.error("[Radar] Configuration incomplete")}({
-    "apiEndpoint": "radar.snitcher.com",
-    "cdn": "cdn.snitcher.com",
-    "namespace": "Snitcher",
-    "profileId": "sPaohPUAMs"
-  });
-  </script>
 </head>
-<body class="j-surface">
+<body>
   <div id="root"></div>
-  <script type="text/babel" src="/components/Section.jsx"></script>
-  <script type="text/babel" src="/components/Accordion.jsx"></script>
   <script type="text/babel" src="/components/StickyNav.jsx"></script>
   <script type="text/babel" src="/components/MobileDrawer.jsx"></script>
-  <script type="text/babel" src="/components/Footer.jsx"></script>
-  <script type="text/babel" src="/pages/TheSprintPage.jsx"></script>
+  <script type="text/babel" src="sprint-sections-1-5.jsx"></script>
+  <script type="text/babel" src="sprint-sections-6-10.jsx"></script>
   <script type="text/babel">
     function App() {
       const [drawerOpen, setDrawerOpen] = React.useState(false);
-
       return (
-        <>
-          <StickyNav onOpenDrawer={() => setDrawerOpen(true)} ctaHref="https://cal.com/jeancarlohim/apply-for-thesprint" brandHref="/" />
+        <React.Fragment>
+          <StickyNav onOpenDrawer={() => setDrawerOpen(true)} ctaHref={APPLY} brandHref="/" />
           <main>
-            <div style={{ maxWidth: 1080, margin: '0 auto' }}>
-              <TheSprintPage />
-            </div>
+            <S1 />
+            <S2 />
+            <S3 />
+            <S4 />
+            <S5 />
+            <S6 />
+            <S7 />
+            <S8 />
+            <S9 />
+            <S10 />
           </main>
           <Footer />
-          <MobileDrawer open={drawerOpen} onClose={() => setDrawerOpen(false)} ctaHref="https://cal.com/jeancarlohim/apply-for-thesprint" />
-        </>
+          <MobileDrawer open={drawerOpen} onClose={() => setDrawerOpen(false)} ctaHref={APPLY} />
+        </React.Fragment>
       );
     }
 
-    ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+    document.fonts.ready.then(function() {
+      ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+    });
   </script>
 </body>
 </html>
