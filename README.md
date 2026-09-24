@@ -12,6 +12,9 @@ Three-page static site. Handcrafted React via Babel standalone over a token-base
 │       └── index.html             Route /case-studies/polly
 ├── the-sprint/
 │   └── index.html                 Route /the-sprint
+├── tools/
+│   ├── index.html                 Route /tools
+│   └── InboxMock.jsx              DM 2 Call App inbox replica (1000px layout, scaled)
 ├── styles/
 │   └── tokens.css                 Design tokens + utility classes (locked)
 ├── components/
@@ -35,18 +38,21 @@ Three-page static site. Handcrafted React via Babel standalone over a token-base
 ├── pages/
 │   ├── HomePage.jsx               Fetches /content/homepage.json, composes S1–S8
 │   ├── CaseStudyPolly.jsx         Fetches /content/case-study-polly.json
-│   └── TheSprintPage.jsx          Fetches /content/the-sprint.json
+│   ├── TheSprintPage.jsx          Fetches /content/the-sprint.json
+│   └── ToolsPage.jsx              Fetches /content/tools.json
 ├── content/
 │   ├── homepage.json              All homepage copy
 │   ├── case-study-polly.json      All case study copy + image metadata
 │   ├── the-sprint.json            All sprint page copy
+│   ├── tools.json                 All /tools copy + the inbox replica's sample data
 │   ├── nav.json                   Shared nav links
 │   └── footer.json                Shared footer links + copy
 ├── images/
 │   ├── s6-before.png              698×918 — before state diagram
 │   ├── s6-during.png              698×918 — mid-sprint diagram
 │   ├── s6-after.png               698×918 — after state diagram
-│   └── sprint-tracker.png         2378×1362 retina — 21-day daily log
+│   ├── sprint-tracker.png         2378×1362 retina — 21-day daily log
+│   └── tools/                     3 product screenshots used on /tools
 ├── vercel.json                    Clean URL rewrites
 └── README.md
 ```
@@ -75,6 +81,8 @@ The `<main>` wrapper lives in the shell. Page components return fragments. `j-su
 - Homepage: `s1`–`s8` (plus `s6-anchor`)
 - Case study: `cs-s1`–`cs-s8`
 - Sprint: `s1`–`s9` (scoped to route, no clash)
+- Tools: `hero`, `loop`, `lead-finder`, `dm-2-call`, `sally`, `proof`, `diagnostic`,
+  `trust`, `faq`, `close`
 
 ### StickyNav / MobileDrawer props
 - `ctaHref` — the primary CTA anchor (differs per page: `#s7` homepage, `/#s7` case study, `#s9` sprint)

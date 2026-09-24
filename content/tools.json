@@ -1,0 +1,327 @@
+{
+  "hero": {
+    "h1": "The sprint runs on software we built ourselves.",
+    "body": [
+      "It learns from every one of your recorded sales calls while the sprint runs. The prospect list, the conversations, the proposals and the content all learn from the same calls.",
+      "After day 45, you keep all of it."
+    ],
+    "aside": [
+      "Nothing on this page is sold separately.",
+      "We personalize all of them for your business and deliver it so you can keep using it after the 6 weeks are over."
+    ]
+  },
+
+  "loop": {
+    "h2": { "pre": "Your LinkedIn booking system built with ", "underline": "proof", "post": "." },
+    "intro": [
+      "The guessing stops today.",
+      "The recordings guide precisely who to target, what to post, how to start conversations and how to close them.",
+      "We use 1 tool for the 4 stages."
+    ],
+    "stages": [
+      {
+        "num": "01",
+        "stage": "Find ideal leads",
+        "name": "Lead Finder",
+        "line": "A Chrome plugin. It scores the leads most likely to respond to your message, based on who bought from you and worked with you before, defined by us and your recordings."
+      },
+      {
+        "num": "02",
+        "stage": "Start DMs",
+        "name": "DM 2 Call App",
+        "line": "LinkedIn's inbox sucks. We fixed it. This one shows you your most valuable conversations, the ones that will drive booked calls, shared with a trained appointment setter."
+      },
+      {
+        "num": "03",
+        "stage": "Consult and close clients",
+        "name": "Sally your Sales Ally",
+        "line": "An AI agent that reviews every recorded call against a ten-stage rubric and writes the proposal from the transcript."
+      },
+      {
+        "num": "04",
+        "stage": "Learn and improve",
+        "name": "Every call improves the system",
+        "line": "Each reviewed call tightens who gets targeted, what gets said in the DMs and how the offer lands on the next call."
+      }
+    ],
+    "payoff": "Learn feeds Find, and the loop closes."
+  },
+
+  "leadFinder": {
+    "h2": "Lead Finder",
+    "lead": "One click on a profile. A written verdict by morning.",
+    "body": [
+      "A Chrome extension. The specialist opens a prospect on LinkedIn and saves the profile with one click. Overnight, the system scores the person against your ideal client file and writes its verdict: KEEP or SKIP, with the reasons spelled out.",
+      "The prospect list stops being a guess before the first message goes out."
+    ],
+    "link": {
+      "label": "Lead Finder on the Chrome Web Store →",
+      "href": "https://chromewebstore.google.com/detail/journify-icp/cppjomhdfhmmcgnpdmdgneihfkpdlnko"
+    },
+    "figure": {
+      "chrome": "linkedin.com  ·  Lead Finder panel open",
+      "src": "/images/tools/icp-live-verdict-crop-blurred.png",
+      "alt": "Lead Finder verdict panel beside a LinkedIn profile",
+      "ratio": "791 / 681",
+      "caption": "Live inside LinkedIn: a saved profile already scored KEEP, with the written reasons. Real capture, prospect blurred."
+    }
+  },
+
+  "dmApp": {
+    "h2": "DM 2 Call App",
+    "lead": "The screen your specialist works from, every day.",
+    "body": [
+      "It ranks which conversations deserve attention first and tracks every thread from first touch to booked meeting. Follow-ups fire on time without anyone remembering them.",
+      "Your Notion CRM stays in sync on its own, and a report lands every week showing exactly where each conversation stands."
+    ],
+    "caption": "The inbox mid-workday: an open thread, its stage in the funnel, and a prospect's reply one click away from becoming a draft.",
+    "mock": {
+      "chrome": "app.journify.ai  ·  Inbox",
+      "brand": "journify.",
+      "brandNote": "DMs · operator",
+      "status": "Extension connected",
+      "account": "Kirian",
+      "accountNote": "account",
+      "avatar": "K",
+      "sidebar": [
+        {
+          "label": "Work",
+          "items": [
+            { "name": "Inbox", "active": true },
+            { "name": "New connections", "count": "26/0", "accent": true },
+            { "name": "Reminders" },
+            { "name": "Activity" },
+            { "name": "Funnel" }
+          ]
+        },
+        {
+          "label": "Signals",
+          "items": [
+            { "name": "Recently viewed", "count": "0" },
+            { "name": "Engagement", "count": "71", "accent": true }
+          ]
+        },
+        {
+          "label": "Saved views",
+          "items": [
+            { "name": "+ Save current view", "muted": true }
+          ]
+        }
+      ],
+      "sidebarFoot": "Settings",
+      "listTitle": "Inbox",
+      "listCta": "+ New DM",
+      "search": "Search by name or text (⌘K)",
+      "chips": ["Stage  Booked  5 ▾", "Filters", "★ Priority"],
+      "groups": [
+        {
+          "label": "This week · 3",
+          "threads": [
+            {
+              "initials": "NE",
+              "name": "Nadia Isabel Espinosa",
+              "blur": true,
+              "age": "2 d",
+              "preview": "Session booked :)",
+              "selected": true,
+              "tags": [
+                { "text": "Booked", "tone": "ox" },
+                { "text": "Warm", "tone": "warm" }
+              ]
+            },
+            {
+              "initials": "EB",
+              "name": "Elaine Barberena",
+              "blur": true,
+              "age": "5 d",
+              "preview": "You: Perfect. It's a complimentary 30-minute…",
+              "tags": [
+                { "text": "Booked", "tone": "ox" },
+                { "text": "Warm", "tone": "warm" }
+              ]
+            },
+            {
+              "initials": "OM",
+              "name": "Orlando Sánchez Meneses",
+              "blur": true,
+              "age": "5 d",
+              "preview": "You: Perfect. It's a complimentary 30-minute…",
+              "tags": [
+                { "text": "Booked", "tone": "ox" },
+                { "text": "Hot", "tone": "hot" }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "This month · 2",
+          "threads": [
+            {
+              "initials": "FC",
+              "name": "Fernando Castillo",
+              "blur": true,
+              "age": "1 wk",
+              "preview": "Hi there, confirmed. Best.",
+              "flagged": true,
+              "tags": [
+                { "text": "Booked", "tone": "ox" },
+                { "text": "Cold", "tone": "cold" }
+              ]
+            },
+            {
+              "initials": "JB",
+              "name": "Juan Jose Bideau Bellizzia",
+              "blur": true,
+              "age": "2 wk",
+              "preview": "You: Juan José, that persistence shows, and in the…",
+              "previewBlurFrom": 5,
+              "tags": [
+                { "text": "Booked", "tone": "ox" },
+                { "text": "Warm", "tone": "warm" },
+                { "text": "→ no reply · 16d", "tone": "outline" }
+              ]
+            }
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "side": "out",
+          "text": "Hi Nadia. Thanks for replying. Would you like to talk it through on a short call? I'll go through your profile with you and show you how I work. Interested?",
+          "blurWords": ["Nadia"],
+          "age": "3 d"
+        },
+        {
+          "side": "in",
+          "author": "Nadia Isabel Espinosa",
+          "authorBlur": true,
+          "text": "Hi Kirian, sounds good. I'm available",
+          "age": "2 d"
+        },
+        {
+          "side": "out",
+          "author": "You · Kirian",
+          "text": "Perfect. It's a complimentary 30-minute Zoom session, no cost. Pick the day and time that work best for you here: https://calendly.com/kiriangarcia/reunionexploratoriagratuita",
+          "age": "2 d"
+        },
+        {
+          "side": "in",
+          "author": "Nadia Isabel Espinosa",
+          "authorBlur": true,
+          "text": "Session booked :)",
+          "age": "2 d"
+        }
+      ],
+      "composerLabel": "Send message",
+      "composerPlaceholder": "Write your message…"
+    }
+  },
+
+  "sally": {
+    "h2": "Sally",
+    "lead": "A teammate built around your calls. Named for where she was born: sales.",
+    "body": [
+      "Sally lives inside your own Claude. She reviews every recorded sales call against a ten-stage rubric, quoting the exact lines with timestamps. She writes the proposal straight from the transcript into your Drive, and drafts LinkedIn content in your voice.",
+      "She reads the verdicts from Lead Finder, knows how you talk, and knows when a proposal went out. The engine behind the sprint."
+    ],
+    "closer": "Kirian García, an executive career coach, runs her practice with Sally today.",
+    "figures": [
+      {
+        "chrome": "Google Drive  ·  Call review, filed by Sally",
+        "src": "/images/tools/sally-review-english-crop.png",
+        "alt": "A call review Sally filed to Drive, scored 48/50",
+        "ratio": "1.97 / 1",
+        "caption": "A real review Sally filed to Drive: 48/50, coach talk time, and a stage map with timestamps. Translated from the client's Spanish original."
+      },
+      {
+        "chrome": "Google Sheets  ·  Every review, one sheet",
+        "src": "/images/tools/sally-trend-heatmap-crop.png",
+        "alt": "Ten-stage score heatmap over four months",
+        "ratio": "3.17 / 1",
+        "caption": "Sally compiles every review into one tracker: ten stages, four months, totals climbing from 23/50 to 44/50."
+      }
+    ]
+  },
+
+  "proof": {
+    "eyebrow": "From the case study  ·  All real, all measured",
+    "items": [
+      { "big": "6 calls", "line": "Booked qualified meetings in 21 days, from an empty pipeline." },
+      { "big": "28%", "line": "Reply rate on warm conversations." },
+      { "big": "5% → 30%", "line": "Connection acceptance after the profile rebuild." },
+      { "big": "48/50", "line": "A call review scored and filed to Drive automatically." }
+    ],
+    "link": { "label": "Read how it actually ran →", "href": "/case-studies/coaching" }
+  },
+
+  "diagnostic": {
+    "eyebrow": "Free  ·  score.journify.ai",
+    "h2": "Score one of your calls before you talk to us.",
+    "body": "Paste one sales call transcript. About four minutes later you get a scored diagnostic PDF and a LinkedIn post drafted from that same call. Free. The transcript is read once and never stored.",
+    "cta": { "label": "Score a call free →", "href": "https://score.journify.ai" },
+    "note": "The same rubric Sally uses inside the sprint."
+  },
+
+  "trust": {
+    "h2": "Everything runs where you can see it.",
+    "lead": "Nothing happens in a black box.",
+    "privacyLink": { "label": "Privacy →", "href": "/privacy" },
+    "stackLabel": "Works with",
+    "stack": ["LinkedIn", "Chrome", "Notion", "Google Drive", "Claude"],
+    "rows": [
+      {
+        "h": "Your LinkedIn account",
+        "b": "Conversations run with your credentials, never a burner profile. You see what goes out, and replies come to you."
+      },
+      {
+        "h": "Your Google Sheet and Drive",
+        "b": "All prospect data, verdicts and reviews live in storage you own. Cancel everything tomorrow and it stays yours."
+      },
+      {
+        "h": "Your transcripts",
+        "b": "The free diagnostic reads a transcript once, scores it, and never stores it."
+      }
+    ]
+  },
+
+  "faq": {
+    "h2": "Before you apply.",
+    "rows": [
+      {
+        "q": "What happens after day 45?",
+        "a": [
+          "Everything stays with you. The tools keep running on your accounts, your data stays in your Drive, and the booked calls are yours.",
+          "What stops is the daily conversation work. If you want it to keep moving, there is a retainer. If you would rather run it yourself, you get the documented system and a full handover."
+        ]
+      },
+      {
+        "q": "Who operates this day to day?",
+        "a": [
+          "A trained specialist we place. They work from the DM 2 Call App on your LinkedIn account, under our review.",
+          "You see everything that goes out. Replies come to you."
+        ]
+      },
+      {
+        "q": "Do I need my own Claude?",
+        "a": [
+          "Yes, for Sally. She lives inside your own Claude account, which is how everything she learns stays yours.",
+          "A standard Claude subscription is enough. We set her up during the sprint."
+        ]
+      },
+      {
+        "q": "Can my existing VA run it?",
+        "a": [
+          "Yes. The daily work was built to be teachable. Your VA can shadow the specialist during the sprint.",
+          "The handover covers the rest: the playbooks, the DM 2 Call App, and how Sally files her work."
+        ]
+      }
+    ]
+  },
+
+  "close": {
+    "h2": "The tools are real. So is the pipeline they build.",
+    "body": "Fifteen minutes tells us both whether the sprint fits your business. Or hand us one call first and see the rubric work on your own transcript.",
+    "primary": { "label": "Apply for the sprint →", "href": "https://cal.com/jeancarlohim/apply-for-thesprint" },
+    "secondary": { "label": "Score a call free →", "href": "https://score.journify.ai" }
+  }
+}

@@ -38,6 +38,12 @@ ARCHITECTURE IS DELIBERATE — DO NOT "MODERNIZE" IT:
    effect of a code change. Copy changes are their own task, JC-approved.
 5. styles/tokens.css is the locked design system (v1). Use j-* utilities and tokens; never
    inline ad-hoc styles or fork the token values.
+   /tools is the one route whose headings are Gloock instead of Fraunces. That override
+   lives in tools/index.html, scoped to .j-tools-h1 / .j-tools-h2 / .j-tools-band
+   .j-acc-title, and tokens.css is untouched. JC asked on 2026-09-24 to see the same change
+   on the homepage, /the-sprint and /case-studies/coaching before it goes site-wide; until
+   he says yes, Fraunces stays everywhere else. The journify wordmark stays Fraunces in
+   every case.
 6. Deploys are irreversible: explicit JC approval before git push / Vercel deploy. The
    GitHub remote situation is mid-rename (the repo on GitHub may still be named journify
    until the cleanup script finishes) — verify the remote before pushing.
@@ -55,20 +61,24 @@ ARCHITECTURE IS DELIBERATE — DO NOT "MODERNIZE" IT:
 
 ## File responsibility map (edit one file per concern)
 
-- index.html + {case-studies/coaching,the-sprint,privacy,terms}/index.html — per-route
+- index.html + {case-studies/coaching,the-sprint,tools,privacy,terms}/index.html — per-route
   shells; load CDN deps + components, mount the page component
 - pages/HomePage.jsx — composes sections S1–S8 (S5 skipped) from content/homepage.json
 - pages/CaseStudyPolly.jsx — coaching case study (route: /case-studies/coaching)
 - pages/TheSprintPage.jsx / PrivacyPage.jsx / TermsPage.jsx — their routes (privacy+terms
   noindex)
+- pages/ToolsPage.jsx — the tools page (route: /tools), all ten sections in one file
+- tools/InboxMock.jsx — hand-built HTML replica of the DM 2 Call App inbox used on /tools.
+  Laid out at a fixed 1000px and scaled down to its column above 860px; below 860px it
+  renders full size inside a box that scrolls sideways. Prospect names are CSS-blurred.
 - sections/S1–S8.jsx — homepage sections (S5 = dormant teardowns, never imported)
 - components/*.jsx — Section wrapper + parseInline, Accordion, S6 diagram/scroll animation,
   ProofBlock, StickyNav, MobileDrawer, Footer, Lightbox, Thinker
-- content/*.json — ALL copy (homepage, case-study-coaching, the-sprint, nav, footer,
+- content/*.json — ALL copy (homepage, case-study-coaching, the-sprint, tools, nav, footer,
   privacy, terms). The only place words change.
 - styles/tokens.css — locked design tokens + j-* utilities
 - vercel.json — clean-URL rewrites (routing lives here, not in JS)
-- robots.txt / sitemap.xml — 3 public URLs
+- robots.txt / sitemap.xml — 4 public URLs (/, /the-sprint, /case-studies/coaching, /tools)
 
 Known cruft (leave for the hygiene pass, don't expand it): duplicate favicons at root and
 images/logos/; unreferenced images/logos/favicon.ico.
