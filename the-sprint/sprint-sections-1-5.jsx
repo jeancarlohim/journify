@@ -19,11 +19,11 @@ function Section({ id, label, children, width = 720, pt = 120, pb = 120, tone = 
 function S1() {
   return (
     <Section id="s1" label="S1 Hero" width={1040} pt={120} pb={108} background={<HeroRecording h1Selector=".j-h1" />}>
-      <p className="j-meta" style={{ marginBottom: 16, letterSpacing: "0.08em", textTransform: "uppercase", fontSize: 12 }}>
+      <p className="j-meta" style={{ marginBottom: 16 }}>
         For founders who sell services on calls.
       </p>
-      <p style={{ fontFamily: "var(--serif)", fontWeight: 600, fontSize: 13, letterSpacing: "0.10em",
-                  textTransform: "uppercase", color: "var(--ox)", margin: "0 0 24px",
+      <p style={{ fontFamily: "var(--serif)", fontWeight: 600, fontSize: 16, letterSpacing: "-0.01em",
+                  color: "var(--ox)", margin: "0 0 24px",
                   fontVariationSettings: "'opsz' 72" }}>
         The Sales Call Sprint
       </p>

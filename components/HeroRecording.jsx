@@ -81,9 +81,9 @@ function HeroRecording({ h1Selector = '.j-s1-h1' }) {
           }
           let amt = (BASE * hz[x] + wave * 0.92) * breathe * MAX * win[y];
           if (amt > MAX) amt = MAX;
-          d[i]     = 250 + (122 - 250) * amt;
-          d[i + 1] = 248 + (26  - 248) * amt;
-          d[i + 2] = 245 + (42  - 245) * amt;
+          d[i]     = 255 + (122 - 255) * amt;
+          d[i + 1] = 255 + (26  - 255) * amt;
+          d[i + 2] = 255 + (42  - 255) * amt;
           d[i + 3] = 255;
           i += 4;
         }

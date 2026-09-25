@@ -4,14 +4,14 @@
 
 :root {
   /* Core palette */
-  --bg:            #FAF8F5;
+  --bg:            #FFFFFF;
   --text:          #1A1714;
   --text-2:        #5A544C;
   --placeholder:   #B0AAA0;
-  --border:        #E8E3DB;
+  --border:        #E7E5E1;
   --ox:            #7A1A2A;
   --ox-hover:      #5A1220;
-  --ox-text:       #FAF8F5;
+  --ox-text:       #FFFFFF;
   --ox-text-2:     #E8D4D8;
 
   /* S6-scoped only */
@@ -50,7 +50,7 @@
 .j-payoff { font-family: var(--serif); font-weight: 400; font-style: italic; font-size: 18px; line-height: 1.5; letter-spacing: -0.005em; font-variation-settings: 'opsz' 48; color: var(--text); margin: 0; }
 .j-body { font-family: var(--sans); font-weight: 400; font-size: 16px; line-height: 1.7; color: var(--text); margin: 0; }
 .j-small{ font-family: var(--sans); font-weight: 400; font-size: 14px; line-height: 1.55; color: var(--text); margin: 0; }
-.j-meta { font-family: var(--sans); font-weight: 400; font-size: 11px; line-height: 1.4; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-2); margin: 0; }
+.j-meta { font-family: var(--sans); font-weight: 400; font-size: 14px; line-height: 1.5; letter-spacing: 0; text-transform: none; color: var(--text-2); margin: 0; }
 .j-cap  { font-family: var(--sans); font-weight: 400; font-size: 12px; line-height: 1.5; color: var(--text-2); margin: 0; }
 
 /* ───────── Headings ─────────
@@ -149,7 +149,7 @@
 .j-card-foot { font-family: var(--sans); font-weight: 500; font-size: 13px; color: var(--ox); text-decoration: none; margin-top: 4px; }
 
 /* ───────── S2 Quote ───────── */
-.j-q { padding-left: 20px; border-left: 2px solid var(--ox); }
+.j-q { padding-left: 0; border-left: none; }
 .j-q-line { font-family: var(--serif); font-weight: 400; font-size: 20px; line-height: 1.4; letter-spacing: -0.01em; font-variation-settings: 'opsz' 48; color: var(--text); margin: 0 0 6px; }
 .j-q-attr { font-family: var(--sans); font-size: 14px; line-height: 1.5; color: var(--text-2); margin: 0; font-style: normal; }
 

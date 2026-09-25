@@ -98,7 +98,7 @@ function S6Homepage() {
           --s6h-border-2: #D9D3C7;
           --s6h-text-2: #5A544C;
           --s6h-ox: #7A1A2A;
-          --s6h-ox-text: #FAF8F5;
+          --s6h-ox-text: #FFFFFF;
           --s6h-ox-text-2: #E8D5D9;
           --s6h-green: #1F5D3A;
           --s6h-green-mid: #3A8A5C;
