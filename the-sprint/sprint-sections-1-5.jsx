@@ -31,7 +31,7 @@ function S1() {
         Most founders think they need more booked meetings.
       </h1>
       <p className="j-h2" style={{ marginTop: 20, maxWidth: 600, color: "var(--text-2)", fontWeight: 400 }}>
-        Usually they need fewer guesses.
+        Usually they just need proof.
       </p>
       <div style={{ display: "flex", alignItems: "center", gap: 24, marginTop: 48, flexWrap: "wrap" }}>
         <a className="j-cta j-cta--warm" href={APPLY}>Apply for the Sprint →</a>
