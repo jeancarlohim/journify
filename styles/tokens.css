@@ -26,6 +26,7 @@
 
   /* Type families */
   --serif:         'Fraunces', Georgia, serif;
+  --display:       'Gloock', Georgia, serif;   /* all headings, 400 only */
   --sans:          'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 
@@ -51,6 +52,17 @@
 .j-small{ font-family: var(--sans); font-weight: 400; font-size: 14px; line-height: 1.55; color: var(--text); margin: 0; }
 .j-meta { font-family: var(--sans); font-weight: 400; font-size: 11px; line-height: 1.4; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-2); margin: 0; }
 .j-cap  { font-family: var(--sans); font-weight: 400; font-size: 12px; line-height: 1.5; color: var(--text-2); margin: 0; }
+
+/* ───────── Headings ─────────
+   Every heading on journify.ai is Gloock (JC, 2026-09-25). Gloock ships one
+   weight, 400, so the weight and the variable-font axis below are reset here.
+   The journify wordmark (.j-nav-brand) and the display serif used for numbers,
+   quotes and the sprint's section markers stay Fraunces. */
+.j-h1, .j-h2, .j-h3, .j-h4, .j-acc-title, .j-card-title {
+  font-family: var(--display);
+  font-weight: 400;
+  font-variation-settings: normal;
+}
 
 /* ───────── CTAs ───────── */
 .j-cta {

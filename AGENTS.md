@@ -38,12 +38,13 @@ ARCHITECTURE IS DELIBERATE — DO NOT "MODERNIZE" IT:
    effect of a code change. Copy changes are their own task, JC-approved.
 5. styles/tokens.css is the locked design system (v1). Use j-* utilities and tokens; never
    inline ad-hoc styles or fork the token values.
-   /tools is the one route whose headings are Gloock instead of Fraunces. That override
-   lives in tools/index.html, scoped to .j-tools-h1 / .j-tools-h2 / .j-tools-band
-   .j-acc-title, and tokens.css is untouched. JC asked on 2026-09-24 to see the same change
-   on the homepage, /the-sprint and /case-studies/coaching before it goes site-wide; until
-   he says yes, Fraunces stays everywhere else. The journify wordmark stays Fraunces in
-   every case.
+   Every heading on the site is Gloock (JC approved site-wide on 2026-09-25 after seeing
+   the homepage, /the-sprint and /case-studies/coaching both ways). The rule lives in one
+   place, the Headings block in styles/tokens.css, and covers .j-h1 / .j-h2 / .j-h3 /
+   .j-h4 / .j-acc-title / .j-card-title. Gloock has one weight, 400. The journify wordmark
+   (.j-nav-brand) and the Fraunces display type used for the sprint's numbers, quotes and
+   section markers are NOT headings and stay Fraunces. Every route shell loads Gloock from
+   Google Fonts; add it to the font link of any new route.
 6. Deploys are irreversible: explicit JC approval before git push / Vercel deploy. The
    GitHub remote situation is mid-rename (the repo on GitHub may still be named journify
    until the cleanup script finishes) — verify the remote before pushing.
