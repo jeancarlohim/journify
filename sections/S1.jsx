@@ -3,7 +3,7 @@
 function S1({ data }) {
   if (!data) return null;
   return (
-    <Section id="s1" label="S1 Hero" width={1200} pt={140} pb={140}>
+    <Section id="s1" label="S1 Hero" width={1200} pt={140} pb={140} background={<HeroRecording />}>
       <div className="j-s1-block">
         <div className="j-s1-inner">
           {data.audience && (

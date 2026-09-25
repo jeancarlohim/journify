@@ -16,10 +16,22 @@
     "headline": "\"I need to think about it\" shows up in many ways.",
     "lead": "You're getting the conversations. They just don't turn into clients.",
     "quotes": [
-      { "q": "\"Can you send me a proposal so I'll get *right* back to you.\"", "a": "And they never do." },
-      { "q": "\"Let me discuss this with my partner.\"", "a": "But you don't hear from them." },
-      { "q": "\"Sounds good but the timing isn't right.\"", "a": "And the timing never comes." },
-      { "q": "\"Let me circle back after Q3.\"", "a": "And it's Q1 next year, and still circling." }
+      {
+        "q": "\"Can you send me a proposal so I'll get *right* back to you.\"",
+        "a": "And they never do."
+      },
+      {
+        "q": "\"Let me discuss this with my partner.\"",
+        "a": "But you don't hear from them."
+      },
+      {
+        "q": "\"Sounds good but the timing isn't right.\"",
+        "a": "And the timing never comes."
+      },
+      {
+        "q": "\"Let me circle back after Q3.\"",
+        "a": "And it's Q1 next year, and still circling."
+      }
     ]
   },
   "s3": {
@@ -63,7 +75,13 @@
           "Instead of selling many things to many people, we narrow the offer.",
           "We rebuild it around the clients who paid on time and referred others. The ones whose results you're proud to show.",
           "Then your offer learns from every call. The ones that close show what's working. The ones that don't show where the offer still bends."
-        ]
+        ],
+        "figure": {
+          "chrome": "linkedin.com  ·  Lead Finder panel open",
+          "src": "/images/tools/icp-live-verdict-crop-blurred.png",
+          "alt": "Lead Finder verdict panel beside a LinkedIn profile, prospect blurred",
+          "ratio": "791 / 681"
+        }
       },
       {
         "h": "What you say",
@@ -71,7 +89,13 @@
           "We turn your calls into content that speaks to the problem keeping your buyer up at 3am, in the words they used.",
           "It runs on LinkedIn and matches everything else they read about you. Same buyer, same problem, every surface.",
           "Then your content learns from every call. The line that made a prospect sit up gets used again."
-        ]
+        ],
+        "figure": {
+          "chrome": "app.journify.ai  ·  Inbox",
+          "src": "/images/tools/dm-inbox-mock.png",
+          "alt": "The DMs App inbox, prospect names blurred",
+          "ratio": "1000 / 749"
+        }
       },
       {
         "h": "How you sell",
@@ -79,18 +103,28 @@
           "The prospect arrives already knowing who you help and what you do.",
           "So you stop managing objections and start selling with curiosity, to someone you can genuinely help.",
           "We watch your calls back together, find where you slipped and use it to make the next call better."
-        ]
+        ],
+        "figure": {
+          "chrome": "Google Drive  ·  Call review, filed by Sally",
+          "src": "/images/tools/sally-review-english-crop.png",
+          "alt": "A call review Sally filed to Drive, scored 48/50",
+          "ratio": "1.97 / 1"
+        }
       }
     ],
     "closer": [
       "By day 45, the calls aren't the same calls. Not the offer. Not the website.",
       "Every reply taught the next post. Every call taught the next offer. By the end, nothing is what it was at the start."
-    ]
+    ],
+    "figureNote": "Click to enlarge."
   },
   "s6": {
     "headline": "Nothing in the pipeline moves on its own.",
     "payoff": "Every sales call rewrites what came before it.",
-    "link": { "label": "Read how it actually ran →", "href": "/case-studies/coaching" }
+    "link": {
+      "label": "Read how it actually ran →",
+      "href": "/case-studies/coaching"
+    }
   },
   "s7": {
     "headline": "Forty-five days. Two phases.",
@@ -104,7 +138,10 @@
       "label": "Apply for the sprint →",
       "href": "https://cal.com/jeancarlohim/apply-for-thesprint"
     },
-    "link": { "label": "Full sprint detail →", "href": "/the-sprint" }
+    "link": {
+      "label": "Full sprint detail →",
+      "href": "/the-sprint"
+    }
   },
   "s8": {
     "founder": {
@@ -117,9 +154,21 @@
         "That's the whole idea behind Journify. I spent the years after that proving it at bigger and bigger companies."
       ],
       "logos": [
-        { "src": "/images/logos/adidas.png", "alt": "adidas", "lesson": "Global CRM. Where I learned the psychology of why your best customers stay and spend more." },
-        { "src": "/images/logos/dell.png", "alt": "Dell", "lesson": "Enterprise sales. My team closed $80M in B2B deals, so I know what gets a high-value deal signed." },
-        { "src": "/images/logos/heineken.jpeg", "alt": "Heineken", "lesson": "Customer Journey Expert. The full customer journey, every touchpoint pulling in the same direction." }
+        {
+          "src": "/images/logos/adidas.png",
+          "alt": "adidas",
+          "lesson": "Global CRM. Where I learned the psychology of why your best customers stay and spend more."
+        },
+        {
+          "src": "/images/logos/dell.png",
+          "alt": "Dell",
+          "lesson": "Enterprise sales. My team closed $80M in B2B deals, so I know what gets a high-value deal signed."
+        },
+        {
+          "src": "/images/logos/heineken.jpeg",
+          "alt": "Heineken",
+          "lesson": "Customer Journey Expert. The full customer journey, every touchpoint pulling in the same direction."
+        }
       ],
       "closer": "The brands got bigger. The method never changed. Journify is that method, built for founders who close their own calls.",
       "location": "Rotterdam."

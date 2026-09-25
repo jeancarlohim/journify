@@ -10,10 +10,12 @@ function parseInline(str) {
   });
 }
 
-function Section({ id, label, children, width = 720, pt = 120, pb = 120 }) {
+function Section({ id, label, children, width = 720, pt = 120, pb = 120, background = null }) {
+  // background: an optional full-bleed element drawn behind the content (S1 uses it for the recording)
   return (
-    <section id={id} data-screen-label={label} style={{ padding: `${pt}px 48px ${pb}px` }}>
-      <div style={{ maxWidth: width, margin: '0 auto' }}>{children}</div>
+    <section id={id} data-screen-label={label} style={{ padding: `${pt}px 48px ${pb}px`, position: background ? 'relative' : undefined }}>
+      {background}
+      <div style={{ maxWidth: width, margin: '0 auto', position: background ? 'relative' : undefined, zIndex: background ? 1 : undefined }}>{children}</div>
     </section>
   );
 }

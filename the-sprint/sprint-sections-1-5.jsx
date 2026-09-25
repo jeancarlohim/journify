@@ -2,12 +2,15 @@
 
 const APPLY = "https://cal.com/jeancarlohim/apply-for-thesprint";
 
-function Section({ id, label, children, width = 720, pt = 120, pb = 120, tone = "bg" }) {
+function Section({ id, label, children, width = 720, pt = 120, pb = 120, tone = "bg", background = null }) {
+  // background: an optional full-bleed element drawn behind the content (S1 uses it for the recording)
   return (
     <section id={id} data-screen-label={label}
              style={{ padding: `${pt}px 48px ${pb}px`,
-                      background: tone === "panel" ? "var(--panel)" : "var(--bg)" }}>
-      <div style={{ maxWidth: width, margin: "0 auto" }}>{children}</div>
+                      background: tone === "panel" ? "var(--panel)" : "var(--bg)",
+                      position: background ? "relative" : undefined }}>
+      {background}
+      <div style={{ maxWidth: width, margin: "0 auto", position: background ? "relative" : undefined, zIndex: background ? 1 : undefined }}>{children}</div>
     </section>
   );
 }
@@ -15,7 +18,7 @@ function Section({ id, label, children, width = 720, pt = 120, pb = 120, tone = 
 /* ── S1 · Hero ───────────────────────────────────────── */
 function S1() {
   return (
-    <Section id="s1" label="S1 Hero" width={1040} pt={120} pb={108}>
+    <Section id="s1" label="S1 Hero" width={1040} pt={120} pb={108} background={<HeroRecording h1Selector=".j-h1" />}>
       <p className="j-meta" style={{ marginBottom: 16, letterSpacing: "0.08em", textTransform: "uppercase", fontSize: 12 }}>
         For founders who sell services on calls.
       </p>
