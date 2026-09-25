@@ -42,7 +42,7 @@ function StickyNav({ onOpenDrawer, ctaHref, brandHref }) {
             {navData && navData.links.map((l, i) => (
               <a key={i} className="j-nav-link" href={l.href}>{l.label}</a>
             ))}
-            <a className="j-cta j-cta--hot" href={ctaHref}>Apply for the sprint →</a>
+            <a className="j-cta j-cta--hot" href={ctaHref}>Apply for the sprint</a>
           </div>
           <button className="j-hamb" onClick={onOpenDrawer} aria-label="Open menu">
             <span className="j-hamb-glyph"><span /></span>

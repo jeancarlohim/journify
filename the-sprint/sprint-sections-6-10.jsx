@@ -51,7 +51,7 @@ function S6() {
         I run two Sprints at a time. When they are full, they are full.
       </p>
       <div style={{ marginTop: 36 }}>
-        <a className="j-cta j-cta--warm" href={APPLY}>Apply for the Sprint →</a>
+        <a className="j-cta j-cta--warm" href={APPLY}>Apply for the Sprint</a>
       </div>
     </Section>
   );
@@ -91,7 +91,7 @@ function S7() {
         same: when the guessing stops, the right people start showing up.
       </p>
       <div style={{ marginTop: 24 }}>
-        <a className="j-link" href="/case-studies/coaching">Read how it actually ran →</a>
+        <a className="j-link" href="/case-studies/coaching">Read how it actually ran</a>
       </div>
     </Section>
   );
@@ -173,13 +173,12 @@ function S10() {
         <ol className="j-steps">
           {steps.map((s, i) => (
             <li key={i} className="j-step">
-              <span className="j-step-n">{i + 1}</span>
               <p className="j-body" style={{ margin: 0 }}>{s}</p>
             </li>
           ))}
         </ol>
         <div style={{ marginTop: 40, display: "flex", alignItems: "center", gap: 24, flexWrap: "wrap" }}>
-          <a className="j-cta j-cta--warm" href={APPLY}>Apply for the Sprint →</a>
+          <a className="j-cta j-cta--warm" href={APPLY}>Apply for the Sprint</a>
           <span className="j-small" style={{ color: "var(--text-2)" }}>
             1/2 open slots. Application only.
           </span>

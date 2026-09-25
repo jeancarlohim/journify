@@ -4,11 +4,11 @@
     "headline": "Turn your sales call recordings into booked qualified meetings.",
     "subline": "We use your call recordings to rebuild your offer around your best buyer and create LinkedIn content and start conversations that book meetings with the right people. In 45 days.",
     "ctaPrimary": {
-      "label": "Apply for the sprint →",
+      "label": "Apply for the sprint",
       "href": "https://cal.com/jeancarlohim/apply-for-thesprint"
     },
     "ctaSecondary": {
-      "label": "Read how it actually ran →",
+      "label": "Read how it actually ran",
       "href": "/case-studies/coaching"
     }
   },
@@ -122,7 +122,7 @@
     "headline": "Nothing in the pipeline moves on its own.",
     "payoff": "Every sales call rewrites what came before it.",
     "link": {
-      "label": "Read how it actually ran →",
+      "label": "Read how it actually ran",
       "href": "/case-studies/coaching"
     }
   },
@@ -135,11 +135,11 @@
     "closingLine1": "You bring the current state. Site, offer, conversations, call recordings.",
     "closingLine2": "We rebuild the parts making the deal harder than it needs to be.",
     "cta": {
-      "label": "Apply for the sprint →",
+      "label": "Apply for the sprint",
       "href": "https://cal.com/jeancarlohim/apply-for-thesprint"
     },
     "link": {
-      "label": "Full sprint detail →",
+      "label": "Full sprint detail",
       "href": "/the-sprint"
     }
   },
@@ -215,7 +215,7 @@
     ],
     "payoff": "If you've read this far, the next move is a fifteen-minute call.",
     "cta": {
-      "label": "Apply for the sprint →",
+      "label": "Apply for the sprint",
       "href": "https://cal.com/jeancarlohim/apply-for-thesprint"
     }
   }

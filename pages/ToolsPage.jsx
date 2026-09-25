@@ -102,7 +102,7 @@ function ToolsPage() {
           {c.loop.stages.map((s, i) => (
             <div key={i} className="j-tools-stage">
               <p className="j-meta" style={{ color: 'var(--ox)', marginBottom: 14 }}>
-                {s.num}&nbsp;&nbsp;{s.stage}
+                {s.stage}
               </p>
               <p style={{ fontWeight: 500, fontSize: 16, letterSpacing: '-0.005em', margin: '0 0 8px' }}>{s.name}</p>
               <p className="j-small" style={{ color: 'var(--text-2)', lineHeight: 1.6 }}>{s.line}</p>

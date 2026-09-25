@@ -20,7 +20,7 @@ function ProofBlock() {
         ))}
       </div>
       <div style={{ marginTop: 32 }}>
-        <a className="j-proof-link" href="/case-studies/coaching">See the case study →</a>
+        <a className="j-proof-link" href="/case-studies/coaching">See the case study</a>
       </div>
     </Section>
   );

@@ -2,7 +2,7 @@
 
 function S6Diagram({ data, phase }) {
   const linkHref = (data && data.link && data.link.href) ? data.link.href : '/case-studies/coaching';
-  const linkLabel = (data && data.link && data.link.label) ? data.link.label : 'Read how it actually ran →';
+  const linkLabel = (data && data.link && data.link.label) ? data.link.label : 'Read how it actually ran';
   const frozen = phase === 'F';
 
   return (

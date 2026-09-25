@@ -51,11 +51,9 @@
 
     /* ── S3 beats ── */
     .j-beats { display: flex; flex-direction: column; gap: 0; }
-    .j-beat { display: grid; grid-template-columns: 88px 1fr; gap: 32px;
+    .j-beat { display: grid; grid-template-columns: 1fr; gap: 32px;
       padding: 36px 0; border-top: 0.5px solid var(--border); }
     .j-beat:last-child { border-bottom: 0.5px solid var(--border); }
-    .j-beat-n { font-family: var(--serif); font-weight: 600; font-size: 22px; color: var(--ox);
-      font-variation-settings: 'opsz' 72; line-height: 1; padding-top: 4px; }
 
     /* ── S4 stages ── */
     .j-stages { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; }
@@ -97,10 +95,7 @@
     /* ── S10 join ── */
     .j-join { margin-top: 64px; }
     .j-steps { list-style: none; margin: 32px 0 0; padding: 0; display: flex; flex-direction: column; gap: 18px; max-width: 560px; }
-    .j-step { display: grid; grid-template-columns: 36px 1fr; gap: 16px; align-items: center; }
-    .j-step-n { width: 32px; height: 32px; border-radius: 50%; border: 0.5px solid var(--text);
-      display: inline-flex; align-items: center; justify-content: center;
-      font-family: var(--serif); font-weight: 600; font-size: 15px; color: var(--text); }
+    .j-step { display: grid; grid-template-columns: 1fr; gap: 16px; align-items: center; }
 
     /* ── responsive ── */
     @media (max-width: 860px) {
@@ -109,8 +104,7 @@
       .j-h2 { font-size: 27px !important; }
       .j-nav { padding: 0 24px; }
       .j-beat { grid-template-columns: 1fr; gap: 10px; }
-      .j-beat-n { padding-top: 0; }
-      .j-stages { grid-template-columns: 1fr; gap: 44px; }
+        .j-stages { grid-template-columns: 1fr; gap: 44px; }
       .j-products { grid-template-columns: 1fr; }
       .j-statbar { grid-template-columns: 1fr 1fr; }
       .j-stat { border-right: 0; border-bottom: 0.5px solid var(--border); }

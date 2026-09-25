@@ -10,9 +10,12 @@
       "We personalize all of them for your business and deliver it so you can keep using it after the 6 weeks are over."
     ]
   },
-
   "loop": {
-    "h2": { "pre": "Your LinkedIn booking system built with ", "underline": "proof", "post": "." },
+    "h2": {
+      "pre": "Your LinkedIn booking system built with ",
+      "underline": "proof",
+      "post": "."
+    },
     "intro": [
       "The guessing stops today.",
       "The recordings guide precisely who to target, what to post, how to start conversations and how to close them.",
@@ -20,25 +23,21 @@
     ],
     "stages": [
       {
-        "num": "01",
         "stage": "Find ideal leads",
         "name": "Lead Finder",
         "line": "A Chrome plugin. It scores the leads most likely to respond to your message, based on who bought from you and worked with you before, defined by us and your recordings."
       },
       {
-        "num": "02",
         "stage": "Start DMs",
         "name": "DM 2 Call App",
         "line": "LinkedIn's inbox sucks. We fixed it. This one shows you your most valuable conversations, the ones that will drive booked calls, shared with a trained appointment setter."
       },
       {
-        "num": "03",
         "stage": "Consult and close clients",
         "name": "Sally your Sales Ally",
         "line": "An AI agent that reviews every recorded call against a ten-stage rubric and writes the proposal from the transcript."
       },
       {
-        "num": "04",
         "stage": "Learn and improve",
         "name": "Every call improves the system",
         "line": "Each reviewed call tightens who gets targeted, what gets said in the DMs and how the offer lands on the next call."
@@ -46,7 +45,6 @@
     ],
     "payoff": "Learn feeds Find, and the loop closes."
   },
-
   "leadFinder": {
     "h2": "Lead Finder",
     "lead": "One click on a profile. A written verdict by morning.",
@@ -54,10 +52,6 @@
       "A Chrome extension. The specialist opens a prospect on LinkedIn and saves the profile with one click. Overnight, the system scores the person against your ideal client file and writes its verdict: KEEP or SKIP, with the reasons spelled out.",
       "The prospect list stops being a guess before the first message goes out."
     ],
-    "link": {
-      "label": "Lead Finder on the Chrome Web Store →",
-      "href": "https://chromewebstore.google.com/detail/journify-icp/cppjomhdfhmmcgnpdmdgneihfkpdlnko"
-    },
     "figure": {
       "chrome": "linkedin.com  ·  Lead Finder panel open",
       "src": "/images/tools/icp-live-verdict-crop-blurred.png",
@@ -66,7 +60,6 @@
       "caption": "Live inside LinkedIn: a saved profile already scored KEEP, with the written reasons. Real capture, prospect blurred."
     }
   },
-
   "dmApp": {
     "h2": "DM 2 Call App",
     "lead": "The screen your specialist works from, every day.",
@@ -87,24 +80,47 @@
         {
           "label": "Work",
           "items": [
-            { "name": "Inbox", "active": true },
-            { "name": "New connections", "count": "26/0", "accent": true },
-            { "name": "Reminders" },
-            { "name": "Activity" },
-            { "name": "Funnel" }
+            {
+              "name": "Inbox",
+              "active": true
+            },
+            {
+              "name": "New connections",
+              "count": "26/0",
+              "accent": true
+            },
+            {
+              "name": "Reminders"
+            },
+            {
+              "name": "Activity"
+            },
+            {
+              "name": "Funnel"
+            }
           ]
         },
         {
           "label": "Signals",
           "items": [
-            { "name": "Recently viewed", "count": "0" },
-            { "name": "Engagement", "count": "71", "accent": true }
+            {
+              "name": "Recently viewed",
+              "count": "0"
+            },
+            {
+              "name": "Engagement",
+              "count": "71",
+              "accent": true
+            }
           ]
         },
         {
           "label": "Saved views",
           "items": [
-            { "name": "+ Save current view", "muted": true }
+            {
+              "name": "+ Save current view",
+              "muted": true
+            }
           ]
         }
       ],
@@ -112,7 +128,11 @@
       "listTitle": "Inbox",
       "listCta": "+ New DM",
       "search": "Search by name or text (⌘K)",
-      "chips": ["Stage  Booked  5 ▾", "Filters", "★ Priority"],
+      "chips": [
+        "Stage  Booked  5 ▾",
+        "Filters",
+        "★ Priority"
+      ],
       "groups": [
         {
           "label": "This week · 3",
@@ -125,8 +145,14 @@
               "preview": "Session booked :)",
               "selected": true,
               "tags": [
-                { "text": "Booked", "tone": "ox" },
-                { "text": "Warm", "tone": "warm" }
+                {
+                  "text": "Booked",
+                  "tone": "ox"
+                },
+                {
+                  "text": "Warm",
+                  "tone": "warm"
+                }
               ]
             },
             {
@@ -136,8 +162,14 @@
               "age": "5 d",
               "preview": "You: Perfect. It's a complimentary 30-minute…",
               "tags": [
-                { "text": "Booked", "tone": "ox" },
-                { "text": "Warm", "tone": "warm" }
+                {
+                  "text": "Booked",
+                  "tone": "ox"
+                },
+                {
+                  "text": "Warm",
+                  "tone": "warm"
+                }
               ]
             },
             {
@@ -147,8 +179,14 @@
               "age": "5 d",
               "preview": "You: Perfect. It's a complimentary 30-minute…",
               "tags": [
-                { "text": "Booked", "tone": "ox" },
-                { "text": "Hot", "tone": "hot" }
+                {
+                  "text": "Booked",
+                  "tone": "ox"
+                },
+                {
+                  "text": "Hot",
+                  "tone": "hot"
+                }
               ]
             }
           ]
@@ -164,8 +202,14 @@
               "preview": "Hi there, confirmed. Best.",
               "flagged": true,
               "tags": [
-                { "text": "Booked", "tone": "ox" },
-                { "text": "Cold", "tone": "cold" }
+                {
+                  "text": "Booked",
+                  "tone": "ox"
+                },
+                {
+                  "text": "Cold",
+                  "tone": "cold"
+                }
               ]
             },
             {
@@ -176,9 +220,18 @@
               "preview": "You: Juan José, that persistence shows, and in the…",
               "previewBlurFrom": 5,
               "tags": [
-                { "text": "Booked", "tone": "ox" },
-                { "text": "Warm", "tone": "warm" },
-                { "text": "→ no reply · 16d", "tone": "outline" }
+                {
+                  "text": "Booked",
+                  "tone": "ox"
+                },
+                {
+                  "text": "Warm",
+                  "tone": "warm"
+                },
+                {
+                  "text": "→ no reply · 16d",
+                  "tone": "outline"
+                }
               ]
             }
           ]
@@ -188,7 +241,9 @@
         {
           "side": "out",
           "text": "Hi Nadia. Thanks for replying. Would you like to talk it through on a short call? I'll go through your profile with you and show you how I work. Interested?",
-          "blurWords": ["Nadia"],
+          "blurWords": [
+            "Nadia"
+          ],
           "age": "3 d"
         },
         {
@@ -216,7 +271,6 @@
       "composerPlaceholder": "Write your message…"
     }
   },
-
   "sally": {
     "h2": "Sally",
     "lead": "A teammate built around your calls. Named for where she was born: sales.",
@@ -242,32 +296,56 @@
       }
     ]
   },
-
   "proof": {
     "eyebrow": "From the case study  ·  All real, all measured",
     "items": [
-      { "big": "6 calls", "line": "Booked qualified meetings in 21 days, from an empty pipeline." },
-      { "big": "28%", "line": "Reply rate on warm conversations." },
-      { "big": "5% → 30%", "line": "Connection acceptance after the profile rebuild." },
-      { "big": "48/50", "line": "A call review scored and filed to Drive automatically." }
+      {
+        "big": "6 calls",
+        "line": "Booked qualified meetings in 21 days, from an empty pipeline."
+      },
+      {
+        "big": "28%",
+        "line": "Reply rate on warm conversations."
+      },
+      {
+        "big": "5% → 30%",
+        "line": "Connection acceptance after the profile rebuild."
+      },
+      {
+        "big": "48/50",
+        "line": "A call review scored and filed to Drive automatically."
+      }
     ],
-    "link": { "label": "Read how it actually ran →", "href": "/case-studies/coaching" }
+    "link": {
+      "label": "Read how it actually ran",
+      "href": "/case-studies/coaching"
+    }
   },
-
   "diagnostic": {
     "eyebrow": "Free  ·  score.journify.ai",
     "h2": "Score one of your calls before you talk to us.",
     "body": "Paste one sales call transcript. About four minutes later you get a scored diagnostic PDF and a LinkedIn post drafted from that same call. Free. The transcript is read once and never stored.",
-    "cta": { "label": "Score a call free →", "href": "https://score.journify.ai" },
+    "cta": {
+      "label": "Score a call free",
+      "href": "https://score.journify.ai"
+    },
     "note": "The same rubric Sally uses inside the sprint."
   },
-
   "trust": {
     "h2": "Everything runs where you can see it.",
     "lead": "Nothing happens in a black box.",
-    "privacyLink": { "label": "Privacy →", "href": "/privacy" },
+    "privacyLink": {
+      "label": "Privacy",
+      "href": "/privacy"
+    },
     "stackLabel": "Works with",
-    "stack": ["LinkedIn", "Chrome", "Notion", "Google Drive", "Claude"],
+    "stack": [
+      "LinkedIn",
+      "Chrome",
+      "Notion",
+      "Google Drive",
+      "Claude"
+    ],
     "rows": [
       {
         "h": "Your LinkedIn account",
@@ -283,7 +361,6 @@
       }
     ]
   },
-
   "faq": {
     "h2": "Before you apply.",
     "rows": [
@@ -317,11 +394,16 @@
       }
     ]
   },
-
   "close": {
     "h2": "The tools are real. So is the pipeline they build.",
     "body": "Fifteen minutes tells us both whether the sprint fits your business. Or hand us one call first and see the rubric work on your own transcript.",
-    "primary": { "label": "Apply for the sprint →", "href": "https://cal.com/jeancarlohim/apply-for-thesprint" },
-    "secondary": { "label": "Score a call free →", "href": "https://score.journify.ai" }
+    "primary": {
+      "label": "Apply for the sprint",
+      "href": "https://cal.com/jeancarlohim/apply-for-thesprint"
+    },
+    "secondary": {
+      "label": "Score a call free",
+      "href": "https://score.journify.ai"
+    }
   }
 }

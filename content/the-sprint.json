@@ -10,7 +10,7 @@
     "bodyLine3": "A 45-day sprint rebuilds all three.",
     "bodyLine4": "Every sales call teaches the next one.",
     "ctaPrimary": {
-      "label": "Apply for the sprint →",
+      "label": "Apply for the sprint",
       "href": "https://cal.com/jeancarlohim/apply-for-thesprint"
     }
   },
@@ -149,7 +149,7 @@
     "bodyLine1": "Sixty-plus coaches and consultants have been through some version of this work with me, positioning workshops, offer design, sales calls training, partial sprints.",
     "bodyLine2": "Journify is the version that puts it all together.",
     "link": {
-      "label": "Read how it actually ran →",
+      "label": "Read how it actually ran",
       "href": "/case-studies/coaching"
     }
   },
@@ -198,7 +198,7 @@
   "s8": {
     "payoff": "Two active sprints at a time. Three pilot slots total.",
     "cta": {
-      "label": "Apply for the sprint →",
+      "label": "Apply for the sprint",
       "href": "https://cal.com/jeancarlohim/apply-for-thesprint"
     }
   }

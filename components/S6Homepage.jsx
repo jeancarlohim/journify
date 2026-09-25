@@ -660,7 +660,7 @@ function S6Homepage() {
       </div>
 
       <div className="s6h-link-wrap">
-        <a className="s6h-link" href="/case-studies/coaching">Read how it actually ran →</a>
+        <a className="s6h-link" href="/case-studies/coaching">Read how it actually ran</a>
       </div>
 
     </section>

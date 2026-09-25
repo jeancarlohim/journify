@@ -82,12 +82,30 @@
   "numbers": {
     "heading": "The numbers",
     "rows": [
-      { "before": "0 booked calls from LinkedIn", "after": "6 booked calls" },
-      { "before": "No posting history", "after": "~16,000 impressions, ~6,900 reach" },
-      { "before": "No content-driven leads", "after": "6 inbound leads from posts" },
-      { "before": "5% connection acceptance", "after": "30%+ connection acceptance" },
-      { "before": "No warm conversation system", "after": "127 touches, 35 replies (28%)" },
-      { "before": "No funnel tracking", "after": "Full funnel tracked end-to-end" }
+      {
+        "before": "0 booked calls from LinkedIn",
+        "after": "6 booked calls"
+      },
+      {
+        "before": "No posting history",
+        "after": "~16,000 impressions, ~6,900 reach"
+      },
+      {
+        "before": "No content-driven leads",
+        "after": "6 inbound leads from posts"
+      },
+      {
+        "before": "5% connection acceptance",
+        "after": "30%+ connection acceptance"
+      },
+      {
+        "before": "No warm conversation system",
+        "after": "127 touches, 35 replies (28%)"
+      },
+      {
+        "before": "No funnel tracking",
+        "after": "Full funnel tracked end-to-end"
+      }
     ],
     "body": "Six booked calls is the headline. The other numbers are there because they show what was happening underneath. The system was running. The signals lined up. The calls didn't show up by accident.",
     "trackerImage": {
@@ -108,7 +126,7 @@
       "caption": "After 21 days. One offer in market. Conversations tracked. Content pulling its weight. Sales calls landing on a calendar that wasn't there before."
     },
     "cta": {
-      "label": "Apply for the sprint →",
+      "label": "Apply for the sprint",
       "href": "https://cal.com/jeancarlohim/apply-for-thesprint"
     }
   },

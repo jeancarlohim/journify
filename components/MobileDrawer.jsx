@@ -29,7 +29,7 @@ function MobileDrawer({ open, onClose, ctaHref }) {
           ))}
         </div>
         <div className="j-drawer-cta">
-          <a className="j-cta j-cta--hot" href={ctaHref} onClick={onClose}>Apply for the sprint →</a>
+          <a className="j-cta j-cta--hot" href={ctaHref} onClick={onClose}>Apply for the sprint</a>
         </div>
       </aside>
     </div>

@@ -34,7 +34,7 @@ function S1() {
         Usually they just need proof.
       </p>
       <div style={{ display: "flex", alignItems: "center", gap: 24, marginTop: 48, flexWrap: "wrap" }}>
-        <a className="j-cta j-cta--warm" href={APPLY}>Apply for the Sprint →</a>
+        <a className="j-cta j-cta--warm" href={APPLY}>Apply for the Sprint</a>
         <span className="j-small" style={{ color: "var(--text-2)" }}>
           1/2 open slots. Application only.
         </span>
@@ -69,7 +69,7 @@ function S2() {
           <span className="j-proofstrip-dot" />
           <p className="j-small" style={{ color: "var(--text-2)", margin: 0 }}>
             A coach booked <strong style={{ color: "var(--text)" }}>6 qualified calls in 21 days</strong>,
-            from a LinkedIn profile that had never posted. <a className="j-link" href="#s7">See how it ran →</a>
+            from a LinkedIn profile that had never posted. <a className="j-link" href="#s7">See how it ran</a>
           </p>
         </div>
       </div>
@@ -97,7 +97,6 @@ function S3() {
       <div className="j-beats" style={{ marginTop: 56 }}>
         {beats.map((x) => (
           <div key={x.n} className="j-beat">
-            <div className="j-beat-n">{x.n}</div>
             <div className="j-beat-body">
               <h3 className="j-h3">{x.h}</h3>
               <p className="j-body" style={{ marginTop: 12, maxWidth: 640 }}>{x.b}</p>
@@ -126,7 +125,6 @@ function S4() {
         {stages.map((s, i) => (
           <div key={i} className="j-stage">
             <div className="j-stage-rule" />
-            <p className="j-meta" style={{ color: "var(--ox)" }}>Stage {i + 1}</p>
             <p className="j-stage-range">{s.range}</p>
             <h3 className="j-h3" style={{ marginTop: 14 }}>{s.h}</h3>
             <p className="j-body" style={{ marginTop: 12 }}>{s.b}</p>
@@ -183,7 +181,7 @@ function S5() {
       </div>
 
       <div style={{ marginTop: 56 }}>
-        <a className="j-cta j-cta--warm" href={APPLY}>Apply for the Sprint →</a>
+        <a className="j-cta j-cta--warm" href={APPLY}>Apply for the Sprint</a>
       </div>
     </Section>
   );
