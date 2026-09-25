@@ -67,16 +67,41 @@ ARCHITECTURE IS DELIBERATE — DO NOT "MODERNIZE" IT:
 - pages/HomePage.jsx — composes sections S1–S8 (S5 skipped) from content/homepage.json
 - pages/CaseStudyPolly.jsx — coaching case study (route: /case-studies/coaching)
 - pages/TheSprintPage.jsx / PrivacyPage.jsx / TermsPage.jsx — their routes (privacy+terms
-  noindex)
+  noindex). CAVEAT (found 2026-09-25): the-sprint/index.html does NOT load
+  pages/TheSprintPage.jsx or content/the-sprint.json; it loads
+  the-sprint/sprint-sections-1-5.jsx + sprint-sections-6-10.jsx, and the sprint copy is
+  hardcoded in those two files. Edit the copy there. Reconciling this with rule 4 is a
+  named task, not a side effect.
 - pages/ToolsPage.jsx — the tools page (route: /tools), all ten sections in one file
 - tools/InboxMock.jsx — hand-built HTML replica of the DM 2 Call App inbox used on /tools.
   Laid out at a fixed 1000px and scaled down to its column above 860px; below 860px it
   renders full size inside a box that scrolls sideways. Prospect names are CSS-blurred.
-- sections/S1–S8.jsx — homepage sections (S5 = dormant teardowns, never imported)
+- sections/S1–S8.jsx — homepage sections (S5 = dormant teardowns, never imported).
+  S1 passes <HeroRecording /> to Section's background prop. S2 reveals its four quote lines
+  one at a time, character by character, when the section scrolls into view (copy untouched;
+  reduced motion shows all at once; no timestamps, on purpose: the lines are typical
+  objections, not one call, and a timestamp would be invented detail). S4 shows a real
+  product capture under each column (homepage.json s4.cols[].figure: Lead Finder verdict,
+  DMs App inbox, Sally review; the same captures /tools uses) and opens it in Lightbox.
 - components/*.jsx — Section wrapper + parseInline, Accordion, S6 diagram/scroll animation,
-  ProofBlock, StickyNav, MobileDrawer, Footer, Lightbox, Thinker
+  ProofBlock, StickyNav, MobileDrawer, Footer, Lightbox, Thinker, HeroRecording
+- components/HeroRecording.jsx — the hero background on / and /the-sprint (JC chose it on
+  2026-09-25 after rejecting three abstract haze variations: it is a sales call recording,
+  one soft waveform in cream and oxblood, moving left the way a call plays). Plain 2D canvas,
+  one buffer pixel per five CSS pixels stretched up by the browser (that stretch is the
+  out-of-focus look), centred on the H1 it measures, fading into the nav above and the block
+  below, a static paper grain on top. Pauses when the tab is hidden or the hero scrolls out
+  of view; prefers-reduced-motion gets one still frame. No pixel holds more than 34% oxblood,
+  which keeps the H1 above 8:1 (checked pixel by pixel on 12 screenshots). It mounts through
+  Section's optional `background` prop; the homepage Section (components/Section.jsx) and the
+  sprint page's own Section (the-sprint/sprint-sections-1-5.jsx) both have it. HERO ONLY:
+  it is the one moving background on the site and never sits behind body text. Not on the
+  case study or /tools (decided 2026-09-25). Run record: _ops/_archive/2026-09-25-hero-animation/.
 - content/*.json — ALL copy (homepage, case-study-coaching, the-sprint, tools, nav, footer,
-  privacy, terms). The only place words change.
+  privacy, terms). The only place words change (see the /the-sprint caveat above).
+  homepage.json s4.cols[].figure + s4.figureNote drive the S4 captures.
+- images/tools/dm-inbox-mock.png — 2× capture of the /tools inbox replica (names blurred),
+  used by the homepage S4. The other two S4 captures are the existing /tools figures.
 - styles/tokens.css — locked design tokens + j-* utilities
 - vercel.json — clean-URL rewrites (routing lives here, not in JS)
 - robots.txt / sitemap.xml — 4 public URLs (/, /the-sprint, /case-studies/coaching, /tools)
