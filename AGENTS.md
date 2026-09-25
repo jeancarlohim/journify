@@ -45,6 +45,12 @@ ARCHITECTURE IS DELIBERATE — DO NOT "MODERNIZE" IT:
    (.j-nav-brand) and the Fraunces display type used for the sprint's numbers, quotes and
    section markers are NOT headings and stay Fraunces. Every route shell loads Gloock from
    Google Fonts; add it to the font link of any new route.
+   WHITE, NOT CREAM (JC, 2026-09-25): --bg is #FFFFFF, --border #E7E5E1, --ox-text #FFFFFF.
+   The panel tint in tools/index.html and the-sprint/index.html is #F6F5F3. JC called the
+   old cream "a typical Claude thing" and chose white after seeing both on localhost. The
+   DMs App (journify-dms) still has its own cream; that is a separate decision.
+   .j-meta is a plain 14px sentence in --text-2, normal case, no tracking. .j-q has no left
+   rail. See rule 11 for the full list of what is banned.
 6. Deploys are irreversible: explicit JC approval before git push / Vercel deploy. The
    GitHub remote situation is mid-rename (the repo on GitHub may still be named journify
    until the cleanup script finishes) — verify the remote before pushing.
@@ -59,6 +65,14 @@ ARCHITECTURE IS DELIBERATE — DO NOT "MODERNIZE" IT:
     any file, commit, log, or doc, and never echo it back in output. Treat every pasted
     secret as ephemeral to the session. Never ask a CUSTOMER for internal IDs or
     credentials — that rule is absolute.
+11. NO AI-TEMPLATE TELLS (JC, 2026-09-25). He went through the site and named what reads as
+    made by an AI. Do not add any of these, on any page: a cream or off-white page background;
+    small uppercase tracked labels (eyebrows, tag chips); an accent-coloured left border on a
+    quote, aside or stat; decorative numbering (01 / 02 / 03, "Stage N", circled step numbers);
+    arrow glyphs at the end of buttons or links; a link to the Chrome Web Store. Removed from
+    every page on 2026-09-25. Kept on purpose: the "5% → 30%" stat (a real before and after)
+    and the inbox replica's own UI chips (they are the product). Numbered content is fine when
+    the number is the content (day ranges, "In 45 days").
 
 ## File responsibility map (edit one file per concern)
 
@@ -102,6 +116,14 @@ ARCHITECTURE IS DELIBERATE — DO NOT "MODERNIZE" IT:
   homepage.json s4.cols[].figure + s4.figureNote drive the S4 captures.
 - images/tools/dm-inbox-mock.png — 2× capture of the /tools inbox replica (names blurred),
   used by the homepage S4. The other two S4 captures are the existing /tools figures.
+  Re-capture it whenever the tokens or the replica change (it was re-taken on white).
+- images/og-*.png — the four link-preview images, 1200×630, on white: Fraunces wordmark top
+  left, one oxblood normal-case line, the page's own headline in Gloock, the address bottom
+  right (og-tools adds the three tool names). No generator lives in the repo: re-render from
+  a 1200×630 HTML page in headless Chrome whenever a headline changes.
+- favicon.svg, images/logos/favicon.svg, images/logos/linkedin-logo.svg — white square behind
+  the mark; apple-touch-icon.png (root + images/logos) and images/logos/linkedin-logo.png are
+  rendered from them.
 - styles/tokens.css — locked design tokens + j-* utilities
 - vercel.json — clean-URL rewrites (routing lives here, not in JS)
 - robots.txt / sitemap.xml — 4 public URLs (/, /the-sprint, /case-studies/coaching, /tools)
