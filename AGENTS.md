@@ -125,8 +125,19 @@ ARCHITECTURE IS DELIBERATE — DO NOT "MODERNIZE" IT:
   the mark; apple-touch-icon.png (root + images/logos) and images/logos/linkedin-logo.png are
   rendered from them.
 - styles/tokens.css — locked design tokens + j-* utilities
-- vercel.json — clean-URL rewrites (routing lives here, not in JS)
+- vercel.json — clean-URL rewrites (routing lives here, not in JS), plus one permanent
+  redirect: /case-studies/polly (the case study's address from 2026-04-21 to 04-28) to
+  /case-studies/coaching.
+- The six route shells load React and ReactDOM 18.3.1 as the PRODUCTION builds
+  (react.production.min.js, react-dom.production.min.js, about 47 KB together). They loaded the
+  development builds (about 260 KB) until 2026-10-07. If you change the version, recompute the
+  sha384 integrity hash of each file.
+- www.journify.ai is a domain on the Vercel project `journify` that redirects (308) to
+  journify.ai. Added 2026-10-07: before that the DNS pointed www at Vercel but no project
+  claimed it, so www showed a certificate error.
 - robots.txt / sitemap.xml — 4 public URLs (/, /the-sprint, /case-studies/coaching, /tools).
+  When a page's content changes, set that page's <lastmod> in sitemap.xml to the date of the
+  change. Google ignores lastmod on a site where the dates are wrong.
   robots.txt blocks nothing, on purpose. /privacy and /terms stay out of Google through the
   noindex meta tag in privacy/index.html and terms/index.html, and Google can only read that
   tag if robots.txt lets it fetch the page. They were in robots.txt as Disallow until

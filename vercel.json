@@ -1,4 +1,7 @@
 {
+  "redirects": [
+    { "source": "/case-studies/polly", "destination": "/case-studies/coaching", "permanent": true }
+  ],
   "rewrites": [
     { "source": "/", "destination": "/index.html" },
     { "source": "/case-studies/coaching", "destination": "/case-studies/coaching/index.html" },
