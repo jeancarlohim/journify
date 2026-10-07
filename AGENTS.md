@@ -126,7 +126,11 @@ ARCHITECTURE IS DELIBERATE — DO NOT "MODERNIZE" IT:
   rendered from them.
 - styles/tokens.css — locked design tokens + j-* utilities
 - vercel.json — clean-URL rewrites (routing lives here, not in JS)
-- robots.txt / sitemap.xml — 4 public URLs (/, /the-sprint, /case-studies/coaching, /tools)
+- robots.txt / sitemap.xml — 4 public URLs (/, /the-sprint, /case-studies/coaching, /tools).
+  robots.txt blocks nothing, on purpose. /privacy and /terms stay out of Google through the
+  noindex meta tag in privacy/index.html and terms/index.html, and Google can only read that
+  tag if robots.txt lets it fetch the page. They were in robots.txt as Disallow until
+  2026-10-07, and Search Console reported them as "Blocked by robots.txt". Do not add them back.
 
 Known cruft (leave for the hygiene pass, don't expand it): duplicate favicons at root and
 images/logos/; unreferenced images/logos/favicon.ico.
