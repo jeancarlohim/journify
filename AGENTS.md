@@ -114,6 +114,13 @@ ARCHITECTURE IS DELIBERATE — DO NOT "MODERNIZE" IT:
 - content/*.json — ALL copy (homepage, case-study-coaching, the-sprint, tools, nav, footer,
   privacy, terms). The only place words change (see the /the-sprint caveat above).
   homepage.json s4.cols[].figure + s4.figureNote drive the S4 captures.
+- content/nav.json — the header links on every page AND the mobile menu (StickyNav.jsx and
+  MobileDrawer.jsx both read it). Since 2026-10-08 the first link is "Workshop", pointing at the
+  Luma page of JC's 13 November 2026 Amsterdam workshop (https://luma.com/j5hp8o4p). It opens in
+  the same tab. Take it out, or point it at the next workshop, after 13 November.
+- The homepage <title>, og:title and twitter:title (index.html) read "Turn your sales call
+  recordings into booked meetings · Journify" since 2026-10-08 (JC chose it); the description
+  tags carry the hero subline. Keep them in step with the S1 headline when it changes.
 - images/tools/dm-inbox-mock.png — 2× capture of the /tools inbox replica (names blurred),
   used by the homepage S4. The other two S4 captures are the existing /tools figures.
   Re-capture it whenever the tokens or the replica change (it was re-taken on white).
