@@ -115,9 +115,12 @@ ARCHITECTURE IS DELIBERATE — DO NOT "MODERNIZE" IT:
   privacy, terms). The only place words change (see the /the-sprint caveat above).
   homepage.json s4.cols[].figure + s4.figureNote drive the S4 captures.
 - content/nav.json — the header links on every page AND the mobile menu (StickyNav.jsx and
-  MobileDrawer.jsx both read it). Since 2026-10-08 the first link is "Workshop", pointing at the
-  Luma page of JC's 13 November 2026 Amsterdam workshop (https://luma.com/j5hp8o4p). It opens in
-  the same tab. Take it out, or point it at the next workshop, after 13 November.
+  MobileDrawer.jsx both read it). The first link is "Workshop", for JC's 13 November 2026
+  Amsterdam workshop. Since 2026-10-09 it points at the Kit waitlist page
+  (https://journify.kit.com/b2d0f47891); from 2026-10-08 to 10-09 it pointed at the Luma page
+  (https://luma.com/j5hp8o4p). On Tuesday 20 October, when the launch opens, point it back at the
+  Luma page (workshop-planning-brief.md 1.3a: from 20 October every link points to Luma). It opens
+  in the same tab. Take it out, or point it at the next workshop, after 13 November.
 - The homepage <title>, og:title and twitter:title (index.html) read "Turn your sales call
   recordings into booked meetings · Journify" since 2026-10-08 (JC chose it); the description
   tags carry the hero subline. Keep them in step with the S1 headline when it changes.
