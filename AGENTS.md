@@ -143,6 +143,11 @@ ARCHITECTURE IS DELIBERATE — DO NOT "MODERNIZE" IT:
   left, one oxblood normal-case line, the page's own headline in Gloock, the address bottom
   right (og-tools adds the three tool names). No generator lives in the repo: re-render from
   a 1200×630 HTML page in headless Chrome whenever a headline changes.
+- images/email/journify-wordmark.png — the "journify" wordmark in Archivo (700, 115% width,
+  #16181B on transparent, 356x112, shown at 178 px wide) for the header of Kit emails, which
+  cannot load web fonts. Added 2026-10-10 (rebrand chunk 2); nothing on the site uses it.
+  Source: workshop/luma-cover/source/wordmark-email.html. Keep the address stable: sent
+  emails point at it.
 - favicon.svg, images/logos/favicon.svg, images/logos/linkedin-logo.svg — white square behind
   the mark; apple-touch-icon.png (root + images/logos) and images/logos/linkedin-logo.png are
   rendered from them.
