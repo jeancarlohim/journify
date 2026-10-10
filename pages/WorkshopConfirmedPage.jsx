@@ -3,7 +3,8 @@
    Drawn in the new brand (rebrand chunk 2, 2026-10-10): Archivo, white ground, grey block,
    hairline card, oxblood only on links. Its classes (wc-*) and values live in the route shell
    workshop/confirmed/index.html, not in styles/tokens.css, which stays v1 until the site
-   rebuild. Copy: content/workshop-confirmed.json. Own header and footer, no site nav. */
+   rebuild. Copy: content/workshop-confirmed.json. Own header and footer, no site nav.
+   The logo is the file /images/logos/journify-wordmark.svg, never typed text (JC, 2026-10-10). */
 
 function WorkshopConfirmedPage() {
   const [d, setD] = React.useState(null);
@@ -17,7 +18,7 @@ function WorkshopConfirmedPage() {
   return (
     <div className="wc-page">
       <header className="wc-wrap wc-head">
-        <a className="wc-brand" href={d.brandHref}>{d.brand}</a>
+        <a className="wc-brand" href={d.brandHref}><img src="/images/logos/journify-wordmark.svg" alt={d.brand} /></a>
         <span className="wc-eyebrow">{d.eyebrow}</span>
       </header>
 

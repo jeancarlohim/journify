@@ -92,7 +92,8 @@ ARCHITECTURE IS DELIBERATE — DO NOT "MODERNIZE" IT:
   _ops/2026-10-10-rebrand/). The page Kit sends people to after they click Confirm in the
   waitlist email for the 13 November workshop (Kit form setting "After confirming, send
   subscribers to"). noindex, not in sitemap.xml, no site nav or footer: its own header and
-  footer. THE ONE ROUTE IN THE NEW BRAND: it loads Archivo and IBM Plex Mono and does NOT
+  footer. Its brand link shows /images/logos/journify-wordmark.svg at 22px high (the logo is a
+  file, never typed, JC 2026-10-10). THE ONE ROUTE IN THE NEW BRAND: it loads Archivo and IBM Plex Mono and does NOT
   load styles/tokens.css; its wc-* classes and the new values (white ground, #F3F2F0 block,
   #E4E2DE hairline, oxblood links) live in the <style> block of its route shell, taken from
   _ops/2026-10-10-rebrand/COORDINATION.md section 1. Rule 5's Gloock rule does not apply
@@ -143,11 +144,12 @@ ARCHITECTURE IS DELIBERATE — DO NOT "MODERNIZE" IT:
   left, one oxblood normal-case line, the page's own headline in Gloock, the address bottom
   right (og-tools adds the three tool names). No generator lives in the repo: re-render from
   a 1200×630 HTML page in headless Chrome whenever a headline changes.
-- images/email/journify-wordmark.png — the "journify" wordmark in Archivo (700, 115% width,
-  #16181B on transparent, 356x112, shown at 178 px wide) for the header of Kit emails, which
-  cannot load web fonts. Added 2026-10-10 (rebrand chunk 2); nothing on the site uses it.
-  Source: workshop/luma-cover/source/wordmark-email.html. Keep the address stable: sent
-  emails point at it.
+- images/email/journify-wordmark.png — the journify logo (journify/brand/logo/journify-wordmark.svg,
+  ink #16181B with the oxblood dot) rendered on transparent 356x112, for emails, which cannot load
+  SVG. Since 2026-10-10 the logo is a picture, never typed text (JC; journify/brand/README.md
+  section 1); this file replaced an Archivo-typed wordmark the same day. Nothing on the site uses
+  it, and Kit's "Journify light" template carries its own uploaded copy of the same image. Source:
+  workshop/luma-cover/source/wordmark-email.html. Keep the address stable.
 - favicon.svg, images/logos/favicon.svg, images/logos/linkedin-logo.svg — white square behind
   the mark; apple-touch-icon.png (root + images/logos) and images/logos/linkedin-logo.png are
   rendered from them.
