@@ -87,6 +87,18 @@ ARCHITECTURE IS DELIBERATE — DO NOT "MODERNIZE" IT:
   hardcoded in those two files. Edit the copy there. Reconciling this with rule 4 is a
   named task, not a side effect.
 - pages/ToolsPage.jsx — the tools page (route: /tools), all ten sections in one file
+- workshop/confirmed/index.html + pages/WorkshopConfirmedPage.jsx +
+  content/workshop-confirmed.json — /workshop/confirmed, added 2026-10-10 (rebrand chunk 2,
+  _ops/2026-10-10-rebrand/). The page Kit sends people to after they click Confirm in the
+  waitlist email for the 13 November workshop (Kit form setting "After confirming, send
+  subscribers to"). noindex, not in sitemap.xml, no site nav or footer: its own header and
+  footer. THE ONE ROUTE IN THE NEW BRAND: it loads Archivo and IBM Plex Mono and does NOT
+  load styles/tokens.css; its wc-* classes and the new values (white ground, #F3F2F0 block,
+  #E4E2DE hairline, oxblood links) live in the <style> block of its route shell, taken from
+  _ops/2026-10-10-rebrand/COORDINATION.md section 1. Rule 5's Gloock rule does not apply
+  here. When the site rebuild replaces tokens.css v1 with journify/brand/tokens.css, switch
+  this route to the shared file and delete its local values. Delete or repoint the route
+  after 13 November.
 - tools/InboxMock.jsx — hand-built HTML replica of the DM 2 Call App inbox used on /tools.
   Laid out at a fixed 1000px and scaled down to its column above 860px; below 860px it
   renders full size inside a box that scrolls sideways. Prospect names are CSS-blurred.
@@ -138,7 +150,7 @@ ARCHITECTURE IS DELIBERATE — DO NOT "MODERNIZE" IT:
 - vercel.json — clean-URL rewrites (routing lives here, not in JS), plus one permanent
   redirect: /case-studies/polly (the case study's address from 2026-04-21 to 04-28) to
   /case-studies/coaching.
-- The six route shells load React and ReactDOM 18.3.1 as the PRODUCTION builds
+- The seven route shells (six pages plus /workshop/confirmed) load React and ReactDOM 18.3.1 as the PRODUCTION builds
   (react.production.min.js, react-dom.production.min.js, about 47 KB together). They loaded the
   development builds (about 260 KB) until 2026-10-07. If you change the version, recompute the
   sha384 integrity hash of each file.

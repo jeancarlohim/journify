@@ -8,6 +8,7 @@
     { "source": "/the-sprint", "destination": "/the-sprint/index.html" },
     { "source": "/tools", "destination": "/tools/index.html" },
     { "source": "/privacy", "destination": "/privacy/index.html" },
-    { "source": "/terms", "destination": "/terms/index.html" }
+    { "source": "/terms", "destination": "/terms/index.html" },
+    { "source": "/workshop/confirmed", "destination": "/workshop/confirmed/index.html" }
   ]
 }

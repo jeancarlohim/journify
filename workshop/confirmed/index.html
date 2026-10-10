@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <title>Waitlist confirmed · Journify</title>
+  <meta name="description" content="You are on the waitlist for the workshop on Friday 13 November in Amsterdam." />
+  <link rel="canonical" href="https://journify.ai/workshop/confirmed" />
+  <meta property="og:title" content="Waitlist confirmed · Journify" />
+  <meta property="og:url" content="https://journify.ai/workshop/confirmed" />
+  <meta name="robots" content="noindex" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- This route only: Archivo and IBM Plex Mono, the new brand type (rebrand, 2026-10-10).
+       The rest of the site stays on styles/tokens.css v1 until the site rebuild, so this route
+       does not load it. The values below are the ones in _ops/2026-10-10-rebrand/COORDINATION.md
+       section 1; when journify/brand/tokens.css lands in this repo, swap them for its variables. -->
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ground: #FFFFFF; --block: #F3F2F0; --card: #FFFFFF; --hairline: #E4E2DE;
+      --ink: #16181B; --ink-2: #6B6F76; --highlight: #F6DEE3;
+      --action: #7A1A2A; --action-hover: #5A1220;
+      --font-text: 'Archivo', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'IBM Plex Mono', 'SF Mono', Menlo, Consolas, monospace;
+    }
+    html, body { margin: 0; padding: 0; background: var(--ground); color: var(--ink); font-family: var(--font-text); }
+    body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+    * { box-sizing: border-box; }
+    a { color: var(--action); }
+    a:hover { color: var(--action-hover); }
+    a:focus-visible { outline: 2px solid var(--action); outline-offset: 2px; border-radius: 4px; }
+
+    .wc-page { min-height: 100vh; display: flex; flex-direction: column; }
+    .wc-wrap { max-width: 720px; width: 100%; margin: 0 auto; padding-left: 20px; padding-right: 20px; }
+    .wc-head { padding-top: 24px; padding-bottom: 24px; display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+    .wc-brand { font-weight: 700; font-stretch: 115%; font-size: 22px; letter-spacing: -0.01em; color: var(--ink); text-decoration: none; }
+    .wc-brand:hover { color: var(--ink); }
+    .wc-eyebrow { font-size: 14px; color: var(--ink-2); }
+
+    .wc-main { padding-top: 24px; padding-bottom: 48px; display: flex; flex-direction: column; gap: 22px; }
+    .wc-intro { display: flex; flex-direction: column; gap: 12px; }
+    .wc-meta { margin: 0; font-size: 14px; color: var(--ink-2); }
+    .wc-h1 { margin: 0; font-weight: 600; font-stretch: 115%; font-size: 40px; line-height: 1.06; letter-spacing: -0.02em; color: var(--ink); }
+    .wc-lead { margin: 0; font-size: 16.5px; line-height: 1.58; color: var(--ink-2); max-width: 600px; }
+    .wc-mark { background: var(--highlight); border-radius: 3px; padding: 0 3px; color: var(--ink); }
+    .wc-h3 { margin: 0; font-weight: 600; font-size: 14px; line-height: 1.3; color: var(--ink); }
+
+    .wc-block { background: var(--block); border-radius: 18px; padding: 18px; display: flex; flex-direction: column; gap: 10px; }
+    .wc-rows { margin: 0; display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 10px 14px; font-size: 14.5px; line-height: 1.45; }
+    .wc-rows dd { margin: 0; }
+    .wc-date { font-family: var(--font-mono); font-size: 13px; line-height: 1.6; color: var(--ink-2); }
+
+    .wc-card { background: var(--card); border: 1px solid var(--hairline); border-radius: 12px; padding: 16px; display: flex; flex-direction: column; gap: 8px; }
+    .wc-card p { margin: 0; font-size: 14.5px; line-height: 1.5; color: var(--ink-2); }
+
+    .wc-actions { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+    .wc-btn { display: inline-flex; align-items: center; height: 42px; padding: 0 18px; background: var(--card); color: var(--ink); border: 1px solid var(--hairline); border-radius: 8px; font-weight: 500; font-size: 15px; text-decoration: none; }
+    .wc-btn:hover { color: var(--ink); border-color: var(--ink-2); }
+    .wc-note { font-size: 13.5px; line-height: 1.45; color: var(--ink-2); }
+
+    .wc-foot { margin-top: auto; border-top: 1px solid var(--hairline); }
+    .wc-foot-in { padding-top: 18px; padding-bottom: 18px; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; font-size: 13px; color: var(--ink-2); }
+    .wc-foot a { color: var(--ink-2); text-decoration: none; }
+    .wc-foot a:hover { color: var(--ink); }
+
+    @media (max-width: 480px) {
+      .wc-wrap { padding-left: 16px; padding-right: 16px; }
+      .wc-h1 { font-size: 32px; }
+      .wc-lead { font-size: 15.5px; }
+      .wc-rows { grid-template-columns: 1fr; gap: 2px; }
+      .wc-rows dd { margin-bottom: 10px; }
+      .wc-rows dd:last-child { margin-bottom: 0; }
+    }
+  </style>
+
+  <script src="https://unpkg.com/react@18.3.1/umd/react.production.min.js" integrity="sha384-DGyLxAyjq0f9SPpVevD6IgztCFlnMF6oW/XQGmfe+IsZ8TqEiDrcHkMLKI6fiB/Z" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js" integrity="sha384-gTGxhz21lVGYNMcdJOyq01Edg0jhn/c22nsx0kyqP0TxaV5WVdsSH1fSDUf5YJj1" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+
+  <script>
+  !function(e){"use strict";var t=e&&e.namespace;if(t&&e.profileId&&e.cdn){var i=window[t];if(i&&Array.isArray(i)||(i=window[t]=[]),!i.initialized&&!i._loaded)if(i._loaded)console&&console.warn("[Radar] Duplicate initialization attempted");else{i._loaded=!0;["track","page","identify","group","alias","ready","debug","on","off","once","trackClick","trackSubmit","trackLink","trackForm","pageview","screen","reset","register","setAnonymousId","addSourceMiddleware","addIntegrationMiddleware","addDestinationMiddleware","giveCookieConsent"].forEach((function(e){var a;i[e]=(a=e,function(){var e=window[t];if(e.initialized)return e[a].apply(e,arguments);var i=[].slice.call(arguments);return i.unshift(a),e.push(i),e})})),-1===e.apiEndpoint.indexOf("http")&&(e.apiEndpoint="https://"+e.apiEndpoint),i.bootstrap=function(){var t,i=document.createElement("script");i.async=!0,i.type="text/javascript",i.id="__radar__",i.setAttribute("data-settings",JSON.stringify(e)),i.src=[-1!==(t=e.cdn).indexOf("http")?"":"https://",t,"/releases/latest/radar.min.js"].join("");var a=document.scripts[0];a.parentNode.insertBefore(i,a)},i.bootstrap()}}else"undefined"!=typeof console&&console.error("[Radar] Configuration incomplete")}({
+    "apiEndpoint": "radar.snitcher.com",
+    "cdn": "cdn.snitcher.com",
+    "namespace": "Snitcher",
+    "profileId": "sPaohPUAMs"
+  });
+  </script>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="text/babel" src="/pages/WorkshopConfirmedPage.jsx"></script>
+  <script type="text/babel">
+    ReactDOM.createRoot(document.getElementById('root')).render(<WorkshopConfirmedPage />);
+  </script>
+</body>
+</html>

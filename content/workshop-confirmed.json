@@ -1,0 +1,30 @@
+{
+  "brand": "journify",
+  "brandHref": "/",
+  "eyebrow": "Workshop for coaches",
+  "meta": "Waitlist confirmed",
+  "title": "You are on the list.",
+  "intro": {
+    "before": "The booking link comes to your inbox on ",
+    "highlight": "Tuesday 20 October",
+    "after": ", with the early-bird price and the bonuses."
+  },
+  "next": {
+    "heading": "What happens next",
+    "rows": [
+      { "date": "Tue 20 October", "text": "The booking link and the early-bird price, by email." },
+      { "date": "Thu 22 October", "text": "The early-bird price closes at 23:59." },
+      { "date": "Fri 13 November", "text": "The workshop, 9:00 to 17:00, StartDock Herengracht, Amsterdam. 16 seats." }
+    ]
+  },
+  "bring": {
+    "heading": "Bring at least five recorded calls",
+    "body": "The day runs on your own recordings. If you do not record your calls yet, start now: the recorder in Zoom, Google Meet or Teams is enough, or a free note-taker such as Fathom."
+  },
+  "back": { "label": "Back to journify.ai", "href": "/" },
+  "questions": "Questions? Reply to the confirmation email. It reaches me, Jean Carlo Him.",
+  "footer": {
+    "site": "journify.ai",
+    "links": [ { "label": "Privacy", "href": "/privacy" } ]
+  }
+}
