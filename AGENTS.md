@@ -3,7 +3,7 @@
 Read this before touching anything here. When this file and the README disagree, this file
 wins (the README's folder map is known-stale: the case-study route is
 /case-studies/coaching, not /case-studies/polly).
-Firm identity: journify/identity-core.md.
+Firm identity: journify-mcp/operators/jc/identity-core.md (the only copy, journify-mcp D-68).
 
 ## What this is
 
